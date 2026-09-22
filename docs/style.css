@@ -49,14 +49,15 @@ a.pj:hover{background:#f4f6f4}
 .mt span{overflow:hidden;text-overflow:ellipsis}
 .mt.away{flex-direction:row-reverse;text-align:right}
 .mt.away img.esc{margin-right:0;margin-left:8px}
-.mm{flex:0 0 auto;text-align:center;min-width:118px}
+.mm{flex:0 0 auto;text-align:center;min-width:80px}
 .sc{font-weight:800;font-size:16px;white-space:nowrap}
-.hr{font-size:12px;color:#8a8a83;white-space:nowrap}
+.hr{font-size:12px;color:#8a8a83;white-space:nowrap;line-height:1.35}
+.hrd,.hrh{display:block}
 .sub{font-size:11px;color:#a3a39c;margin-top:1px}
 @media screen and (max-width:560px){
  h1{font-size:22px}
  .mt{font-size:12px}
- .mm{min-width:86px}
+ .mm{min-width:64px}
  .sc{font-size:14px}
  .hr{font-size:11px}
  img.esc{width:18px;height:18px;margin-right:6px}

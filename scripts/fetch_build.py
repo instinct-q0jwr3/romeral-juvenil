@@ -339,7 +339,7 @@ def match_row(m,escudo_file,actas):
         mid=f'<span class="sc">{m["gl"]} - {m["gv"]}</span>'
     else:
         hora=m['hora'] if m['hora'] else 'hora por confirmar'
-        mid=f'<span class="hr">{fdate(m["fecha"])} · {hora}</span>'
+        mid=f'<span class="hr"><span class="hrd">{fdate(m["fecha"])}</span><span class="hrh">{hora}</span></span>'
     sub=''
     if m['gl']!='' and m['fecha']:
         sub=f'<div class="sub">{fdate(m["fecha"])}</div>'
