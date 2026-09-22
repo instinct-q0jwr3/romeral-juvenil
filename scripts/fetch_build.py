@@ -198,11 +198,16 @@ def crest_img(fn,alt=''):
     return '<img class="esc" src="escudos/placeholder.svg" alt="" loading="lazy">'
 
 def main():
+    horarios_only='--horarios' in sys.argv
     RAW.mkdir(exist_ok=True); OUT.mkdir(exist_ok=True); ESC.mkdir(exist_ok=True)
     now=datetime.datetime.now(ZoneInfo('Europe/Madrid'))
     stamp=now.strftime('%d/%m/%Y, %H:%M')+' CEST' if now.dst() else now.strftime('%d/%m/%Y, %H:%M')+' CET'
 
-    h_clas=fetch('clasificacion',U_CLAS)
+    cached_clas=RAW/'clasificacion.html'
+    if horarios_only and cached_clas.exists():
+        h_clas=cached_clas.read_text(encoding='latin-1',errors='replace')
+    else:
+        h_clas=fetch('clasificacion',U_CLAS)
     tabla=parse_clasificacion(h_clas)
 
     h_cal=fetch('calendario_full',U_CAL)
@@ -252,6 +257,7 @@ def main():
             ap=RAW/f'acta_{aid}.html'
             h=ap.read_text(encoding='latin-1',errors='replace') if ap.exists() else ''
             if len(h)<50000:
+                if horarios_only: continue
                 try: h=fetch(f'acta_{aid}','https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=%s&cod_acta=%s'%(aid,aid),minlen=50000,attempts=2)
                 except SystemExit: continue
             actas[aid]=parse_acta(h,darray(h))
@@ -270,7 +276,7 @@ def main():
     (RAW/'data.json').write_text(json.dumps(data,ensure_ascii=False,indent=1),encoding='utf-8')
 
     render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp,actas)
-    print(f'Built site: {len(tabla)} equipos, {total} partidos ({jugados} jugados), jornada actual {actual}, escudos {sum(1 for v in escudo_file.values() if v)}/{len(crests)}, actualizado {stamp}')
+    print(f"Built site{'(horarios)' if horarios_only else ''}: {len(tabla)} equipos, {total} partidos ({jugados} jugados), jornada actual {actual}, escudos {sum(1 for v in escudo_file.values() if v)}/{len(crests)}, actualizado {stamp}")
 
 NAV=[('clasificacion.html','Clasificación'),('calendario.html','Calendario y resultados')]
 def page(title,active,body):
