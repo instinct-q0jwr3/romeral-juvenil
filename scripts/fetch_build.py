@@ -279,10 +279,10 @@ def page(title,active,body):
 <html lang="es"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{title} · 3ª Juvenil</title>
+<title>{title} · Liga 26/27</title>
 <link rel="stylesheet" href="style.css">
 </head><body>
-<header><div class="wrap nav"><span class="brand">3ª Juvenil</span><nav>{nav}</nav></div></header>
+<header><div class="wrap nav"><a class="brand" href="index.html">Liga 26/27</a><nav>{nav}</nav></div></header>
 <main class="wrap">
 {body}
 </main>
@@ -301,6 +301,14 @@ def fdate(dd):
     try:
         d=datetime.datetime.strptime(dd,'%d-%m-%Y')
         return d.strftime('%d/%m/%Y')
+    except Exception: return dd
+
+DIAS=['lunes','martes','miércoles','jueves','viernes','sábado','domingo']
+def fdate_sem(dd):
+    if not dd: return ''
+    try:
+        d=datetime.datetime.strptime(dd,'%d-%m-%Y')
+        return DIAS[d.weekday()]+' '+d.strftime('%d/%m/%Y')
     except Exception: return dd
 
 def fmt_ev(a,m):
@@ -359,17 +367,17 @@ def render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp,actas):
         j,m=rm_next
         hora=m['hora'] if m['hora'] else 'hora por confirmar'
         blocks+=f'''<h3 class="lbl">Próximo partido</h3>
-<a class="bigrow rm" href="jornada-{j}.html"><span class="tag">J{j} · {fdate(m["fecha"])} · {hora}</span>
+<a class="bigrow rm" href="jornada-{j}.html"><span class="tag">J{j} · {fdate_sem(m["fecha"])} · {hora}</span>
 <span class="bigt">{html.escape(m["local"])} vs {html.escape(m["visitante"])}</span></a>'''
     if rm_last:
         j,m=rm_last
         est='G' if False else ''
         blocks+=f'''<h3 class="lbl">Último resultado</h3>
-<a class="bigrow" href="jornada-{j}.html"><span class="tag">J{j} · {fdate(m["fecha"])}</span>
+<a class="bigrow" href="jornada-{j}.html"><span class="tag">J{j} · {fdate_sem(m["fecha"])}</span>
 <span class="bigt">{html.escape(m["local"])} {m["gl"]} - {m["gv"]} {html.escape(m["visitante"])}</span></a>'''
     home=f'''<div class="kicker">3ª ANDALUZA JUVENIL MÁLAGA · GRUPO 1</div>
-<h1>3ª Andaluza Juvenil Málaga · Grupo 1</h1>
-<p class="lede">Temporada 2026/27 · Clasificación, resultados y calendario del grupo.</p>
+<h1>Liga 26/27</h1>
+<p class="lede">Clasificación, resultados y calendario del grupo.</p>
 <p class="upd">Actualizado: {stamp}</p>
 {stats}
 {blocks}

@@ -4,7 +4,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Ar
 .wrap{max-width:760px;margin:0 auto;padding:0 16px}
 header{background:#fff;border-bottom:1px solid #e6e6e2;position:sticky;top:0;z-index:10}
 .nav{display:flex;align-items:center;gap:18px;height:52px}
-.brand{font-weight:700;font-size:15px;color:#157a3d;white-space:nowrap}
+.brand{font-weight:700;font-size:15px;color:#157a3d;white-space:nowrap;text-decoration:none}
 nav{display:flex;gap:2px;overflow-x:auto}
 nav a{color:#55554f;text-decoration:none;font-size:13.5px;padding:6px 10px;border-bottom:2px solid transparent;white-space:nowrap}
 nav a.on{color:#191918;font-weight:600;border-bottom-color:#157a3d}
