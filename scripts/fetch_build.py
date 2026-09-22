@@ -286,7 +286,7 @@ def page(title,active,body):
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title} · Liga 26/27</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v={int(datetime.datetime.now().timestamp())}">
 </head><body>
 <header><div class="wrap nav"><a class="brand" href="index.html">Liga 26/27</a><nav>{nav}</nav></div></header>
 <main class="wrap">
