@@ -272,7 +272,7 @@ def main():
     render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp,actas)
     print(f'Built site: {len(tabla)} equipos, {total} partidos ({jugados} jugados), jornada actual {actual}, escudos {sum(1 for v in escudo_file.values() if v)}/{len(crests)}, actualizado {stamp}')
 
-NAV=[('index.html','Inicio'),('clasificacion.html','Clasificación'),('calendario.html','Calendario y resultados')]
+NAV=[('clasificacion.html','Clasificación'),('calendario.html','Calendario y resultados')]
 def page(title,active,body):
     nav=''.join(f'<a href="{u}" class="{"on" if u==active else ""}">{t}</a>' for u,t in NAV)
     return f'''<!DOCTYPE html>
@@ -376,7 +376,7 @@ def render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp,actas):
 <a class="bigrow" href="jornada-{j}.html"><span class="tag">J{j} · {fdate_sem(m["fecha"])}</span>
 <span class="bigt">{html.escape(m["local"])} {m["gl"]} - {m["gv"]} {html.escape(m["visitante"])}</span></a>'''
     home=f'''<div class="kicker">3ª ANDALUZA JUVENIL MÁLAGA · GRUPO 1</div>
-<h1>Liga 26/27</h1>
+<h1>C.D. Romeral · <b>Liga 26/27</b></h1>
 <p class="lede">Clasificación, resultados y calendario del grupo.</p>
 <p class="upd">Actualizado: {stamp}</p>
 {stats}
