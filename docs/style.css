@@ -71,3 +71,8 @@ a.pj:hover{background:#f4f6f4}
 .det>div{flex:1}
 .det>div:last-child{text-align:right}
 @media screen and (max-width:560px){.det{font-size:11px;gap:8px}}
+details.mwrap summary.mrow{cursor:pointer;list-style:none}
+details.mwrap summary.mrow::-webkit-details-marker{display:none}
+details.mwrap .chev{flex:0 0 auto;color:#a3a39c;font-size:11px;margin-right:2px;transition:transform .15s}
+details.mwrap[open] .chev{transform:rotate(180deg)}
+details.mwrap[open] .det{border-top:1px dashed #e6e6e2;margin:0 12px;padding:8px 0 10px}

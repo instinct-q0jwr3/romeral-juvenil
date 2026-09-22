@@ -288,6 +288,13 @@ def page(title,active,body):
 {body}
 </main>
 <footer><div class="wrap">Datos: Real Federación Andaluza de Fútbol (rfaf.es) · 3ª Andaluza Juvenil Málaga · Grupo 1</div></footer>
+<script>
+document.querySelectorAll('details.mwrap').forEach(function(d){{
+ d.addEventListener('toggle',function(){{
+  if(d.open){{document.querySelectorAll('details.mwrap[open]').forEach(function(o){{if(o!==d)o.open=false;}});}}
+ }});
+}});
+</script>
 </body></html>'''
 
 def fdate(dd):
@@ -323,17 +330,18 @@ def match_row(m,escudo_file,actas):
     sub=''
     if m['gl']!='' and m['fecha']:
         sub=f'<div class="sub">{fdate(m["fecha"])}</div>'
-    det=''
+    head=f'''<div class="mt home">{el}<span>{html.escape(m["local"])}</span></div>
+<div class="mm">{mid}{sub}</div>
+<div class="mt away">{ev}<span>{html.escape(m["visitante"])}</span></div>'''
     a=actas.get(m.get('acta','')) if m.get('acta') else None
+    det=''
     if a and m['gl']!='':
         ev_l,ev_v=fmt_ev(a,m)
         if ev_l or ev_v:
             det=('<div class="det"><div>'+'<br>'.join(ev_l)+'</div><div>'+'<br>'.join(ev_v)+'</div></div>')
-    return f'''<div class="mwrap{rm}"><div class="mrow">
-<div class="mt home">{el}<span>{html.escape(m["local"])}</span></div>
-<div class="mm">{mid}{sub}</div>
-<div class="mt away">{ev}<span>{html.escape(m["visitante"])}</span></div>
-</div>{det}</div>'''
+    if det:
+        return f'''<details class="mwrap{rm}" name="jdet"><summary class="mrow"><span class="chev">&#9662;</span>{head}</summary>{det}</details>'''
+    return f'''<div class="mwrap{rm}"><div class="mrow">{head}</div></div>'''
 
 def render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp,actas):
     # --- index
