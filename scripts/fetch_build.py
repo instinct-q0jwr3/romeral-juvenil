@@ -54,8 +54,7 @@ def decode_score(region,d):
         if m.group(4):  # css hidden -> literal text is real
             mm=re.search(r'<span id=idh'+m.group(1)+r'>(.*?)</span>\s*(?:<span style="display:none;">.*?</span>\s*)?</span>',region[m.end():],re.S)
             if mm:
-                lit=re.sub(r'<span style="display:none;">.*?</span>','',mm.group(1),flags=re.S)
-                lit=re.sub(r'<[^>]+>','',lit).strip()
+                lit=re.match(r'([^<]*)',mm.group(1)).group(1).strip()
                 if lit.isdigit(): events.append((m.start(),lit))
         else:
             v=m.group(3)
