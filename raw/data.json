@@ -1,0 +1,499 @@
+{
+ "tabla": [
+  {
+   "pos": 1,
+   "equipo": "CD UD DOS HERMANAS SAN ANDRES \"B\"",
+   "pts": "3",
+   "j": 1,
+   "g": 1,
+   "e": 0,
+   "p": 0,
+   "gf": "6",
+   "gc": "1",
+   "romeral": false
+  },
+  {
+   "pos": 2,
+   "equipo": "C.D. FUTBOL ROMERAL",
+   "pts": "3",
+   "j": 1,
+   "g": 1,
+   "e": 0,
+   "p": 0,
+   "gf": "5",
+   "gc": "0",
+   "romeral": true
+  },
+  {
+   "pos": 3,
+   "equipo": "C.D. CONEJITO DE MALAGA",
+   "pts": "3",
+   "j": 1,
+   "g": 1,
+   "e": 0,
+   "p": 0,
+   "gf": "4",
+   "gc": "1",
+   "romeral": false
+  },
+  {
+   "pos": 4,
+   "equipo": "PTO.MALAGUEÑO CDAD.JARDIN G.I. \"A\"",
+   "pts": "3",
+   "j": 1,
+   "g": 1,
+   "e": 0,
+   "p": 0,
+   "gf": "4",
+   "gc": "1",
+   "romeral": false
+  },
+  {
+   "pos": 5,
+   "equipo": "EF DE VELEZ FRANCISCO CASTEJON",
+   "pts": "3",
+   "j": 1,
+   "g": 1,
+   "e": 0,
+   "p": 0,
+   "gf": "5",
+   "gc": "3",
+   "romeral": false
+  },
+  {
+   "pos": 6,
+   "equipo": "ATLETICO JUVAL",
+   "pts": "3",
+   "j": 1,
+   "g": 1,
+   "e": 0,
+   "p": 0,
+   "gf": "2",
+   "gc": "0",
+   "romeral": false
+  },
+  {
+   "pos": 7,
+   "equipo": "C.D. CHURRIANA",
+   "pts": "3",
+   "j": 1,
+   "g": 1,
+   "e": 0,
+   "p": 0,
+   "gf": "2",
+   "gc": "1",
+   "romeral": false
+  },
+  {
+   "pos": 8,
+   "equipo": "A.D. MALAKA C.F. \"A\"",
+   "pts": "0",
+   "j": 0,
+   "g": 0,
+   "e": 0,
+   "p": 0,
+   "gf": "0",
+   "gc": "0",
+   "romeral": false
+  },
+  {
+   "pos": 9,
+   "equipo": "C.D. 26 DE FEBRERO",
+   "pts": "0",
+   "j": 0,
+   "g": 0,
+   "e": 0,
+   "p": 0,
+   "gf": "0",
+   "gc": "0",
+   "romeral": false
+  },
+  {
+   "pos": 10,
+   "equipo": "LA CALA C.D. \"A\"",
+   "pts": "0",
+   "j": 1,
+   "g": 0,
+   "e": 0,
+   "p": 1,
+   "gf": "1",
+   "gc": "2",
+   "romeral": false
+  },
+  {
+   "pos": 11,
+   "equipo": "C.D. CORTIJILLO BAZAN",
+   "pts": "0",
+   "j": 1,
+   "g": 0,
+   "e": 0,
+   "p": 1,
+   "gf": "3",
+   "gc": "5",
+   "romeral": false
+  },
+  {
+   "pos": 12,
+   "equipo": "U.D. LOS PRADOS \"A\"",
+   "pts": "0",
+   "j": 1,
+   "g": 0,
+   "e": 0,
+   "p": 1,
+   "gf": "0",
+   "gc": "2",
+   "romeral": false
+  },
+  {
+   "pos": 13,
+   "equipo": "C.D. ATHLETIC PUERTA BLANCA \"A\"",
+   "pts": "0",
+   "j": 1,
+   "g": 0,
+   "e": 0,
+   "p": 1,
+   "gf": "1",
+   "gc": "4",
+   "romeral": false
+  },
+  {
+   "pos": 14,
+   "equipo": "SECCIÓN DEPORTIVA FUNDACIÓN MCF",
+   "pts": "0",
+   "j": 1,
+   "g": 0,
+   "e": 0,
+   "p": 1,
+   "gf": "1",
+   "gc": "4",
+   "romeral": false
+  },
+  {
+   "pos": 15,
+   "equipo": "C.D. TRABUCO",
+   "pts": "0",
+   "j": 1,
+   "g": 0,
+   "e": 0,
+   "p": 1,
+   "gf": "1",
+   "gc": "6",
+   "romeral": false
+  },
+  {
+   "pos": 16,
+   "equipo": "CLUB POLIDEPORTIVO MIJAS LAS LAGUNAS \"B\"",
+   "pts": "0",
+   "j": 1,
+   "g": 0,
+   "e": 0,
+   "p": 1,
+   "gf": "0",
+   "gc": "5",
+   "romeral": false
+  }
+ ],
+ "partidos": [
+  {
+   "jornada": 1,
+   "local": "C.D. FUTBOL ROMERAL",
+   "visitante": "CLUB POLIDEPORTIVO MIJAS LAS LAGUNAS \"B\"",
+   "fecha": "20-09-2026",
+   "hora": "18:00",
+   "resultado": "5 - 0",
+   "estado": "G",
+   "casa": true
+  },
+  {
+   "jornada": 2,
+   "local": "SECCIÓN DEPORTIVA FUNDACIÓN MCF",
+   "visitante": "C.D. FUTBOL ROMERAL",
+   "fecha": "26-09-2026",
+   "hora": "20:00",
+   "resultado": "",
+   "estado": "",
+   "casa": false
+  },
+  {
+   "jornada": 3,
+   "local": "C.D. FUTBOL ROMERAL",
+   "visitante": "PTO.MALAGUEÑO CDAD.JARDIN G.I. \"A\"",
+   "fecha": "04-10-2026",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": true
+  },
+  {
+   "jornada": 4,
+   "local": "ATLETICO JUVAL",
+   "visitante": "C.D. FUTBOL ROMERAL",
+   "fecha": "11-10-2026",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": false
+  },
+  {
+   "jornada": 5,
+   "local": "C.D. FUTBOL ROMERAL",
+   "visitante": "C.D. ATHLETIC PUERTA BLANCA \"A\"",
+   "fecha": "18-10-2026",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": true
+  },
+  {
+   "jornada": 6,
+   "local": "C.D. CONEJITO DE MALAGA",
+   "visitante": "C.D. FUTBOL ROMERAL",
+   "fecha": "25-10-2026",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": false
+  },
+  {
+   "jornada": 7,
+   "local": "U.D. LOS PRADOS \"A\"",
+   "visitante": "C.D. FUTBOL ROMERAL",
+   "fecha": "08-11-2026",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": false
+  },
+  {
+   "jornada": 8,
+   "local": "C.D. FUTBOL ROMERAL",
+   "visitante": "CD UD DOS HERMANAS SAN ANDRES \"B\"",
+   "fecha": "15-11-2026",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": true
+  },
+  {
+   "jornada": 9,
+   "local": "EF DE VELEZ FRANCISCO CASTEJON",
+   "visitante": "C.D. FUTBOL ROMERAL",
+   "fecha": "22-11-2026",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": false
+  },
+  {
+   "jornada": 10,
+   "local": "C.D. FUTBOL ROMERAL",
+   "visitante": "LA CALA C.D. \"A\"",
+   "fecha": "29-11-2026",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": true
+  },
+  {
+   "jornada": 11,
+   "local": "A.D. MALAKA C.F. \"A\"",
+   "visitante": "C.D. FUTBOL ROMERAL",
+   "fecha": "13-12-2026",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": false
+  },
+  {
+   "jornada": 12,
+   "local": "C.D. FUTBOL ROMERAL",
+   "visitante": "C.D. 26 DE FEBRERO",
+   "fecha": "20-12-2026",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": true
+  },
+  {
+   "jornada": 13,
+   "local": "C.D. CHURRIANA",
+   "visitante": "C.D. FUTBOL ROMERAL",
+   "fecha": "10-01-2027",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": false
+  },
+  {
+   "jornada": 14,
+   "local": "C.D. FUTBOL ROMERAL",
+   "visitante": "C.D. CORTIJILLO BAZAN",
+   "fecha": "17-01-2027",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": true
+  },
+  {
+   "jornada": 15,
+   "local": "C.D. TRABUCO",
+   "visitante": "C.D. FUTBOL ROMERAL",
+   "fecha": "24-01-2027",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": false
+  },
+  {
+   "jornada": 16,
+   "local": "CLUB POLIDEPORTIVO MIJAS LAS LAGUNAS \"B\"",
+   "visitante": "C.D. FUTBOL ROMERAL",
+   "fecha": "31-01-2027",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": false
+  },
+  {
+   "jornada": 17,
+   "local": "C.D. FUTBOL ROMERAL",
+   "visitante": "SECCIÓN DEPORTIVA FUNDACIÓN MCF",
+   "fecha": "07-02-2027",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": true
+  },
+  {
+   "jornada": 18,
+   "local": "PTO.MALAGUEÑO CDAD.JARDIN G.I. \"A\"",
+   "visitante": "C.D. FUTBOL ROMERAL",
+   "fecha": "14-02-2027",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": false
+  },
+  {
+   "jornada": 19,
+   "local": "C.D. FUTBOL ROMERAL",
+   "visitante": "ATLETICO JUVAL",
+   "fecha": "21-02-2027",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": true
+  },
+  {
+   "jornada": 20,
+   "local": "C.D. ATHLETIC PUERTA BLANCA \"A\"",
+   "visitante": "C.D. FUTBOL ROMERAL",
+   "fecha": "07-03-2027",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": false
+  },
+  {
+   "jornada": 21,
+   "local": "C.D. FUTBOL ROMERAL",
+   "visitante": "C.D. CONEJITO DE MALAGA",
+   "fecha": "14-03-2027",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": true
+  },
+  {
+   "jornada": 22,
+   "local": "C.D. FUTBOL ROMERAL",
+   "visitante": "U.D. LOS PRADOS \"A\"",
+   "fecha": "21-03-2027",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": true
+  },
+  {
+   "jornada": 23,
+   "local": "CD UD DOS HERMANAS SAN ANDRES \"B\"",
+   "visitante": "C.D. FUTBOL ROMERAL",
+   "fecha": "04-04-2027",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": false
+  },
+  {
+   "jornada": 24,
+   "local": "C.D. FUTBOL ROMERAL",
+   "visitante": "EF DE VELEZ FRANCISCO CASTEJON",
+   "fecha": "11-04-2027",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": true
+  },
+  {
+   "jornada": 25,
+   "local": "LA CALA C.D. \"A\"",
+   "visitante": "C.D. FUTBOL ROMERAL",
+   "fecha": "18-04-2027",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": false
+  },
+  {
+   "jornada": 26,
+   "local": "C.D. FUTBOL ROMERAL",
+   "visitante": "A.D. MALAKA C.F. \"A\"",
+   "fecha": "25-04-2027",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": true
+  },
+  {
+   "jornada": 27,
+   "local": "C.D. 26 DE FEBRERO",
+   "visitante": "C.D. FUTBOL ROMERAL",
+   "fecha": "09-05-2027",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": false
+  },
+  {
+   "jornada": 28,
+   "local": "C.D. FUTBOL ROMERAL",
+   "visitante": "C.D. CHURRIANA",
+   "fecha": "16-05-2027",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": true
+  },
+  {
+   "jornada": 29,
+   "local": "C.D. CORTIJILLO BAZAN",
+   "visitante": "C.D. FUTBOL ROMERAL",
+   "fecha": "23-05-2027",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": false
+  },
+  {
+   "jornada": 30,
+   "local": "C.D. FUTBOL ROMERAL",
+   "visitante": "C.D. TRABUCO",
+   "fecha": "30-05-2027",
+   "hora": "hora por confirmar",
+   "resultado": "",
+   "estado": "",
+   "casa": true
+  }
+ ],
+ "actualizado": "22/09/2026, 14:22 CEST"
+}
