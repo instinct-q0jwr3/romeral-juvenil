@@ -16,14 +16,19 @@ D_DEFAULT=[2,5,9,4,1,0,8,6,3,7,1,3,5,7,9,0,2,4,6,8,0,2,4,6,8,1,3,5,7,9,7,5,2,0,9
 def fetch(name,url,minlen=5000,attempts=4):
     import time
     jar=RAW/'cookies.txt'
+    p=RAW/f'{name}.html'; tmp=RAW/f'{name}.tmp'
     for attempt in range(attempts):
         if attempt: time.sleep(8*attempt)
-        subprocess.run(['curl','-sL','--max-time','40','-b',str(jar),'-c',str(jar),url,'-o',str(RAW/f'{name}.html')],check=False)
-        p=RAW/f'{name}.html'
-        t=p.read_text(encoding='latin-1',errors='replace') if p.exists() else ''
+        subprocess.run(['curl','-sL','--max-time','40','-b',str(jar),'-c',str(jar),url,'-o',str(tmp)],check=False)
+        t=tmp.read_text(encoding='latin-1',errors='replace') if tmp.exists() else ''
         if len(t)>minlen and 'No se ha aceptado el cookie' not in t:
-            time.sleep(1.5)
+            tmp.replace(p)
+            time.sleep(5)
             return t
+    tmp.unlink(missing_ok=True)
+    if p.exists() and p.stat().st_size>minlen:
+        print(f'WARN fetch {name}: using stale cache')
+        return p.read_text(encoding='latin-1',errors='replace')
     raise SystemExit(f'fetch failed for {name}')
 
 def clean(s):
@@ -41,12 +46,20 @@ def darray(h):
 def decode_score(region,d):
     """Return (gl, gv) as strings, or None if not played."""
     events=[]
+    occupied=[]
     for m in re.finditer(r'ntype\("idh\d+",(\d+),(\d+),',region):
         n,i=int(m.group(1)),int(m.group(2))
         events.append((m.start(),str(d[i*10+n])))
-    for m in re.finditer(r'#idh\d+:(?:before|after)\{content:"(\\[0-9a-fA-F]{4}|\d)"\}',region):
-        v=m.group(1)
-        events.append((m.start(),chr(int(v[1:],16)) if v.startswith('\\') else v))
+    for m in re.finditer(r"#idh(\d+):(before|after)\{content:\"(\\[0-9a-fA-F]{4}|\d)\"(;display:none)?\}",region):
+        if m.group(4):  # css hidden -> literal text is real
+            mm=re.search(r'<span id=idh'+m.group(1)+r'>(.*?)</span>\s*(?:<span style="display:none;">.*?</span>\s*)?</span>',region[m.end():],re.S)
+            if mm:
+                lit=re.sub(r'<span style="display:none;">.*?</span>','',mm.group(1),flags=re.S)
+                lit=re.sub(r'<[^>]+>','',lit).strip()
+                if lit.isdigit(): events.append((m.start(),lit))
+        else:
+            v=m.group(3)
+            events.append((m.start(),chr(int(v[1:],16)) if v.startswith('\\') else v))
     tmp=re.sub(r'<script>.*?</script>','',region,flags=re.S)
     tmp=re.sub(r'<style>.*?</style>','',tmp,flags=re.S)
     tmp=re.sub(r'<span style="display:none;">.*?</span>','',tmp,flags=re.S)
@@ -84,6 +97,7 @@ def parse_jornada(h,d):
         mv=re.search(r'font_widgetV.*?Codigo_Equipo=(\d+)">\s*(.*?)\s*</a>',b,re.S)
         vv=re.search(r'escudo_widgetV>\s*<img src="([^"]+)"',b)
         if not (nl and mv): continue
+        ma=re.search(r'NFG_CmpPartido\?cod_primaria=1000120&CodActa=(\d+)',b)
         ms=re.search(r'<h4><strong>(.*?)</strong>\s*</h4>',b,re.S)
         score=decode_score(ms.group(1),d) if ms else None
         hors=[clean(x) for x in re.findall(r'class=horario[^>]*>(.*?)</span>',b,re.S)]
@@ -94,7 +108,7 @@ def parse_jornada(h,d):
                         'visitante':clean(mv.group(2)),'visitante_code':mv.group(1),
                         'escudo_l':ml.group(1) if ml else '','escudo_v':vv.group(1) if vv else '',
                         'gl':score[0] if score else '','gv':score[1] if score else '',
-                        'fecha':fecha,'hora':hora,
+                        'fecha':fecha,'hora':hora,'acta':ma.group(1) if ma else '',
                         'romeral':TEAM_SHORT in (nl.group(2)+mv.group(2)).upper()})
     return matches
 
@@ -110,15 +124,60 @@ def parse_jornada_cal(h,j,d):
     seg=h[i:k]
     ms=[]
     for r in re.findall(r'<tr>\s*<td width="47%" align=right>(.*?)</tr>',seg,re.S):
-        cells=re.findall(r'<td[^>]*>(.*?)</td>',r,re.S)
+        cells=re.findall(r'<td[^>]*>(.*?)</td>','<td width="47%" align=right>'+r,re.S)
         if len(cells)<3: continue
         local,visit=clean(cells[0]),clean(cells[2])
         sc=decode_score(cells[1],d)
         ms.append({'local':local,'local_code':'','visitante':visit,'visitante_code':'',
                    'escudo_l':'','escudo_v':'',
                    'gl':sc[0] if sc else '','gv':sc[1] if sc else '',
-                   'fecha':'','hora':'','romeral':TEAM_SHORT in (local+visit).upper()})
+                   'fecha':'','hora':'','acta':'','romeral':TEAM_SHORT in (local+visit).upper()})
     return ms
+
+def short_name(n):
+    n=n.strip().title()
+    if ',' in n:
+        sur,fst=n.split(',',1)
+        fst=fst.strip()
+        return f"{sur.strip().title()}, {fst[0]}." if fst else sur.strip().title()
+    return n
+
+def parse_acta(h,d):
+    """Parse a NFG_CmpPartido acta -> {'goals':[...], 'cards':[...]}"""
+    out={'goals':[],'cards':[]}
+    ig=h.find('Goles</div>')
+    teams=[(m.start(),clean(m.group(1))) for m in re.finditer(r'class=number[^>]*>([^<]{3,60})</div>',h)
+           if 'rbitro' not in m.group(1) and m.group(1).strip()!='Goles']
+    if ig>0:
+        end=teams[0][0] if teams else ig+20000
+        seg=h[ig:end]
+        prev=[0,0]
+        for tr in re.findall(r'<tr>(.*?)</tr>',seg,re.S):
+            mk=re.search(r'title="([^"]*)"',tr)
+            kind={'Gol normal':'','Gol de penalti':' (p.)','Gol en propia puerta':' (pp)'}.get(mk.group(1),'') if mk else ''
+            sc=decode_score(tr,d)
+            mm=re.search(r"\((\d+)'\)",tr)
+            tds=re.findall(r'<td[^>]*>(.*?)</td>',tr,re.S)
+            name=short_name(clean(tds[-1])) if tds else ''
+            name=re.sub(r"^\(\d+'\)\s*",'',name)
+            if sc and mm and name:
+                gl,gv=int(sc[0]),int(sc[1])
+                side='l' if gl>prev[0] else 'v'
+                prev=[gl,gv]
+                out['goals'].append({'side':side,'min':mm.group(1),'name':name,'kind':kind})
+    for ti,(pos,tname) in enumerate(teams[:2]):
+        seg=h[pos:teams[ti+1][0] if ti+1<len(teams) else len(h)]
+        for tr in re.findall(r'<tr>(.*?)</tr>',seg,re.S):
+            if 'tarj_' not in tr: continue
+            mc=re.search(r'tarj_([a-z_]+)\.gif',tr)
+            mm=re.search(r"\((\d+)'\)",tr)
+            tds=re.findall(r'<td[^>]*>(.*?)</td>',tr,re.S)
+            name=short_name(clean(tds[-1])) if tds else ''
+            name=re.sub(r"^\(\d+'\)\s*",'',name)
+            kind='roja' if mc and 'roja' in mc.group(1) else 'amarilla'
+            if mm and name:
+                out['cards'].append({'team':norm(tname),'min':mm.group(1),'name':name,'kind':kind})
+    return out
 
 def dl_crest(url,code):
     if not url or not code: return ''
@@ -186,6 +245,19 @@ def main():
                 if code and url and code not in crests: crests[code]=url
     escudo_file={code:dl_crest(url,code) for code,url in crests.items()}
 
+    actas={}
+    for j in jornadas:
+        for m in jornadas[j]:
+            aid=m.get('acta','')
+            if not aid or m['gl']=='': continue
+            ap=RAW/f'acta_{aid}.html'
+            h=ap.read_text(encoding='latin-1',errors='replace') if ap.exists() else ''
+            if len(h)<50000:
+                try: h=fetch(f'acta_{aid}','https://www.rfaf.es/pnfg/NPcd/NFG_CmpPartido?cod_primaria=1000120&CodActa=%s&cod_acta=%s'%(aid,aid),minlen=50000,attempts=2)
+                except SystemExit: continue
+            actas[aid]=parse_acta(h,darray(h))
+    data_actas=actas
+
     jugadas=[j for j in jornadas if any(m['gl']!='' for m in jornadas[j])]
     ultima=max(jugadas) if jugadas else 0
     actual=ultima+1 if ultima<NJ else ultima
@@ -194,10 +266,11 @@ def main():
 
     data={'actualizado':stamp,'clasificacion':tabla,
           'jornadas':{str(j):jornadas[j] for j in jornadas},'fechas_org':fechas_org,
-          'ultima_jugada':ultima,'jornada_actual':actual}
+          'ultima_jugada':ultima,'jornada_actual':actual,
+          'actas':{k:v for k,v in data_actas.items()}}
     (RAW/'data.json').write_text(json.dumps(data,ensure_ascii=False,indent=1),encoding='utf-8')
 
-    render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp)
+    render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp,actas)
     print(f'Built site: {len(tabla)} equipos, {total} partidos ({jugados} jugados), jornada actual {actual}, escudos {sum(1 for v in escudo_file.values() if v)}/{len(crests)}, actualizado {stamp}')
 
 NAV=[('index.html','Inicio'),('clasificacion.html','Clasificación'),('calendario.html','Calendario y resultados')]
@@ -207,10 +280,10 @@ def page(title,active,body):
 <html lang="es"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{title} · C.D. Fútbol Romeral</title>
+<title>{title} · 3ª Juvenil</title>
 <link rel="stylesheet" href="style.css">
 </head><body>
-<header><div class="wrap nav"><span class="brand">C.D. Fútbol Romeral</span><nav>{nav}</nav></div></header>
+<header><div class="wrap nav"><span class="brand">3ª Juvenil</span><nav>{nav}</nav></div></header>
 <main class="wrap">
 {body}
 </main>
@@ -224,7 +297,21 @@ def fdate(dd):
         return d.strftime('%d/%m/%Y')
     except Exception: return dd
 
-def match_row(m,escudo_file):
+def fmt_ev(a,m):
+    nl,nv=norm(m['local']),norm(m['visitante'])
+    ev_l,ev_v=[],[]
+    for g in a.get('goals',[]):
+        t=f"\u26bd {g['min']}' {html.escape(g['name'])}{g['kind']}"
+        (ev_l if g['side']=='l' else ev_v).append(t)
+    for c in a.get('cards',[]):
+        ico='\U0001f7e5' if c['kind']=='roja' else '\U0001f7e8'
+        t=f"{ico} {c['min']}' {html.escape(c['name'])}"
+        if c['team']==nl: ev_l.append(t)
+        elif c['team']==nv: ev_v.append(t)
+        else: (ev_l if len(ev_l)<=len(ev_v) else ev_v).append(t)
+    return ev_l,ev_v
+
+def match_row(m,escudo_file,actas):
     rm=' rm' if m['romeral'] else ''
     el=crest_img(escudo_file.get(m['local_code'],''))
     ev=crest_img(escudo_file.get(m['visitante_code'],''))
@@ -236,13 +323,19 @@ def match_row(m,escudo_file):
     sub=''
     if m['gl']!='' and m['fecha']:
         sub=f'<div class="sub">{fdate(m["fecha"])}</div>'
-    return f'''<div class="mrow{rm}">
+    det=''
+    a=actas.get(m.get('acta','')) if m.get('acta') else None
+    if a and m['gl']!='':
+        ev_l,ev_v=fmt_ev(a,m)
+        if ev_l or ev_v:
+            det=('<div class="det"><div>'+'<br>'.join(ev_l)+'</div><div>'+'<br>'.join(ev_v)+'</div></div>')
+    return f'''<div class="mwrap{rm}"><div class="mrow">
 <div class="mt home">{el}<span>{html.escape(m["local"])}</span></div>
 <div class="mm">{mid}{sub}</div>
 <div class="mt away">{ev}<span>{html.escape(m["visitante"])}</span></div>
-</div>'''
+</div>{det}</div>'''
 
-def render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp):
+def render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp,actas):
     # --- index
     rom=next((t for t in tabla if t['romeral']),None)
     rm_next=None; rm_last=None
@@ -268,8 +361,8 @@ def render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp):
 <a class="bigrow" href="jornada-{j}.html"><span class="tag">J{j} · {fdate(m["fecha"])}</span>
 <span class="bigt">{html.escape(m["local"])} {m["gl"]} - {m["gv"]} {html.escape(m["visitante"])}</span></a>'''
     home=f'''<div class="kicker">3ª ANDALUZA JUVENIL MÁLAGA · GRUPO 1</div>
-<h1>C.D. Fútbol Romeral · Temporada 2026/27</h1>
-<p class="lede">Clasificación, resultados y calendario del grupo.</p>
+<h1>3ª Andaluza Juvenil Málaga · Grupo 1</h1>
+<p class="lede">Temporada 2026/27 · Clasificación, resultados y calendario del grupo.</p>
 <p class="upd">Actualizado: {stamp}</p>
 {stats}
 {blocks}
@@ -294,7 +387,7 @@ def render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp):
         fo=fechas_org.get(j,'')
         prevl=f'<a class="pj" href="jornada-{j-1}.html">‹ J{j-1}</a>' if j>1 else '<span class="pj off"></span>'
         nextl=f'<a class="pj" href="jornada-{j+1}.html">J{j+1} ›</a>' if j<NJ else '<span class="pj off"></span>'
-        rows='\n'.join(match_row(m,escudo_file) for m in ms)
+        rows='\n'.join(match_row(m,escudo_file,actas) for m in ms)
         body=f'''<div class="jnav">{prevl}<span class="jt">Jornada {j}{f" · {fdate(fo)}" if fo else ""}</span>{nextl}</div>
 {rows}'''
         (OUT/f'jornada-{j}.html').write_text(page(f'Jornada {j}','calendario.html',body),encoding='utf-8')
@@ -303,7 +396,7 @@ def render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp):
     fo=fechas_org.get(actual,'')
     prevl=f'<a class="pj" href="jornada-{actual-1}.html">‹ J{actual-1}</a>' if actual>1 else '<span class="pj off"></span>'
     nextl=f'<a class="pj" href="jornada-{actual+1}.html">J{actual+1} ›</a>' if actual<NJ else '<span class="pj off"></span>'
-    rows='\n'.join(match_row(m,escudo_file) for m in ms)
+    rows='\n'.join(match_row(m,escudo_file,actas) for m in ms)
     body=f'''<div class="kicker">CALENDARIO Y RESULTADOS</div>
 <div class="jnav">{prevl}<span class="jt">Jornada {actual}{f" · {fdate(fo)}" if fo else ""}</span>{nextl}</div>
 {rows}
