@@ -381,7 +381,10 @@ def render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp,actas):
         blocks+=f'''<h3 class="lbl">Último resultado</h3>
 <a class="bigrow" href="jornada-{j}.html"><span class="tag">J{j} · {fdate_sem(m["fecha"])}</span>
 <span class="bigt">{html.escape(m["local"])} {m["gl"]} - {m["gv"]} {html.escape(m["visitante"])}</span></a>'''
-    home=f'''<div class="kicker">3ª ANDALUZA JUVENIL MÁLAGA · GRUPO 1</div>
+    home=f'''<!-- TEMP-PEDRO-BANNER inicio (demo temporal; revertir cuando Oscar lo pida) -->
+<div style="background:#0a7a3d;color:#fff;text-align:center;font-size:2.6rem;font-weight:800;letter-spacing:.1em;padding:1rem .5rem;border-radius:12px;margin:0 0 1.1rem">PEDRO</div>
+<!-- TEMP-PEDRO-BANNER fin -->
+<div class="kicker">3ª ANDALUZA JUVENIL MÁLAGA · GRUPO 1</div>
 <h1>C.D. Romeral · <b>Liga 26/27</b></h1>
 <p class="lede">Clasificación, resultados y calendario del grupo.</p>
 <p class="upd">Actualizado: {stamp}</p>
