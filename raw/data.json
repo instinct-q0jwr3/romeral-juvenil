@@ -1,34 +1,47 @@
 {
- "actualizado": "22/09/2026, 23:14 CEST",
+ "actualizado": "26/09/2026, 23:18 CEST",
  "clasificacion": [
   {
    "pos": 1,
-   "equipo": "CD UD DOS HERMANAS SAN ANDRES \"B\"",
-   "code": "828217",
-   "pts": "3",
-   "j": 1,
-   "g": 1,
+   "equipo": "C.D. FUTBOL ROMERAL",
+   "code": "2064582",
+   "pts": "6",
+   "j": 2,
+   "g": 2,
    "e": 0,
    "p": 0,
-   "gf": "6",
+   "gf": "10",
+   "gc": "1",
+   "romeral": true
+  },
+  {
+   "pos": 2,
+   "equipo": "C.D. CHURRIANA",
+   "code": "802816",
+   "pts": "6",
+   "j": 2,
+   "g": 2,
+   "e": 0,
+   "p": 0,
+   "gf": "7",
    "gc": "1",
    "romeral": false
   },
   {
-   "pos": 2,
-   "equipo": "C.D. FUTBOL ROMERAL",
-   "code": "2064582",
+   "pos": 3,
+   "equipo": "CD UD DOS HERMANAS SAN ANDRES \"B\"",
+   "code": "828217",
    "pts": "3",
-   "j": 1,
+   "j": 2,
    "g": 1,
    "e": 0,
-   "p": 0,
-   "gf": "5",
-   "gc": "0",
-   "romeral": true
+   "p": 1,
+   "gf": "9",
+   "gc": "6",
+   "romeral": false
   },
   {
-   "pos": 3,
+   "pos": 4,
    "equipo": "C.D. CONEJITO DE MALAGA",
    "code": "28567623",
    "pts": "3",
@@ -41,7 +54,7 @@
    "romeral": false
   },
   {
-   "pos": 4,
+   "pos": 5,
    "equipo": "PTO.MALAGUEÑO CDAD.JARDIN G.I. \"A\"",
    "code": "800916",
    "pts": "3",
@@ -54,7 +67,7 @@
    "romeral": false
   },
   {
-   "pos": 5,
+   "pos": 6,
    "equipo": "EF DE VELEZ FRANCISCO CASTEJON",
    "code": "849615",
    "pts": "3",
@@ -67,7 +80,7 @@
    "romeral": false
   },
   {
-   "pos": 6,
+   "pos": 7,
    "equipo": "ATLETICO JUVAL",
    "code": "804216",
    "pts": "3",
@@ -80,29 +93,16 @@
    "romeral": false
   },
   {
-   "pos": 7,
-   "equipo": "C.D. CHURRIANA",
-   "code": "802816",
+   "pos": 8,
+   "equipo": "CLUB POLIDEPORTIVO MIJAS LAS LAGUNAS \"B\"",
+   "code": "39001729",
    "pts": "3",
-   "j": 1,
+   "j": 2,
    "g": 1,
    "e": 0,
-   "p": 0,
-   "gf": "2",
-   "gc": "1",
-   "romeral": false
-  },
-  {
-   "pos": 8,
-   "equipo": "A.D. MALAKA C.F. \"A\"",
-   "code": "814417",
-   "pts": "0",
-   "j": 0,
-   "g": 0,
-   "e": 0,
-   "p": 0,
-   "gf": "0",
-   "gc": "0",
+   "p": 1,
+   "gf": "5",
+   "gc": "8",
    "romeral": false
   },
   {
@@ -172,19 +172,6 @@
   },
   {
    "pos": 14,
-   "equipo": "SECCIÓN DEPORTIVA FUNDACIÓN MCF",
-   "code": "39920802",
-   "pts": "0",
-   "j": 1,
-   "g": 0,
-   "e": 0,
-   "p": 1,
-   "gf": "1",
-   "gc": "4",
-   "romeral": false
-  },
-  {
-   "pos": 15,
    "equipo": "C.D. TRABUCO",
    "code": "817416",
    "pts": "0",
@@ -197,9 +184,9 @@
    "romeral": false
   },
   {
-   "pos": 16,
-   "equipo": "CLUB POLIDEPORTIVO MIJAS LAS LAGUNAS \"B\"",
-   "code": "39001729",
+   "pos": 15,
+   "equipo": "A.D. MALAKA C.F. \"A\"",
+   "code": "814417",
    "pts": "0",
    "j": 1,
    "g": 0,
@@ -207,6 +194,19 @@
    "p": 1,
    "gf": "0",
    "gc": "5",
+   "romeral": false
+  },
+  {
+   "pos": 16,
+   "equipo": "SECCIÓN DEPORTIVA FUNDACIÓN MCF",
+   "code": "39920802",
+   "pts": "0",
+   "j": 2,
+   "g": 0,
+   "e": 0,
+   "p": 2,
+   "gf": "2",
+   "gc": "9",
    "romeral": false
   }
  ],
@@ -261,8 +261,8 @@
     "visitante_code": "20065106",
     "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000483064_trescuartos.jpg",
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001802717_ESCUDO_peque__o.jpg",
-    "gl": "5",
-    "gv": "3",
+    "gl": "",
+    "gv": "",
     "fecha": "20-09-2026",
     "hora": "12:00",
     "acta": "2653724",
@@ -333,25 +333,11 @@
     "visitante_code": "814417",
     "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000818862_escudo.jpg",
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000123043_admalaka-escudo.jpg",
-    "gl": "",
-    "gv": "",
+    "gl": "5",
+    "gv": "0",
     "fecha": "26-09-2026",
     "hora": "20:00",
-    "acta": "",
-    "romeral": false
-   },
-   {
-    "local": "CLUB POLIDEPORTIVO MIJAS LAS LAGUNAS \"B\"",
-    "local_code": "39001729",
-    "visitante": "CD UD DOS HERMANAS SAN ANDRES \"B\"",
-    "visitante_code": "828217",
-    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000455475_escudo_futbol18.jpg",
-    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001421_DGRPublicidad.Escudo_San_Andres.jpg",
-    "gl": "",
-    "gv": "",
-    "fecha": "26-09-2026",
-    "hora": "20:00",
-    "acta": "",
+    "acta": "2653731",
     "romeral": false
    },
    {
@@ -361,12 +347,26 @@
     "visitante_code": "2064582",
     "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0002233591_Escudo_Fundaci__n_MCF.png",
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0002203762_IMG_2005.png",
-    "gl": "",
-    "gv": "",
+    "gl": "1",
+    "gv": "5",
     "fecha": "26-09-2026",
     "hora": "20:00",
-    "acta": "",
+    "acta": "2653735",
     "romeral": true
+   },
+   {
+    "local": "CLUB POLIDEPORTIVO MIJAS LAS LAGUNAS \"B\"",
+    "local_code": "39001729",
+    "visitante": "CD UD DOS HERMANAS SAN ANDRES \"B\"",
+    "visitante_code": "828217",
+    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000455475_escudo_futbol18.jpg",
+    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001421_DGRPublicidad.Escudo_San_Andres.jpg",
+    "gl": "5",
+    "gv": "3",
+    "fecha": "26-09-2026",
+    "hora": "20:35",
+    "acta": "2653734",
+    "romeral": false
    },
    {
     "local": "PTO.MALAGUEÑO CDAD.JARDIN G.I. \"A\"",
@@ -3664,8 +3664,8 @@
   "29": "23-05-2027",
   "30": "30-05-2027"
  },
- "ultima_jugada": 1,
- "jornada_actual": 2,
+ "ultima_jugada": 2,
+ "jornada_actual": 3,
  "actas": {
   "2653727": {
    "goals": [
@@ -3847,150 +3847,6 @@
     }
    ]
   },
-  "2653724": {
-   "goals": [
-    {
-     "side": "l",
-     "min": "13",
-     "name": "Baena Lebron, S.",
-     "kind": ""
-    },
-    {
-     "side": "l",
-     "min": "15",
-     "name": "Luque Prieto, R.",
-     "kind": ""
-    },
-    {
-     "side": "l",
-     "min": "28",
-     "name": "Luque Prieto, R.",
-     "kind": ""
-    },
-    {
-     "side": "l",
-     "min": "48",
-     "name": "Garcia Rodriguez, H.",
-     "kind": ""
-    },
-    {
-     "side": "l",
-     "min": "60",
-     "name": "Gomez Carrascal, J.",
-     "kind": ""
-    },
-    {
-     "side": "v",
-     "min": "60",
-     "name": "Alonso Vidal, A.",
-     "kind": ""
-    },
-    {
-     "side": "v",
-     "min": "74",
-     "name": "Luque Sanz, A.",
-     "kind": ""
-    },
-    {
-     "side": "v",
-     "min": "81",
-     "name": "Palomo Ruiz, J.",
-     "kind": ""
-    }
-   ],
-   "cards": [
-    {
-     "team": "EF DE VELEZ FRANCISCO CASTEJON",
-     "min": "25",
-     "name": "Baena Lebron, S.",
-     "kind": "amarilla"
-    },
-    {
-     "team": "EF DE VELEZ FRANCISCO CASTEJON",
-     "min": "38",
-     "name": "Luque Prieto, R.",
-     "kind": "amarilla"
-    },
-    {
-     "team": "EF DE VELEZ FRANCISCO CASTEJON",
-     "min": "50",
-     "name": "Gomez Carrascal, J.",
-     "kind": "amarilla"
-    },
-    {
-     "team": "EF DE VELEZ FRANCISCO CASTEJON",
-     "min": "53",
-     "name": "Nicola Diaz, A.",
-     "kind": "amarilla"
-    },
-    {
-     "team": "EF DE VELEZ FRANCISCO CASTEJON",
-     "min": "63",
-     "name": "Tome Fernandez, J.",
-     "kind": "amarilla"
-    },
-    {
-     "team": "EF DE VELEZ FRANCISCO CASTEJON",
-     "min": "65",
-     "name": "Portillo Garcia, F.",
-     "kind": "amarilla"
-    },
-    {
-     "team": "EF DE VELEZ FRANCISCO CASTEJON",
-     "min": "65",
-     "name": "Chacon Pendon, M.",
-     "kind": "amarilla"
-    },
-    {
-     "team": "EF DE VELEZ FRANCISCO CASTEJON",
-     "min": "80",
-     "name": "Arias Ramos, O.",
-     "kind": "amarilla"
-    },
-    {
-     "team": "EF DE VELEZ FRANCISCO CASTEJON",
-     "min": "87",
-     "name": "Gutierrez Gallar, I.",
-     "kind": "amarilla"
-    },
-    {
-     "team": "C.D. CORTIJILLO BAZAN",
-     "min": "20",
-     "name": "Palomo Ruiz, J.",
-     "kind": "amarilla"
-    },
-    {
-     "team": "C.D. CORTIJILLO BAZAN",
-     "min": "36",
-     "name": "Elias Gomez, S.",
-     "kind": "amarilla"
-    },
-    {
-     "team": "C.D. CORTIJILLO BAZAN",
-     "min": "42",
-     "name": "Millan Pinto, D.",
-     "kind": "amarilla"
-    },
-    {
-     "team": "C.D. CORTIJILLO BAZAN",
-     "min": "48",
-     "name": "Luque Sanz, A.",
-     "kind": "amarilla"
-    },
-    {
-     "team": "C.D. CORTIJILLO BAZAN",
-     "min": "54",
-     "name": "Alonso Vidal, D.",
-     "kind": "amarilla"
-    },
-    {
-     "team": "C.D. CORTIJILLO BAZAN",
-     "min": "86",
-     "name": "Millan Pinto, D.",
-     "kind": "amarilla"
-    }
-   ]
-  },
   "2653726": {
    "goals": [
     {
@@ -4137,6 +3993,216 @@
      "team": "ATLETICO JUVAL",
      "min": "76",
      "name": "Karlsson Cantador, M.",
+     "kind": "amarilla"
+    }
+   ]
+  },
+  "2653731": {
+   "goals": [
+    {
+     "side": "l",
+     "min": "20",
+     "name": "El Khamlichi Nejdoubi, R.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "26",
+     "name": "Victoria Herrera, J.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "28",
+     "name": "Cabello Garcia, S.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "60",
+     "name": "Victoria Herrera, J.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "83",
+     "name": "Akhiat El Ouajibi, A.",
+     "kind": " (pp)"
+    }
+   ],
+   "cards": [
+    {
+     "team": "C.D. CHURRIANA",
+     "min": "43",
+     "name": "Espinosa Martinez, G.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "C.D. CHURRIANA",
+     "min": "78",
+     "name": "Navarro Morales, J.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "A.D. MALAKA C.F. A",
+     "min": "73",
+     "name": "Rodriguez Sanchez, J.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "A.D. MALAKA C.F. A",
+     "min": "89",
+     "name": "Franco Fernandez, D.",
+     "kind": "amarilla"
+    }
+   ]
+  },
+  "2653735": {
+   "goals": [
+    {
+     "side": "v",
+     "min": "22",
+     "name": "Benedetti Benedetti, V.",
+     "kind": ""
+    },
+    {
+     "side": "v",
+     "min": "38",
+     "name": "Parra Perez, A.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "63",
+     "name": "Ouqebli, A.",
+     "kind": ""
+    },
+    {
+     "side": "v",
+     "min": "70",
+     "name": "Marin Morales, J.",
+     "kind": ""
+    },
+    {
+     "side": "v",
+     "min": "76",
+     "name": "Benedetti Benedetti, V.",
+     "kind": ""
+    },
+    {
+     "side": "v",
+     "min": "79",
+     "name": "Benedetti Benedetti, V.",
+     "kind": " (p.)"
+    }
+   ],
+   "cards": [
+    {
+     "team": "SECCIÓN DEPORTIVA FUNDACIÓN MCF",
+     "min": "69",
+     "name": "Llinás Cortes, K.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "C.D. FUTBOL ROMERAL",
+     "min": "62",
+     "name": "Barroso Gonzalez, G.",
+     "kind": "amarilla"
+    }
+   ]
+  },
+  "2653734": {
+   "goals": [
+    {
+     "side": "v",
+     "min": "14",
+     "name": "Zapata Quiles, I.",
+     "kind": ""
+    },
+    {
+     "side": "v",
+     "min": "17",
+     "name": "Manzambi, I.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "38",
+     "name": "Forteza, N.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "50",
+     "name": "Gonzalez Lopez, D.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "52",
+     "name": "Platero Rodriguez, C.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "66",
+     "name": "Platero Rodriguez, C.",
+     "kind": ""
+    },
+    {
+     "side": "v",
+     "min": "89",
+     "name": "Camacho Marquez, R.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "89",
+     "name": "Zaragoza Ruiz, J.",
+     "kind": ""
+    }
+   ],
+   "cards": [
+    {
+     "team": "CLUB POLIDEPORTIVO MIJAS LAS LAGUNAS B",
+     "min": "32",
+     "name": "Tovar Rojas, J.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "CLUB POLIDEPORTIVO MIJAS LAS LAGUNAS B",
+     "min": "83",
+     "name": "Gonzalez Lopez, D.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "CD UD DOS HERMANAS SAN ANDRES B",
+     "min": "37",
+     "name": "Camacho Marquez, R.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "CD UD DOS HERMANAS SAN ANDRES B",
+     "min": "39",
+     "name": "Bermudez Perez, A.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "CD UD DOS HERMANAS SAN ANDRES B",
+     "min": "42",
+     "name": "Comas Mesa, M.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "CD UD DOS HERMANAS SAN ANDRES B",
+     "min": "68",
+     "name": "Garcia Podadera, D.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "CD UD DOS HERMANAS SAN ANDRES B",
+     "min": "89",
+     "name": "Murillo Erazo, J.",
      "kind": "amarilla"
     }
    ]
