@@ -44,28 +44,33 @@ def darray(h):
     return D_DEFAULT
 
 def decode_score(region,d):
-    """Return (gl, gv) as strings, or None if not played."""
-    events=[]
-    occupied=[]
-    for m in re.finditer(r'ntype\("idh\d+",(\d+),(\d+),',region):
-        n,i=int(m.group(1)),int(m.group(2))
-        events.append((m.start(),str(d[i*10+n])))
-    for m in re.finditer(r"#idh(\d+):(before|after)\{content:\"(\\[0-9a-fA-F]{4}|\d)\"(;display:none)?\}",region):
-        if m.group(4):  # css hidden -> literal text is real
-            mm=re.search(r'<span id=idh'+m.group(1)+r'>(.*?)</span>\s*(?:<span style="display:none;">.*?</span>\s*)?</span>',region[m.end():],re.S)
-            if mm:
-                lit=re.match(r'([^<]*)',mm.group(1)).group(1).strip()
-                if lit.isdigit(): events.append((m.start(),lit))
-        else:
-            v=m.group(3)
-            events.append((m.start(),chr(int(v[1:],16)) if v.startswith('\\') else v))
-    tmp=re.sub(r'<script>.*?</script>','',region,flags=re.S)
-    tmp=re.sub(r'<style>.*?</style>','',tmp,flags=re.S)
-    tmp=re.sub(r'<span style="display:none;">.*?</span>','',tmp,flags=re.S)
-    for m in re.finditer(r'<i class=fa-solid>\s*(\d+)\s*</i>',tmp):
-        events.append((m.start(),m.group(1)))
-    events.sort()
-    digs=[v for _,v in events]
+    """Return (gl, gv) as strings, or None if not played.
+    Digits live in <i class=fa-solid> slots in document order; each slot carries
+    its digit via ntype JS, a CSS content rule, or literal text. Never sort by
+    character position across mechanisms: the eval/script blobs inflate offsets
+    and flip the order (bug 27/09: Churriana 5-0 salia 0-5)."""
+    slots=[m.start() for m in re.finditer(r'<i class=fa-solid>',region)]
+    digs=[]
+    for k,st in enumerate(slots):
+        en=slots[k+1] if k+1<len(slots) else len(region)
+        chunk=region[st:en]
+        nts=re.findall(r'ntype\("idh\d+",(\d+),(\d+),',chunk)
+        if nts:
+            digs.extend(str(d[int(i)*10+int(n)]) for n,i in nts); continue
+        css=list(re.finditer(r'#idh(\d+):(before|after)\{content:"(\\[0-9a-fA-F]{4}|\d)"(;display:none)?\}',chunk))
+        if css:
+            for m in css:
+                if m.group(4):  # css decoy hidden -> literal text is real
+                    mm=re.search(r'<span id=idh'+m.group(1)+r'>\s*([^<])',chunk)
+                    if mm: digs.append(mm.group(1))
+                else:
+                    v=m.group(3)
+                    digs.append(chr(int(v[1:],16)) if v.startswith('\\') else v)
+            if digs: continue
+        t=re.sub(r'<script>.*?</script>','',chunk,flags=re.S)
+        t=re.sub(r'<style>.*?</style>','',t,flags=re.S)
+        t=re.sub(r'<span style="display:none;">.*?</span>','',t,flags=re.S)
+        digs.extend(re.findall(r'(\d)',re.sub(r'<[^>]+>','',t)))
     if len(digs)>=2: return digs[0],digs[1]
     return None
 
@@ -291,7 +296,7 @@ def main():
     render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp,actas)
     print(f"Built site{'(horarios)' if horarios_only else ''}: {len(tabla)} equipos, {total} partidos ({jugados} jugados), jornada actual {actual}, escudos {sum(1 for v in escudo_file.values() if v)}/{len(crests)}, actualizado {stamp}")
 
-NAV=[('clasificacion.html','Clasificación'),('calendario.html','Jornadas')]
+NAV=[('clasificacion.html','Clasificación'),('jornadas.html','Jornadas')]
 def page(title,active,body):
     nav=''.join(f'<a href="{u}" class="{"on" if u==active else ""}">{t}</a>' for u,t in NAV)
     return f'''<!DOCTYPE html>
@@ -403,7 +408,7 @@ def render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp,actas):
 <span class="bigt">{html.escape(m["local"])} {m["gl"]} - {m["gv"]} {html.escape(m["visitante"])}</span></a>'''
     home=f'''<div class="kicker">3ª ANDALUZA JUVENIL MÁLAGA · GRUPO 1</div>
 <h1>C.D. Romeral · <b>Liga 26/27</b></h1>
-<p class="lede">Clasificación, resultados y calendario del grupo.</p>
+<p class="lede">Clasificación, resultados y jornadas del grupo.</p>
 <p class="upd">Actualizado: {stamp}</p>
 {stats}
 {blocks}
@@ -433,7 +438,7 @@ def render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp,actas):
         rows='\n'.join(match_row(m,escudo_file,actas) for m in ms)
         body=f'''<div class="jnav">{prevl}<span class="jt">Jornada {j}{f" · {fdate(fo)}" if fo else ""}</span>{nextl}</div>
 {rows}'''
-        (OUT/f'jornada-{j}.html').write_text(page(f'Jornada {j}','calendario.html',body),encoding='utf-8')
+        (OUT/f'jornada-{j}.html').write_text(page(f'Jornada {j}','jornadas.html',body),encoding='utf-8')
     # calendario.html = jornada actual
     ms=jornadas.get(actual,[])
     fo=fechas_org.get(actual,'')
@@ -444,7 +449,8 @@ def render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp,actas):
 <div class="jnav">{prevl}<span class="jt">Jornada {actual}{f" · {fdate(fo)}" if fo else ""}</span>{nextl}</div>
 {rows}
 <p class="upd">Actualizado: {stamp}</p>'''
-    (OUT/'calendario.html').write_text(page('Jornadas','calendario.html',body),encoding='utf-8')
+    (OUT/'jornadas.html').write_text(page('Jornadas','jornadas.html',body),encoding='utf-8')
+    (OUT/'calendario.html').write_text('<!DOCTYPE html>\n<html lang="es"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=jornadas.html"><link rel="canonical" href="jornadas.html"><title>Jornadas \u00b7 Liga 26/27</title></head><body><p>Esta p\u00e1gina se ha movido: <a href="jornadas.html">Jornadas</a>.</p></body></html>',encoding='utf-8')
 
 if __name__=='__main__':
     main()

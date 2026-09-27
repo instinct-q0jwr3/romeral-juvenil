@@ -1,5 +1,5 @@
 {
- "actualizado": "27/09/2026, 14:00 CEST",
+ "actualizado": "27/09/2026, 14:10 CEST",
  "clasificacion": [
   {
    "pos": 1,
@@ -333,8 +333,8 @@
     "visitante_code": "814417",
     "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000818862_escudo.jpg",
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000123043_admalaka-escudo.jpg",
-    "gl": "0",
-    "gv": "5",
+    "gl": "5",
+    "gv": "0",
     "fecha": "26-09-2026",
     "hora": "20:00",
     "acta": "2653731",
@@ -3745,6 +3745,12 @@
      "side": "l",
      "min": "72",
      "name": "Ramos Sanz, H.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "85",
+     "name": "Andreu Becerra, A.",
      "kind": ""
     },
     {
