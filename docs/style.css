@@ -77,3 +77,21 @@ details.mwrap summary.mrow::-webkit-details-marker{display:none}
 details.mwrap .chev{flex:0 0 auto;color:#a3a39c;font-size:11px;margin-right:2px;transition:transform .15s}
 details.mwrap[open] .chev{transform:rotate(180deg)}
 details.mwrap[open] .det{border-top:1px dashed #e6e6e2;margin:0 12px;padding:8px 0 10px}
+/* pestañas dentro del desplegable: Partido | Alineaciones (27/09) */
+.tabr{position:absolute;opacity:0;pointer-events:none}
+.pane{display:none}
+.tabr-p:checked~.pane-p,.tabr-a:checked~.pane-a{display:block}
+.dett{padding:0 12px 10px;border-top:1px solid #eee}
+.tabbar{display:flex;gap:4px;margin:9px 0 9px}
+.tabbar label{flex:1;text-align:center;border:1px solid #e6e6e2;border-radius:4px;padding:7px 4px;font-size:11.5px;font-weight:600;color:#585254;cursor:pointer;background:#fbfbfa}
+.tabr-p:checked~.tabbar .lb-p,.tabr-a:checked~.tabbar .lb-a{background:#157a3d;border-color:#157a3d;color:#fff}
+.dett .det{padding:0;border-top:none}
+.xi2{display:flex;gap:14px}
+.xi2>div{flex:1;min-width:0}
+.xit{font-size:10.5px;font-weight:700;letter-spacing:.08em;color:#8a8a83;margin-bottom:6px}
+.xi{font-size:12px;line-height:1.75;color:#191918}
+.xi .d{display:inline-block;min-width:18px;color:#8a8a83;font-size:11px}
+.xi .np{font-size:9.5px;color:#b0623a;border:1px solid #ecd9cb;border-radius:3px;padding:0 3px;margin-left:4px;vertical-align:1px}
+.xib{font-size:11.5px;color:#585254;line-height:1.55;margin-top:8px}
+.xib b{color:#8a8a83;font-size:10px;letter-spacing:.06em}
+@media screen and (max-width:560px){.xi2{flex-direction:column}.xi2>div+div{border-top:1px dashed #eee;padding-top:8px}}

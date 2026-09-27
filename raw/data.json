@@ -1,5 +1,5 @@
 {
- "actualizado": "27/09/2026, 18:19 CEST",
+ "actualizado": "27/09/2026, 19:14 CEST",
  "clasificacion": [
   {
    "pos": 1,
@@ -3713,7 +3713,252 @@
      "name": "Llinás Cortes, K.",
      "kind": "amarilla"
     }
-   ]
+   ],
+   "lineups": {
+    "l": {
+     "tit": [
+      {
+       "id": "4871924",
+       "dorsal": "13",
+       "name": "Delgado Garrido, D.",
+       "full": "Delgado Garrido, Dylan",
+       "noshow": false
+      },
+      {
+       "id": "39354",
+       "dorsal": "3",
+       "name": "Mota Rodriguez, A.",
+       "full": "Mota Rodriguez, Abel",
+       "noshow": false
+      },
+      {
+       "id": "4598803",
+       "dorsal": "4",
+       "name": "Barcia Del Marmol, J.",
+       "full": "Barcia Del Marmol, Joan",
+       "noshow": true
+      },
+      {
+       "id": "39473",
+       "dorsal": "6",
+       "name": "Martin Torres, M.",
+       "full": "Martin Torres, Mario",
+       "noshow": false
+      },
+      {
+       "id": "53200",
+       "dorsal": "7",
+       "name": "Morales Illanes, C.",
+       "full": "Morales Illanes, Cristobal",
+       "noshow": true
+      },
+      {
+       "id": "40522659",
+       "dorsal": "8",
+       "name": "Caro Mota, F.",
+       "full": "Caro Mota, Francisco",
+       "noshow": false
+      },
+      {
+       "id": "48803143",
+       "dorsal": "9",
+       "name": "Perez Bazaga, A.",
+       "full": "Perez Bazaga, Antonio",
+       "noshow": false
+      },
+      {
+       "id": "8309328",
+       "dorsal": "10",
+       "name": "Linero Joven, G.",
+       "full": "Linero Joven, Gonzalo",
+       "noshow": true
+      },
+      {
+       "id": "7922594",
+       "dorsal": "11",
+       "name": "Olalla Hidalgo, S.",
+       "full": "Olalla Hidalgo, Samuel",
+       "noshow": false
+      },
+      {
+       "id": "8684220",
+       "dorsal": "14",
+       "name": "Cobo Rodriguez, J.",
+       "full": "Cobo Rodriguez, Juan Felipe",
+       "noshow": false
+      },
+      {
+       "id": "2064889",
+       "dorsal": "23",
+       "name": "Peralta Avella, S.",
+       "full": "Peralta Avella, Santiago Gabriel",
+       "noshow": true
+      }
+     ],
+     "sup": [
+      {
+       "id": "20656949",
+       "dorsal": "1",
+       "name": "Lara Vazquez, C.",
+       "full": "Lara Vazquez, Cayetano",
+       "noshow": false
+      },
+      {
+       "id": "9825862",
+       "dorsal": "5",
+       "name": "Acedo Pino, A.",
+       "full": "Acedo Pino, Adolfo Javier",
+       "noshow": false
+      },
+      {
+       "id": "39397",
+       "dorsal": "20",
+       "name": "Villalta Dominguez, J.",
+       "full": "Villalta Dominguez, Joan",
+       "noshow": false
+      },
+      {
+       "id": "40444049",
+       "dorsal": "22",
+       "name": "Hidalgo Martinez, H.",
+       "full": "Hidalgo Martinez, Hugo",
+       "noshow": false
+      },
+      {
+       "id": "2020366",
+       "dorsal": "69",
+       "name": "Garcia Gutierrez, M.",
+       "full": "Garcia Gutierrez, Manuel",
+       "noshow": false
+      },
+      {
+       "id": "2041436",
+       "dorsal": "77",
+       "name": "Ocaña Gallego, J.",
+       "full": "Ocaña Gallego, Jose Miguel",
+       "noshow": false
+      }
+     ]
+    },
+    "v": {
+     "tit": [
+      {
+       "id": "12076057",
+       "dorsal": "1",
+       "name": "Mancebo Castaño, S.",
+       "full": "Mancebo Castaño, Sandro",
+       "noshow": false
+      },
+      {
+       "id": "8512697",
+       "dorsal": "2",
+       "name": "Alarcon Enciso, J.",
+       "full": "Alarcon Enciso, Jose",
+       "noshow": false
+      },
+      {
+       "id": "8456694",
+       "dorsal": "4",
+       "name": "Carmona Tapia, I.",
+       "full": "Carmona Tapia, Izan",
+       "noshow": false
+      },
+      {
+       "id": "18685798",
+       "dorsal": "7",
+       "name": "Llinás Cortes, K.",
+       "full": "Llinás Cortes, Kevin",
+       "noshow": true
+      },
+      {
+       "id": "35918899",
+       "dorsal": "8",
+       "name": "Lopez Arguello, A.",
+       "full": "Lopez Arguello, Alvaro Ezequiel",
+       "noshow": false
+      },
+      {
+       "id": "8374584",
+       "dorsal": "9",
+       "name": "Ternero Gonzalez, A.",
+       "full": "Ternero Gonzalez, Alejandro",
+       "noshow": false
+      },
+      {
+       "id": "18691157",
+       "dorsal": "10",
+       "name": "Gomez Ponce, M.",
+       "full": "Gomez Ponce, Marcos",
+       "noshow": false
+      },
+      {
+       "id": "6957069",
+       "dorsal": "14",
+       "name": "Jurado Barbeito, S.",
+       "full": "Jurado Barbeito, Samuel",
+       "noshow": false
+      },
+      {
+       "id": "15164338",
+       "dorsal": "16",
+       "name": "Otaola Ramos, M.",
+       "full": "Otaola Ramos, Mario",
+       "noshow": false
+      },
+      {
+       "id": "47518409",
+       "dorsal": "17",
+       "name": "Mosker, S.",
+       "full": "Mosker, Sabyl Daoud",
+       "noshow": false
+      },
+      {
+       "id": "18596179",
+       "dorsal": "20",
+       "name": "Vargas Oliver, M.",
+       "full": "Vargas Oliver, Marco",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "30119449",
+       "dorsal": "13",
+       "name": "Fernandez Moreno, F.",
+       "full": "Fernandez Moreno, Francisco Manuel",
+       "noshow": false
+      },
+      {
+       "id": "19851037",
+       "dorsal": "6",
+       "name": "Adams Salcedo, S.",
+       "full": "Adams Salcedo, Sergio",
+       "noshow": true
+      },
+      {
+       "id": "27053650",
+       "dorsal": "11",
+       "name": "Mondragon Rizzo, P.",
+       "full": "Mondragon Rizzo, Pablo",
+       "noshow": false
+      },
+      {
+       "id": "15820698",
+       "dorsal": "28",
+       "name": "Mérida Mérida, R.",
+       "full": "Mérida Mérida, Rodrigo",
+       "noshow": true
+      },
+      {
+       "id": "5213688",
+       "dorsal": "29",
+       "name": "Garcia Jimenez, K.",
+       "full": "Garcia Jimenez, Kristhian",
+       "noshow": false
+      }
+     ]
+    }
+   }
   },
   "2653725": {
    "goals": [
@@ -3779,7 +4024,259 @@
      "name": "Garcia Cabrera, G.",
      "kind": "amarilla"
     }
-   ]
+   ],
+   "lineups": {
+    "l": {
+     "tit": [
+      {
+       "id": "21079245",
+       "dorsal": "1",
+       "name": "Fofana Silva, I.",
+       "full": "Fofana Silva, Ibrahim",
+       "noshow": false
+      },
+      {
+       "id": "7392074",
+       "dorsal": "4",
+       "name": "Fuentes Wilt, N.",
+       "full": "Fuentes Wilt, Nicolas",
+       "noshow": false
+      },
+      {
+       "id": "11433685",
+       "dorsal": "5",
+       "name": "Luque Bautista, C.",
+       "full": "Luque Bautista, Carlos",
+       "noshow": false
+      },
+      {
+       "id": "11589601",
+       "dorsal": "11",
+       "name": "Zapata Quiles, I.",
+       "full": "Zapata Quiles, Izan",
+       "noshow": false
+      },
+      {
+       "id": "48413896",
+       "dorsal": "12",
+       "name": "Andreu Becerra, A.",
+       "full": "Andreu Becerra, Aitor",
+       "noshow": false
+      },
+      {
+       "id": "27677021",
+       "dorsal": "14",
+       "name": "Manzambi, I.",
+       "full": "Manzambi, Imran Ibn Bilal",
+       "noshow": false
+      },
+      {
+       "id": "4890477",
+       "dorsal": "18",
+       "name": "Hernandez Gonzalez, D.",
+       "full": "Hernandez Gonzalez, Daniel",
+       "noshow": false
+      },
+      {
+       "id": "46288092",
+       "dorsal": "19",
+       "name": "Comas Mesa, M.",
+       "full": "Comas Mesa, Marco",
+       "noshow": false
+      },
+      {
+       "id": "30932967",
+       "dorsal": "21",
+       "name": "Murillo Erazo, J.",
+       "full": "Murillo Erazo, Juan Jafet Felipe",
+       "noshow": false
+      },
+      {
+       "id": "724512",
+       "dorsal": "27",
+       "name": "Garcia Podadera, D.",
+       "full": "Garcia Podadera, David",
+       "noshow": false
+      },
+      {
+       "id": "5387692",
+       "dorsal": "29",
+       "name": "Pinta Marin, M.",
+       "full": "Pinta Marin, Manuel",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "19563076",
+       "dorsal": "7",
+       "name": "Abdeselam Ruiz, I.",
+       "full": "Abdeselam Ruiz, Ismael",
+       "noshow": false
+      },
+      {
+       "id": "44476872",
+       "dorsal": "13",
+       "name": "Vazquez Iglesias, E.",
+       "full": "Vazquez Iglesias, Enzo",
+       "noshow": false
+      },
+      {
+       "id": "27854023",
+       "dorsal": "20",
+       "name": "Sánchez Arjona, D.",
+       "full": "Sánchez Arjona, David",
+       "noshow": false
+      },
+      {
+       "id": "48564934",
+       "dorsal": "22",
+       "name": "Bermudez Perez, A.",
+       "full": "Bermudez Perez, Aitor",
+       "noshow": false
+      },
+      {
+       "id": "26006371",
+       "dorsal": "30",
+       "name": "Erhabor Isaac, A.",
+       "full": "Erhabor Isaac, Alexis Alex",
+       "noshow": false
+      },
+      {
+       "id": "8113676",
+       "dorsal": "33",
+       "name": "Kouassi Giles, D.",
+       "full": "Kouassi Giles, Dayron",
+       "noshow": false
+      },
+      {
+       "id": "45675066",
+       "dorsal": "69",
+       "name": "Ramos Sanz, H.",
+       "full": "Ramos Sanz, Hugo",
+       "noshow": false
+      }
+     ]
+    },
+    "v": {
+     "tit": [
+      {
+       "id": "8224614",
+       "dorsal": "1",
+       "name": "Astorga Ortigosa, J.",
+       "full": "Astorga Ortigosa, Javier",
+       "noshow": false
+      },
+      {
+       "id": "4982347",
+       "dorsal": "3",
+       "name": "Valencia Arjona, A.",
+       "full": "Valencia Arjona, Alvaro",
+       "noshow": false
+      },
+      {
+       "id": "8223413",
+       "dorsal": "5",
+       "name": "Luque Rodriguez, J.",
+       "full": "Luque Rodriguez, Jorge",
+       "noshow": false
+      },
+      {
+       "id": "35342894",
+       "dorsal": "7",
+       "name": "Perez Jimenez, A.",
+       "full": "Perez Jimenez, Abrahan Alfonso",
+       "noshow": false
+      },
+      {
+       "id": "4982485",
+       "dorsal": "8",
+       "name": "Sancho Caro, J.",
+       "full": "Sancho Caro, Jesus",
+       "noshow": false
+      },
+      {
+       "id": "4983475",
+       "dorsal": "10",
+       "name": "Sancho Luque, C.",
+       "full": "Sancho Luque, Carlos",
+       "noshow": false
+      },
+      {
+       "id": "2380119",
+       "dorsal": "11",
+       "name": "Roman Valenzuela, A.",
+       "full": "Roman Valenzuela, Alejandro",
+       "noshow": false
+      },
+      {
+       "id": "8224449",
+       "dorsal": "21",
+       "name": "Jimenez Gonzalez, E.",
+       "full": "Jimenez Gonzalez, Erik",
+       "noshow": true
+      },
+      {
+       "id": "8223981",
+       "dorsal": "27",
+       "name": "Garcia Luque, M.",
+       "full": "Garcia Luque, Manuel Jacinto",
+       "noshow": false
+      },
+      {
+       "id": "11999055",
+       "dorsal": "30",
+       "name": "Marmol Diaz, E.",
+       "full": "Marmol Diaz, Erik",
+       "noshow": false
+      },
+      {
+       "id": "8224087",
+       "dorsal": "47",
+       "name": "Fernandez Wheeler, K.",
+       "full": "Fernandez Wheeler, Kevin",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "11998602",
+       "dorsal": "12",
+       "name": "Campillo Arjona, D.",
+       "full": "Campillo Arjona, Diego",
+       "noshow": false
+      },
+      {
+       "id": "8224501",
+       "dorsal": "17",
+       "name": "Reina Arrebola, I.",
+       "full": "Reina Arrebola, Iker",
+       "noshow": false
+      },
+      {
+       "id": "8226418",
+       "dorsal": "22",
+       "name": "Garcia Cabrera, G.",
+       "full": "Garcia Cabrera, Gonzalo",
+       "noshow": false
+      },
+      {
+       "id": "11984712",
+       "dorsal": "25",
+       "name": "Orozco Arjona, G.",
+       "full": "Orozco Arjona, Gonzalo",
+       "noshow": false
+      },
+      {
+       "id": "48345025",
+       "dorsal": "26",
+       "name": "Gamez Pascual, A.",
+       "full": "Gamez Pascual, Alberto",
+       "noshow": false
+      }
+     ]
+    }
+   }
   },
   "2653723": {
    "goals": [
@@ -3851,7 +4348,266 @@
      "name": "Espinosa Martinez, P.",
      "kind": "amarilla"
     }
-   ]
+   ],
+   "lineups": {
+    "l": {
+     "tit": [
+      {
+       "id": "2245875",
+       "dorsal": "13",
+       "name": "Capitan Conejo, A.",
+       "full": "Capitan Conejo, Antonio",
+       "noshow": false
+      },
+      {
+       "id": "4936341",
+       "dorsal": "2",
+       "name": "Carretero Prieto, J.",
+       "full": "Carretero Prieto, Jose",
+       "noshow": false
+      },
+      {
+       "id": "8233033",
+       "dorsal": "4",
+       "name": "Sanchez Muñoz, A.",
+       "full": "Sanchez Muñoz, Aitor",
+       "noshow": false
+      },
+      {
+       "id": "4956869",
+       "dorsal": "8",
+       "name": "Garcia Fernandez, S.",
+       "full": "Garcia Fernandez, Sergio",
+       "noshow": false
+      },
+      {
+       "id": "2245903",
+       "dorsal": "10",
+       "name": "Ruiz Garcia, I.",
+       "full": "Ruiz Garcia, Israel",
+       "noshow": true
+      },
+      {
+       "id": "5098729",
+       "dorsal": "11",
+       "name": "Ponferrada Berrocal, S.",
+       "full": "Ponferrada Berrocal, Sergio",
+       "noshow": false
+      },
+      {
+       "id": "2245915",
+       "dorsal": "15",
+       "name": "Burgos Carmona, F.",
+       "full": "Burgos Carmona, Francisco Jose",
+       "noshow": false
+      },
+      {
+       "id": "4545988",
+       "dorsal": "19",
+       "name": "Martin Gonzalez, I.",
+       "full": "Martin Gonzalez, Ivan",
+       "noshow": false
+      },
+      {
+       "id": "5098518",
+       "dorsal": "20",
+       "name": "De La Torre Gonzalez, F.",
+       "full": "De La Torre Gonzalez, Francisco Javier",
+       "noshow": false
+      },
+      {
+       "id": "15284766",
+       "dorsal": "22",
+       "name": "Cabral Gimenez, B.",
+       "full": "Cabral Gimenez, Borja",
+       "noshow": false
+      },
+      {
+       "id": "8232973",
+       "dorsal": "24",
+       "name": "Martin Portillo, A.",
+       "full": "Martin Portillo, Antonio",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "2245853",
+       "dorsal": "1",
+       "name": "Serrano Tome, C.",
+       "full": "Serrano Tome, Carlos",
+       "noshow": false
+      },
+      {
+       "id": "4891046",
+       "dorsal": "5",
+       "name": "Torres Gil, C.",
+       "full": "Torres Gil, Curro",
+       "noshow": false
+      },
+      {
+       "id": "2245911",
+       "dorsal": "7",
+       "name": "Sanchez Muñoz, R.",
+       "full": "Sanchez Muñoz, Raul",
+       "noshow": false
+      },
+      {
+       "id": "8315075",
+       "dorsal": "9",
+       "name": "Perez Peñafiel, S.",
+       "full": "Perez Peñafiel, Sergio",
+       "noshow": false
+      },
+      {
+       "id": "2108702",
+       "dorsal": "18",
+       "name": "Llanos Benhammou, E.",
+       "full": "Llanos Benhammou, Elias",
+       "noshow": true
+      },
+      {
+       "id": "33724215",
+       "dorsal": "23",
+       "name": "Buhaychuk Lavrynyuk, M.",
+       "full": "Buhaychuk Lavrynyuk, Maxym",
+       "noshow": false
+      },
+      {
+       "id": "12104056",
+       "dorsal": "29",
+       "name": "Esposito, C.",
+       "full": "Esposito, Christian",
+       "noshow": false
+      }
+     ]
+    },
+    "v": {
+     "tit": [
+      {
+       "id": "8385971",
+       "dorsal": "1",
+       "name": "Perez Vadillo, V.",
+       "full": "Perez Vadillo, Victor Manuel",
+       "noshow": false
+      },
+      {
+       "id": "23489499",
+       "dorsal": "2",
+       "name": "Navarro Morales, J.",
+       "full": "Navarro Morales, Jose Antonio",
+       "noshow": false
+      },
+      {
+       "id": "5567458",
+       "dorsal": "3",
+       "name": "Rios Bueno, J.",
+       "full": "Rios Bueno, Jorge",
+       "noshow": false
+      },
+      {
+       "id": "8122458",
+       "dorsal": "4",
+       "name": "Soto Perez, S.",
+       "full": "Soto Perez, Samuel",
+       "noshow": false
+      },
+      {
+       "id": "8518745",
+       "dorsal": "5",
+       "name": "Lopez Pedraza, A.",
+       "full": "Lopez Pedraza, Alvaro",
+       "noshow": false
+      },
+      {
+       "id": "5470275",
+       "dorsal": "6",
+       "name": "Mesa Navarro, H.",
+       "full": "Mesa Navarro, Hugo",
+       "noshow": false
+      },
+      {
+       "id": "4868018",
+       "dorsal": "7",
+       "name": "Cabello Garcia, S.",
+       "full": "Cabello Garcia, Saul",
+       "noshow": false
+      },
+      {
+       "id": "12250973",
+       "dorsal": "8",
+       "name": "Espinosa Martinez, P.",
+       "full": "Espinosa Martinez, Pedro",
+       "noshow": true
+      },
+      {
+       "id": "2248884",
+       "dorsal": "9",
+       "name": "Camacho Espinar, J.",
+       "full": "Camacho Espinar, Julian",
+       "noshow": false
+      },
+      {
+       "id": "24111797",
+       "dorsal": "10",
+       "name": "Estepa Cabrera, S.",
+       "full": "Estepa Cabrera, Sergio",
+       "noshow": false
+      },
+      {
+       "id": "40323685",
+       "dorsal": "11",
+       "name": "Victoria Herrera, J.",
+       "full": "Victoria Herrera, Juan Pablo",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "8646421",
+       "dorsal": "12",
+       "name": "Rodriguez Cabrera, M.",
+       "full": "Rodriguez Cabrera, Manuel",
+       "noshow": false
+      },
+      {
+       "id": "19523688",
+       "dorsal": "14",
+       "name": "Lei, R.",
+       "full": "Lei, Robin",
+       "noshow": false
+      },
+      {
+       "id": "12193809",
+       "dorsal": "15",
+       "name": "Espinosa Martinez, G.",
+       "full": "Espinosa Martinez, Guillermo",
+       "noshow": false
+      },
+      {
+       "id": "10116890",
+       "dorsal": "16",
+       "name": "Retamero Perez, R.",
+       "full": "Retamero Perez, Romeo",
+       "noshow": false
+      },
+      {
+       "id": "11639693",
+       "dorsal": "17",
+       "name": "El Khamlichi Nejdoubi, R.",
+       "full": "El Khamlichi Nejdoubi, Rayan",
+       "noshow": false
+      },
+      {
+       "id": "43637978",
+       "dorsal": "18",
+       "name": "Ramirez Berrio, J.",
+       "full": "Ramirez Berrio, Juan Jose",
+       "noshow": false
+      }
+     ]
+    }
+   }
   },
   "2653724": {
    "goals": [
@@ -3995,7 +4751,252 @@
      "name": "Millan Pinto, D.",
      "kind": "amarilla"
     }
-   ]
+   ],
+   "lineups": {
+    "l": {
+     "tit": [
+      {
+       "id": "2248500",
+       "dorsal": "1",
+       "name": "Portillo Garcia, F.",
+       "full": "Portillo Garcia, Francisco",
+       "noshow": false
+      },
+      {
+       "id": "20859214",
+       "dorsal": "3",
+       "name": "Bermudez Zaluskiy, J.",
+       "full": "Bermudez Zaluskiy, Jose Alejandro",
+       "noshow": false
+      },
+      {
+       "id": "4717185",
+       "dorsal": "8",
+       "name": "Gonzalez Mata, D.",
+       "full": "Gonzalez Mata, David",
+       "noshow": false
+      },
+      {
+       "id": "8298933",
+       "dorsal": "10",
+       "name": "Baena Lebron, S.",
+       "full": "Baena Lebron, Samuel",
+       "noshow": false
+      },
+      {
+       "id": "39418",
+       "dorsal": "17",
+       "name": "Tome Fernandez, J.",
+       "full": "Tome Fernandez, Jorge",
+       "noshow": false
+      },
+      {
+       "id": "33816713",
+       "dorsal": "19",
+       "name": "Rios Diaz, A.",
+       "full": "Rios Diaz, Antonio",
+       "noshow": false
+      },
+      {
+       "id": "4110955",
+       "dorsal": "21",
+       "name": "Gutierrez Gallar, I.",
+       "full": "Gutierrez Gallar, Ignacio",
+       "noshow": false
+      },
+      {
+       "id": "7358755",
+       "dorsal": "23",
+       "name": "Garcia Rodriguez, H.",
+       "full": "Garcia Rodriguez, Hugo",
+       "noshow": false
+      },
+      {
+       "id": "3162604",
+       "dorsal": "88",
+       "name": "Luque Prieto, R.",
+       "full": "Luque Prieto, Rafael",
+       "noshow": false
+      },
+      {
+       "id": "4709791",
+       "dorsal": "94",
+       "name": "Chacon Pendon, D.",
+       "full": "Chacon Pendon, Dario",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "45483204",
+       "dorsal": "2",
+       "name": "Nicola Diaz, A.",
+       "full": "Nicola Diaz, Alvaro Jose",
+       "noshow": false
+      },
+      {
+       "id": "4709084",
+       "dorsal": "6",
+       "name": "Morales Nuñez, E.",
+       "full": "Morales Nuñez, Eduardo",
+       "noshow": false
+      },
+      {
+       "id": "8345360",
+       "dorsal": "9",
+       "name": "Gomez Carrascal, J.",
+       "full": "Gomez Carrascal, José Antonio",
+       "noshow": false
+      },
+      {
+       "id": "25799180",
+       "dorsal": "14",
+       "name": "Gallego Granados, I.",
+       "full": "Gallego Granados, Iker",
+       "noshow": false
+      },
+      {
+       "id": "7923859",
+       "dorsal": "26",
+       "name": "Arias Ramos, O.",
+       "full": "Arias Ramos, Oscar",
+       "noshow": false
+      },
+      {
+       "id": "4716377",
+       "dorsal": "47",
+       "name": "Diaz Jimenez, F.",
+       "full": "Diaz Jimenez, Francisco",
+       "noshow": false
+      },
+      {
+       "id": "4709562",
+       "dorsal": "52",
+       "name": "Chacon Pendon, M.",
+       "full": "Chacon Pendon, Martin",
+       "noshow": false
+      }
+     ]
+    },
+    "v": {
+     "tit": [
+      {
+       "id": "15635727",
+       "dorsal": "1",
+       "name": "Cortes Muñoz, A.",
+       "full": "Cortes Muñoz, Antonio",
+       "noshow": false
+      },
+      {
+       "id": "7948869",
+       "dorsal": "3",
+       "name": "Aguilar Fernandez, J.",
+       "full": "Aguilar Fernandez, Juan Luis",
+       "noshow": false
+      },
+      {
+       "id": "26285272",
+       "dorsal": "4",
+       "name": "Carnero Maese, P.",
+       "full": "Carnero Maese, Pablo",
+       "noshow": false
+      },
+      {
+       "id": "39592",
+       "dorsal": "7",
+       "name": "Palomo Ruiz, J.",
+       "full": "Palomo Ruiz, Jose Juan",
+       "noshow": false
+      },
+      {
+       "id": "2254370",
+       "dorsal": "8",
+       "name": "Castillo Martin, M.",
+       "full": "Castillo Martin, Miguel",
+       "noshow": false
+      },
+      {
+       "id": "26234018",
+       "dorsal": "9",
+       "name": "Alonso Vidal, A.",
+       "full": "Alonso Vidal, Adrian",
+       "noshow": false
+      },
+      {
+       "id": "2444776",
+       "dorsal": "10",
+       "name": "Elias Gomez, S.",
+       "full": "Elias Gomez, Sergio",
+       "noshow": false
+      },
+      {
+       "id": "26234951",
+       "dorsal": "11",
+       "name": "Alonso Vidal, D.",
+       "full": "Alonso Vidal, Diego",
+       "noshow": true
+      },
+      {
+       "id": "18984857",
+       "dorsal": "14",
+       "name": "Pasion Lopez, J.",
+       "full": "Pasion Lopez, Javier",
+       "noshow": false
+      },
+      {
+       "id": "19017010",
+       "dorsal": "17",
+       "name": "Ghaylan Bonejma, Y.",
+       "full": "Ghaylan Bonejma, Yassir",
+       "noshow": false
+      },
+      {
+       "id": "2254567",
+       "dorsal": "21",
+       "name": "Luque Sanz, A.",
+       "full": "Luque Sanz, Alejandro",
+       "noshow": true
+      }
+     ],
+     "sup": [
+      {
+       "id": "18714937",
+       "dorsal": "5",
+       "name": "Castillo Doctor, A.",
+       "full": "Castillo Doctor, Adrian",
+       "noshow": true
+      },
+      {
+       "id": "2255367",
+       "dorsal": "6",
+       "name": "Ruiz Ruiz, A.",
+       "full": "Ruiz Ruiz, Andres",
+       "noshow": false
+      },
+      {
+       "id": "4555379",
+       "dorsal": "19",
+       "name": "Sanchez Fernandez, I.",
+       "full": "Sanchez Fernandez, Izan",
+       "noshow": false
+      },
+      {
+       "id": "4555491",
+       "dorsal": "20",
+       "name": "Millan Pinto, D.",
+       "full": "Millan Pinto, Diego Jesus",
+       "noshow": false
+      },
+      {
+       "id": "2452809",
+       "dorsal": "99",
+       "name": "Garcia Lara, J.",
+       "full": "Garcia Lara, Juan Jose",
+       "noshow": false
+      }
+     ]
+    }
+   }
   },
   "2653726": {
    "goals": [
@@ -4037,7 +5038,252 @@
      "name": "Romero Galan, L.",
      "kind": "amarilla"
     }
-   ]
+   ],
+   "lineups": {
+    "l": {
+     "tit": [
+      {
+       "id": "15636970",
+       "dorsal": "1",
+       "name": "Rodríguez Oncina, F.",
+       "full": "Rodríguez Oncina, Felix",
+       "noshow": false
+      },
+      {
+       "id": "11763515",
+       "dorsal": "4",
+       "name": "Barroso Gonzalez, G.",
+       "full": "Barroso Gonzalez, Gonzalo",
+       "noshow": false
+      },
+      {
+       "id": "2064899",
+       "dorsal": "7",
+       "name": "Medina Moreno, H.",
+       "full": "Medina Moreno, Hugo",
+       "noshow": true
+      },
+      {
+       "id": "27406877",
+       "dorsal": "8",
+       "name": "Martin Del Cid, I.",
+       "full": "Martin Del Cid, Ignacio",
+       "noshow": false
+      },
+      {
+       "id": "19048326",
+       "dorsal": "11",
+       "name": "Del Valle Zamora, F.",
+       "full": "Del Valle Zamora, Fernando",
+       "noshow": false
+      },
+      {
+       "id": "18829865",
+       "dorsal": "14",
+       "name": "Mendez López, J.",
+       "full": "Mendez López, Jorge",
+       "noshow": false
+      },
+      {
+       "id": "15274581",
+       "dorsal": "20",
+       "name": "Parra Perez, A.",
+       "full": "Parra Perez, Alejandro",
+       "noshow": false
+      },
+      {
+       "id": "2393656",
+       "dorsal": "22",
+       "name": "Gonzalez Martin, J.",
+       "full": "Gonzalez Martin, Javier",
+       "noshow": false
+      },
+      {
+       "id": "2121322",
+       "dorsal": "24",
+       "name": "Romero Galan, L.",
+       "full": "Romero Galan, Lucas",
+       "noshow": false
+      },
+      {
+       "id": "2064907",
+       "dorsal": "77",
+       "name": "Benedetti Benedetti, V.",
+       "full": "Benedetti Benedetti, Vito Jr",
+       "noshow": false
+      },
+      {
+       "id": "2276204",
+       "dorsal": "80",
+       "name": "Fernandez Fortes, S.",
+       "full": "Fernandez Fortes, Saul",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "31940564",
+       "dorsal": "13",
+       "name": "Dengra Cea, M.",
+       "full": "Dengra Cea, Mateo",
+       "noshow": true
+      },
+      {
+       "id": "8364222",
+       "dorsal": "3",
+       "name": "Fernández Mancha, Á.",
+       "full": "Fernández Mancha, Ángel",
+       "noshow": false
+      },
+      {
+       "id": "2008549",
+       "dorsal": "10",
+       "name": "Lorca Leiva, C.",
+       "full": "Lorca Leiva, Christian",
+       "noshow": true
+      },
+      {
+       "id": "14824355",
+       "dorsal": "15",
+       "name": "Marin Morales, J.",
+       "full": "Marin Morales, Joaquin",
+       "noshow": false
+      },
+      {
+       "id": "26784547",
+       "dorsal": "17",
+       "name": "Olmedo Pacheco, I.",
+       "full": "Olmedo Pacheco, Ivan",
+       "noshow": false
+      },
+      {
+       "id": "25391015",
+       "dorsal": "19",
+       "name": "Olea Martín, I.",
+       "full": "Olea Martín, Israel",
+       "noshow": false
+      },
+      {
+       "id": "8363919",
+       "dorsal": "23",
+       "name": "Gomez Hernandez, N.",
+       "full": "Gomez Hernandez, Nicolas",
+       "noshow": false
+      }
+     ]
+    },
+    "v": {
+     "tit": [
+      {
+       "id": "21201686",
+       "dorsal": "13",
+       "name": "Torres Sedeño, M.",
+       "full": "Torres Sedeño, Mario",
+       "noshow": false
+      },
+      {
+       "id": "8766607",
+       "dorsal": "2",
+       "name": "Del Vecchio Tilli, V.",
+       "full": "Del Vecchio Tilli, Valentino",
+       "noshow": false
+      },
+      {
+       "id": "4416212",
+       "dorsal": "3",
+       "name": "Carvajal Herrera, E.",
+       "full": "Carvajal Herrera, Erik",
+       "noshow": false
+      },
+      {
+       "id": "4415502",
+       "dorsal": "4",
+       "name": "Rodriguez Sanmiguel, M.",
+       "full": "Rodriguez Sanmiguel, Manuel",
+       "noshow": false
+      },
+      {
+       "id": "16004787",
+       "dorsal": "5",
+       "name": "Gómez Ramírez, D.",
+       "full": "Gómez Ramírez, Dario",
+       "noshow": false
+      },
+      {
+       "id": "12311212",
+       "dorsal": "6",
+       "name": "Zaragoza Ruiz, J.",
+       "full": "Zaragoza Ruiz, Juan Diego",
+       "noshow": false
+      },
+      {
+       "id": "8695534",
+       "dorsal": "7",
+       "name": "Perez Espinosa, A.",
+       "full": "Perez Espinosa, Alvaro",
+       "noshow": false
+      },
+      {
+       "id": "8283034",
+       "dorsal": "8",
+       "name": "Tovar Rojas, J.",
+       "full": "Tovar Rojas, Jose Luis",
+       "noshow": false
+      },
+      {
+       "id": "8401286",
+       "dorsal": "9",
+       "name": "Gonzalez Lopez, D.",
+       "full": "Gonzalez Lopez, Daniel",
+       "noshow": false
+      },
+      {
+       "id": "8204571",
+       "dorsal": "10",
+       "name": "Platero Rodriguez, C.",
+       "full": "Platero Rodriguez, Cristian",
+       "noshow": false
+      },
+      {
+       "id": "8203736",
+       "dorsal": "11",
+       "name": "Valle Pigni, D.",
+       "full": "Valle Pigni, David",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "11495204",
+       "dorsal": "1",
+       "name": "Fortes Romero, A.",
+       "full": "Fortes Romero, Aitor",
+       "noshow": false
+      },
+      {
+       "id": "8695415",
+       "dorsal": "12",
+       "name": "Tantoun Azzouadi, O.",
+       "full": "Tantoun Azzouadi, Oussama",
+       "noshow": false
+      },
+      {
+       "id": "16994395",
+       "dorsal": "14",
+       "name": "Vidal Gómez, J.",
+       "full": "Vidal Gómez, Juan Francisco",
+       "noshow": false
+      },
+      {
+       "id": "30978412",
+       "dorsal": "15",
+       "name": "Iranzo Tadeo, R.",
+       "full": "Iranzo Tadeo, Raul",
+       "noshow": false
+      }
+     ]
+    }
+   }
   },
   "2653728": {
    "goals": [
@@ -4091,7 +5337,259 @@
      "name": "Fernandez Ruiz, D.",
      "kind": "amarilla"
     }
-   ]
+   ],
+   "lineups": {
+    "l": {
+     "tit": [
+      {
+       "id": "4865816",
+       "dorsal": "1",
+       "name": "Arroyo Delgado, R.",
+       "full": "Arroyo Delgado, Raul",
+       "noshow": false
+      },
+      {
+       "id": "26363513",
+       "dorsal": "3",
+       "name": "Martínez Nuflo, M.",
+       "full": "Martínez Nuflo, Mario",
+       "noshow": false
+      },
+      {
+       "id": "92089",
+       "dorsal": "4",
+       "name": "Guerrero Conejo, A.",
+       "full": "Guerrero Conejo, Adrian",
+       "noshow": true
+      },
+      {
+       "id": "49040353",
+       "dorsal": "6",
+       "name": "Carrasco Carballo, R.",
+       "full": "Carrasco Carballo, Raul",
+       "noshow": false
+      },
+      {
+       "id": "11921715",
+       "dorsal": "7",
+       "name": "Corrales Ruiz, F.",
+       "full": "Corrales Ruiz, Francisco",
+       "noshow": false
+      },
+      {
+       "id": "11711249",
+       "dorsal": "8",
+       "name": "Gutierrez Jerez, H.",
+       "full": "Gutierrez Jerez, Hector",
+       "noshow": false
+      },
+      {
+       "id": "8756895",
+       "dorsal": "9",
+       "name": "Asencio Galvan, D.",
+       "full": "Asencio Galvan, David",
+       "noshow": false
+      },
+      {
+       "id": "3250432",
+       "dorsal": "11",
+       "name": "Pallin Martin, M.",
+       "full": "Pallin Martin, Mario",
+       "noshow": false
+      },
+      {
+       "id": "49181370",
+       "dorsal": "14",
+       "name": "Gonzalez Faura, R.",
+       "full": "Gonzalez Faura, Ruben",
+       "noshow": false
+      },
+      {
+       "id": "12647405",
+       "dorsal": "19",
+       "name": "Caceres Sosa, A.",
+       "full": "Caceres Sosa, Abdias Josue",
+       "noshow": false
+      },
+      {
+       "id": "8251494",
+       "dorsal": "23",
+       "name": "Aguilera Perez, M.",
+       "full": "Aguilera Perez, Marcos",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "8498395",
+       "dorsal": "13",
+       "name": "Moreno Caturla, M.",
+       "full": "Moreno Caturla, Miguel",
+       "noshow": false
+      },
+      {
+       "id": "2278808",
+       "dorsal": "2",
+       "name": "Pelaez Mogrovejo, T.",
+       "full": "Pelaez Mogrovejo, Thiago",
+       "noshow": false
+      },
+      {
+       "id": "53350",
+       "dorsal": "10",
+       "name": "Florido Bonilla, I.",
+       "full": "Florido Bonilla, Ivan",
+       "noshow": false
+      },
+      {
+       "id": "15341363",
+       "dorsal": "15",
+       "name": "Osifo Osifo, M.",
+       "full": "Osifo Osifo, Michael Divinity",
+       "noshow": true
+      },
+      {
+       "id": "16161122",
+       "dorsal": "18",
+       "name": "Cano Manjón, R.",
+       "full": "Cano Manjón, Raul",
+       "noshow": false
+      },
+      {
+       "id": "39511",
+       "dorsal": "20",
+       "name": "Iniesta Guzman, D.",
+       "full": "Iniesta Guzman, David",
+       "noshow": false
+      },
+      {
+       "id": "2282446",
+       "dorsal": "21",
+       "name": "Gonzalez Camero, L.",
+       "full": "Gonzalez Camero, Leo",
+       "noshow": false
+      }
+     ]
+    },
+    "v": {
+     "tit": [
+      {
+       "id": "2280125",
+       "dorsal": "1",
+       "name": "Fernandez Lorca, H.",
+       "full": "Fernandez Lorca, Hugo",
+       "noshow": false
+      },
+      {
+       "id": "4774364",
+       "dorsal": "2",
+       "name": "Arroyo Aguilar, H.",
+       "full": "Arroyo Aguilar, Hugo",
+       "noshow": false
+      },
+      {
+       "id": "2396678",
+       "dorsal": "5",
+       "name": "Rios Villanueva, J.",
+       "full": "Rios Villanueva, Julio",
+       "noshow": false
+      },
+      {
+       "id": "14551517",
+       "dorsal": "7",
+       "name": "Portillo Sanchez, J.",
+       "full": "Portillo Sanchez, Jose Ignacio",
+       "noshow": false
+      },
+      {
+       "id": "18429583",
+       "dorsal": "8",
+       "name": "Contreras Bolaño, M.",
+       "full": "Contreras Bolaño, Máximo Emanuel",
+       "noshow": false
+      },
+      {
+       "id": "2277838",
+       "dorsal": "9",
+       "name": "Fernandez Ruiz, D.",
+       "full": "Fernandez Ruiz, Dario",
+       "noshow": false
+      },
+      {
+       "id": "5014531",
+       "dorsal": "16",
+       "name": "Peinado Chavez, A.",
+       "full": "Peinado Chavez, Alejandro",
+       "noshow": false
+      },
+      {
+       "id": "8618199",
+       "dorsal": "17",
+       "name": "Moukafih Halioua, Y.",
+       "full": "Moukafih Halioua, Younes",
+       "noshow": false
+      },
+      {
+       "id": "5370058",
+       "dorsal": "20",
+       "name": "Pico Navarro, R.",
+       "full": "Pico Navarro, Raul",
+       "noshow": false
+      },
+      {
+       "id": "8031507",
+       "dorsal": "22",
+       "name": "Carretero Salinas, M.",
+       "full": "Carretero Salinas, Mario",
+       "noshow": false
+      },
+      {
+       "id": "4902444",
+       "dorsal": "29",
+       "name": "Romero Rodriguez, D.",
+       "full": "Romero Rodriguez, Dylan",
+       "noshow": true
+      }
+     ],
+     "sup": [
+      {
+       "id": "11714602",
+       "dorsal": "11",
+       "name": "Ramirez Coronado, J.",
+       "full": "Ramirez Coronado, Jose",
+       "noshow": false
+      },
+      {
+       "id": "48251829",
+       "dorsal": "12",
+       "name": "Lopes, M.",
+       "full": "Lopes, Matheus",
+       "noshow": false
+      },
+      {
+       "id": "2188150",
+       "dorsal": "23",
+       "name": "Reina Ramos, M.",
+       "full": "Reina Ramos, Marcos",
+       "noshow": false
+      },
+      {
+       "id": "11799921",
+       "dorsal": "24",
+       "name": "Congo Barchue, J.",
+       "full": "Congo Barchue, Joelson Manuel",
+       "noshow": false
+      },
+      {
+       "id": "15519191",
+       "dorsal": "27",
+       "name": "Huesca Puente, G.",
+       "full": "Huesca Puente, Gonzalo",
+       "noshow": false
+      }
+     ]
+    }
+   }
   },
   "2653729": {
    "goals": [
@@ -4145,7 +5643,259 @@
      "name": "Karlsson Cantador, M.",
      "kind": "amarilla"
     }
-   ]
+   ],
+   "lineups": {
+    "l": {
+     "tit": [
+      {
+       "id": "2402436",
+       "dorsal": "1",
+       "name": "Postigo Alcazar, F.",
+       "full": "Postigo Alcazar, Fabio",
+       "noshow": false
+      },
+      {
+       "id": "8356693",
+       "dorsal": "3",
+       "name": "Mesa Sanz, L.",
+       "full": "Mesa Sanz, Leo",
+       "noshow": false
+      },
+      {
+       "id": "11384192",
+       "dorsal": "4",
+       "name": "Gonzalez Triguero, F.",
+       "full": "Gonzalez Triguero, Francisco",
+       "noshow": false
+      },
+      {
+       "id": "54824",
+       "dorsal": "5",
+       "name": "Rodriguez De Cas Martin, H.",
+       "full": "Rodriguez De Cas Martin, Hugo",
+       "noshow": false
+      },
+      {
+       "id": "49448436",
+       "dorsal": "6",
+       "name": "Vargas Vega, R.",
+       "full": "Vargas Vega, Rafael",
+       "noshow": false
+      },
+      {
+       "id": "2211334",
+       "dorsal": "11",
+       "name": "Jurado Martin, A.",
+       "full": "Jurado Martin, Alvaro Tomas",
+       "noshow": true
+      },
+      {
+       "id": "16136271",
+       "dorsal": "15",
+       "name": "López Roldán, M.",
+       "full": "López Roldán, Manuel",
+       "noshow": true
+      },
+      {
+       "id": "32909266",
+       "dorsal": "17",
+       "name": "Mendoza Quintana, X.",
+       "full": "Mendoza Quintana, Xavier Esteban",
+       "noshow": true
+      },
+      {
+       "id": "49448466",
+       "dorsal": "18",
+       "name": "Gomez Perez, E.",
+       "full": "Gomez Perez, Ethan",
+       "noshow": false
+      },
+      {
+       "id": "2275444",
+       "dorsal": "20",
+       "name": "Regalado Nuñez, G.",
+       "full": "Regalado Nuñez, Guillermo",
+       "noshow": false
+      },
+      {
+       "id": "4859125",
+       "dorsal": "69",
+       "name": "Romero Morales, D.",
+       "full": "Romero Morales, Dario",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "30918044",
+       "dorsal": "25",
+       "name": "Diaz Ruiz, M.",
+       "full": "Diaz Ruiz, Marcos",
+       "noshow": false
+      },
+      {
+       "id": "110161",
+       "dorsal": "8",
+       "name": "Pastrana Gallego, J.",
+       "full": "Pastrana Gallego, Jesus",
+       "noshow": false
+      },
+      {
+       "id": "4922368",
+       "dorsal": "9",
+       "name": "Sanchez Rodriguez, I.",
+       "full": "Sanchez Rodriguez, Iker",
+       "noshow": false
+      },
+      {
+       "id": "8288909",
+       "dorsal": "12",
+       "name": "Pineda Quintana, P.",
+       "full": "Pineda Quintana, Pablo",
+       "noshow": false
+      },
+      {
+       "id": "46611687",
+       "dorsal": "31",
+       "name": "Benkraiem Ramirez, E.",
+       "full": "Benkraiem Ramirez, Eliseo",
+       "noshow": false
+      },
+      {
+       "id": "2211248",
+       "dorsal": "80",
+       "name": "Maldonado Galea, M.",
+       "full": "Maldonado Galea, Mario",
+       "noshow": false
+      },
+      {
+       "id": "8306501",
+       "dorsal": "93",
+       "name": "Zaragoza Maldonado, A.",
+       "full": "Zaragoza Maldonado, Antonio",
+       "noshow": false
+      }
+     ]
+    },
+    "v": {
+     "tit": [
+      {
+       "id": "15099342",
+       "dorsal": "1",
+       "name": "Campos Lopez, A.",
+       "full": "Campos Lopez, Angel",
+       "noshow": false
+      },
+      {
+       "id": "5387898",
+       "dorsal": "2",
+       "name": "Kononov, A.",
+       "full": "Kononov, Aron",
+       "noshow": false
+      },
+      {
+       "id": "20648566",
+       "dorsal": "3",
+       "name": "Guerrero Martinez, M.",
+       "full": "Guerrero Martinez, Miguel",
+       "noshow": false
+      },
+      {
+       "id": "11674933",
+       "dorsal": "4",
+       "name": "Cevallos Yaguachi, F.",
+       "full": "Cevallos Yaguachi, Felix David",
+       "noshow": false
+      },
+      {
+       "id": "2204418",
+       "dorsal": "5",
+       "name": "Cortes Fernandez, F.",
+       "full": "Cortes Fernandez, Federico",
+       "noshow": false
+      },
+      {
+       "id": "11699318",
+       "dorsal": "7",
+       "name": "Perez Badia, J.",
+       "full": "Perez Badia, Jaime",
+       "noshow": false
+      },
+      {
+       "id": "45835613",
+       "dorsal": "8",
+       "name": "Karlsson Cantador, M.",
+       "full": "Karlsson Cantador, Matias",
+       "noshow": false
+      },
+      {
+       "id": "21048891",
+       "dorsal": "9",
+       "name": "El Mohammadi Hafaf, A.",
+       "full": "El Mohammadi Hafaf, Amin",
+       "noshow": false
+      },
+      {
+       "id": "2304398",
+       "dorsal": "11",
+       "name": "Parra Ruiz, H.",
+       "full": "Parra Ruiz, Hugo",
+       "noshow": true
+      },
+      {
+       "id": "28685398",
+       "dorsal": "12",
+       "name": "Mihas Fedorovych, M.",
+       "full": "Mihas Fedorovych, Marko",
+       "noshow": false
+      },
+      {
+       "id": "53231",
+       "dorsal": "16",
+       "name": "Ortega Peña, G.",
+       "full": "Ortega Peña, Gonzalo",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "8440797",
+       "dorsal": "17",
+       "name": "Trujillo Sanchez, P.",
+       "full": "Trujillo Sanchez, Pablo Jose",
+       "noshow": false
+      },
+      {
+       "id": "8293108",
+       "dorsal": "19",
+       "name": "Sánchez Bernier, I.",
+       "full": "Sánchez Bernier, Iván",
+       "noshow": false
+      },
+      {
+       "id": "15023136",
+       "dorsal": "20",
+       "name": "Sow Ba, H.",
+       "full": "Sow Ba, Hamadusiray",
+       "noshow": false
+      },
+      {
+       "id": "30512864",
+       "dorsal": "21",
+       "name": "Pedrosa Villasana, A.",
+       "full": "Pedrosa Villasana, Adrian",
+       "noshow": false
+      },
+      {
+       "id": "27236830",
+       "dorsal": "22",
+       "name": "Cabrera Suarez, M.",
+       "full": "Cabrera Suarez, Mikel",
+       "noshow": false
+      }
+     ]
+    }
+   }
   },
   "2653731": {
    "goals": [
@@ -4205,7 +5955,245 @@
      "name": "Franco Fernandez, D.",
      "kind": "amarilla"
     }
-   ]
+   ],
+   "lineups": {
+    "l": {
+     "tit": [
+      {
+       "id": "8385971",
+       "dorsal": "1",
+       "name": "Perez Vadillo, V.",
+       "full": "Perez Vadillo, Victor Manuel",
+       "noshow": false
+      },
+      {
+       "id": "23489499",
+       "dorsal": "2",
+       "name": "Navarro Morales, J.",
+       "full": "Navarro Morales, Jose Antonio",
+       "noshow": false
+      },
+      {
+       "id": "43637978",
+       "dorsal": "3",
+       "name": "Ramirez Berrio, J.",
+       "full": "Ramirez Berrio, Juan Jose",
+       "noshow": false
+      },
+      {
+       "id": "8122458",
+       "dorsal": "4",
+       "name": "Soto Perez, S.",
+       "full": "Soto Perez, Samuel",
+       "noshow": false
+      },
+      {
+       "id": "5567458",
+       "dorsal": "5",
+       "name": "Rios Bueno, J.",
+       "full": "Rios Bueno, Jorge",
+       "noshow": false
+      },
+      {
+       "id": "5470275",
+       "dorsal": "6",
+       "name": "Mesa Navarro, H.",
+       "full": "Mesa Navarro, Hugo",
+       "noshow": false
+      },
+      {
+       "id": "4868018",
+       "dorsal": "7",
+       "name": "Cabello Garcia, S.",
+       "full": "Cabello Garcia, Saul",
+       "noshow": false
+      },
+      {
+       "id": "12250973",
+       "dorsal": "8",
+       "name": "Espinosa Martinez, P.",
+       "full": "Espinosa Martinez, Pedro",
+       "noshow": true
+      },
+      {
+       "id": "2248884",
+       "dorsal": "9",
+       "name": "Camacho Espinar, J.",
+       "full": "Camacho Espinar, Julian",
+       "noshow": false
+      },
+      {
+       "id": "11639693",
+       "dorsal": "10",
+       "name": "El Khamlichi Nejdoubi, R.",
+       "full": "El Khamlichi Nejdoubi, Rayan",
+       "noshow": false
+      },
+      {
+       "id": "40323685",
+       "dorsal": "11",
+       "name": "Victoria Herrera, J.",
+       "full": "Victoria Herrera, Juan Pablo",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "19523688",
+       "dorsal": "12",
+       "name": "Lei, R.",
+       "full": "Lei, Robin",
+       "noshow": false
+      },
+      {
+       "id": "12193809",
+       "dorsal": "14",
+       "name": "Espinosa Martinez, G.",
+       "full": "Espinosa Martinez, Guillermo",
+       "noshow": false
+      },
+      {
+       "id": "10116890",
+       "dorsal": "15",
+       "name": "Retamero Perez, R.",
+       "full": "Retamero Perez, Romeo",
+       "noshow": false
+      }
+     ]
+    },
+    "v": {
+     "tit": [
+      {
+       "id": "8286186",
+       "dorsal": "99",
+       "name": "Jerez Ortega, U.",
+       "full": "Jerez Ortega, Unai",
+       "noshow": false
+      },
+      {
+       "id": "2276098",
+       "dorsal": "4",
+       "name": "Franco Fernandez, D.",
+       "full": "Franco Fernandez, Daniel",
+       "noshow": false
+      },
+      {
+       "id": "4912766",
+       "dorsal": "5",
+       "name": "Cervantes Torreblanca, A.",
+       "full": "Cervantes Torreblanca, Angel",
+       "noshow": false
+      },
+      {
+       "id": "2317244",
+       "dorsal": "9",
+       "name": "Amores Gonzalez, A.",
+       "full": "Amores Gonzalez, Alberto",
+       "noshow": false
+      },
+      {
+       "id": "17281010",
+       "dorsal": "10",
+       "name": "Florido Aleña, D.",
+       "full": "Florido Aleña, David",
+       "noshow": false
+      },
+      {
+       "id": "4922526",
+       "dorsal": "11",
+       "name": "Muñoz Benitez, D.",
+       "full": "Muñoz Benitez, Diego",
+       "noshow": false
+      },
+      {
+       "id": "4914322",
+       "dorsal": "14",
+       "name": "Callejon Ocon, E.",
+       "full": "Callejon Ocon, Enzo",
+       "noshow": false
+      },
+      {
+       "id": "18638586",
+       "dorsal": "19",
+       "name": "Akhiat El Ouajibi, A.",
+       "full": "Akhiat El Ouajibi, Anas",
+       "noshow": false
+      },
+      {
+       "id": "34739812",
+       "dorsal": "21",
+       "name": "Ramirez Borjas, S.",
+       "full": "Ramirez Borjas, Sebastian Ivan",
+       "noshow": false
+      },
+      {
+       "id": "8224247",
+       "dorsal": "69",
+       "name": "Garcia Reina, M.",
+       "full": "Garcia Reina, Manuel German",
+       "noshow": false
+      },
+      {
+       "id": "8247475",
+       "dorsal": "73",
+       "name": "Guirado Diaz, L.",
+       "full": "Guirado Diaz, Lucca",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "21966425",
+       "dorsal": "13",
+       "name": "Garcia Heredia, M.",
+       "full": "Garcia Heredia, Manuel",
+       "noshow": false
+      },
+      {
+       "id": "4857690",
+       "dorsal": "2",
+       "name": "Soto Villarrubia, M.",
+       "full": "Soto Villarrubia, Marcos",
+       "noshow": false
+      },
+      {
+       "id": "8354936",
+       "dorsal": "3",
+       "name": "Martinez Cortes, M.",
+       "full": "Martinez Cortes, Miguel",
+       "noshow": false
+      },
+      {
+       "id": "11563542",
+       "dorsal": "7",
+       "name": "Sanchez Zurita, M.",
+       "full": "Sanchez Zurita, Manuel",
+       "noshow": false
+      },
+      {
+       "id": "2064879",
+       "dorsal": "8",
+       "name": "Sánchez Torres, Á.",
+       "full": "Sánchez Torres, Álvaro",
+       "noshow": false
+      },
+      {
+       "id": "5107675",
+       "dorsal": "20",
+       "name": "Gonzalez De La Mota Ardila, I.",
+       "full": "Gonzalez De La Mota Ardila, Izan",
+       "noshow": false
+      },
+      {
+       "id": "35806090",
+       "dorsal": "23",
+       "name": "Martin Estevez, A.",
+       "full": "Martin Estevez, Aitor",
+       "noshow": false
+      }
+     ]
+    }
+   }
   },
   "2653735": {
    "goals": [
@@ -4259,7 +6247,252 @@
      "name": "Barroso Gonzalez, G.",
      "kind": "amarilla"
     }
-   ]
+   ],
+   "lineups": {
+    "l": {
+     "tit": [
+      {
+       "id": "12076057",
+       "dorsal": "1",
+       "name": "Mancebo Castaño, S.",
+       "full": "Mancebo Castaño, Sandro",
+       "noshow": false
+      },
+      {
+       "id": "8512697",
+       "dorsal": "2",
+       "name": "Alarcon Enciso, J.",
+       "full": "Alarcon Enciso, Jose",
+       "noshow": false
+      },
+      {
+       "id": "8456694",
+       "dorsal": "4",
+       "name": "Carmona Tapia, I.",
+       "full": "Carmona Tapia, Izan",
+       "noshow": false
+      },
+      {
+       "id": "2280082",
+       "dorsal": "5",
+       "name": "Martin Moreno, J.",
+       "full": "Martin Moreno, Juan Francisco",
+       "noshow": false
+      },
+      {
+       "id": "18685798",
+       "dorsal": "7",
+       "name": "Llinás Cortes, K.",
+       "full": "Llinás Cortes, Kevin",
+       "noshow": true
+      },
+      {
+       "id": "35918899",
+       "dorsal": "8",
+       "name": "Lopez Arguello, A.",
+       "full": "Lopez Arguello, Alvaro Ezequiel",
+       "noshow": false
+      },
+      {
+       "id": "8374584",
+       "dorsal": "9",
+       "name": "Ternero Gonzalez, A.",
+       "full": "Ternero Gonzalez, Alejandro",
+       "noshow": false
+      },
+      {
+       "id": "18691157",
+       "dorsal": "10",
+       "name": "Gomez Ponce, M.",
+       "full": "Gomez Ponce, Marcos",
+       "noshow": false
+      },
+      {
+       "id": "6957069",
+       "dorsal": "14",
+       "name": "Jurado Barbeito, S.",
+       "full": "Jurado Barbeito, Samuel",
+       "noshow": false
+      },
+      {
+       "id": "15164338",
+       "dorsal": "16",
+       "name": "Otaola Ramos, M.",
+       "full": "Otaola Ramos, Mario",
+       "noshow": false
+      },
+      {
+       "id": "47518409",
+       "dorsal": "17",
+       "name": "Mosker, S.",
+       "full": "Mosker, Sabyl Daoud",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "30119449",
+       "dorsal": "13",
+       "name": "Fernandez Moreno, F.",
+       "full": "Fernandez Moreno, Francisco Manuel",
+       "noshow": false
+      },
+      {
+       "id": "19851037",
+       "dorsal": "6",
+       "name": "Adams Salcedo, S.",
+       "full": "Adams Salcedo, Sergio",
+       "noshow": true
+      },
+      {
+       "id": "27053650",
+       "dorsal": "11",
+       "name": "Mondragon Rizzo, P.",
+       "full": "Mondragon Rizzo, Pablo",
+       "noshow": false
+      },
+      {
+       "id": "49828611",
+       "dorsal": "19",
+       "name": "Ouqebli, A.",
+       "full": "Ouqebli, Adam",
+       "noshow": false
+      }
+     ]
+    },
+    "v": {
+     "tit": [
+      {
+       "id": "31940564",
+       "dorsal": "13",
+       "name": "Dengra Cea, M.",
+       "full": "Dengra Cea, Mateo",
+       "noshow": true
+      },
+      {
+       "id": "11763515",
+       "dorsal": "4",
+       "name": "Barroso Gonzalez, G.",
+       "full": "Barroso Gonzalez, Gonzalo",
+       "noshow": false
+      },
+      {
+       "id": "2064899",
+       "dorsal": "7",
+       "name": "Medina Moreno, H.",
+       "full": "Medina Moreno, Hugo",
+       "noshow": true
+      },
+      {
+       "id": "27406877",
+       "dorsal": "8",
+       "name": "Martin Del Cid, I.",
+       "full": "Martin Del Cid, Ignacio",
+       "noshow": false
+      },
+      {
+       "id": "19048326",
+       "dorsal": "11",
+       "name": "Del Valle Zamora, F.",
+       "full": "Del Valle Zamora, Fernando",
+       "noshow": false
+      },
+      {
+       "id": "18829865",
+       "dorsal": "14",
+       "name": "Mendez López, J.",
+       "full": "Mendez López, Jorge",
+       "noshow": false
+      },
+      {
+       "id": "25391015",
+       "dorsal": "19",
+       "name": "Olea Martín, I.",
+       "full": "Olea Martín, Israel",
+       "noshow": false
+      },
+      {
+       "id": "2393656",
+       "dorsal": "22",
+       "name": "Gonzalez Martin, J.",
+       "full": "Gonzalez Martin, Javier",
+       "noshow": false
+      },
+      {
+       "id": "2121322",
+       "dorsal": "24",
+       "name": "Romero Galan, L.",
+       "full": "Romero Galan, Lucas",
+       "noshow": false
+      },
+      {
+       "id": "2064907",
+       "dorsal": "77",
+       "name": "Benedetti Benedetti, V.",
+       "full": "Benedetti Benedetti, Vito Jr",
+       "noshow": false
+      },
+      {
+       "id": "2276204",
+       "dorsal": "80",
+       "name": "Fernandez Fortes, S.",
+       "full": "Fernandez Fortes, Saul",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "15636970",
+       "dorsal": "1",
+       "name": "Rodríguez Oncina, F.",
+       "full": "Rodríguez Oncina, Felix",
+       "noshow": false
+      },
+      {
+       "id": "8364222",
+       "dorsal": "3",
+       "name": "Fernández Mancha, Á.",
+       "full": "Fernández Mancha, Ángel",
+       "noshow": false
+      },
+      {
+       "id": "2008549",
+       "dorsal": "10",
+       "name": "Lorca Leiva, C.",
+       "full": "Lorca Leiva, Christian",
+       "noshow": true
+      },
+      {
+       "id": "14824355",
+       "dorsal": "15",
+       "name": "Marin Morales, J.",
+       "full": "Marin Morales, Joaquin",
+       "noshow": false
+      },
+      {
+       "id": "26784547",
+       "dorsal": "17",
+       "name": "Olmedo Pacheco, I.",
+       "full": "Olmedo Pacheco, Ivan",
+       "noshow": false
+      },
+      {
+       "id": "15274581",
+       "dorsal": "20",
+       "name": "Parra Perez, A.",
+       "full": "Parra Perez, Alejandro",
+       "noshow": false
+      },
+      {
+       "id": "8363919",
+       "dorsal": "23",
+       "name": "Gomez Hernandez, N.",
+       "full": "Gomez Hernandez, Nicolas",
+       "noshow": false
+      }
+     ]
+    }
+   }
   },
   "2653734": {
    "goals": [
@@ -4355,7 +6588,252 @@
      "name": "Murillo Erazo, J.",
      "kind": "amarilla"
     }
-   ]
+   ],
+   "lineups": {
+    "l": {
+     "tit": [
+      {
+       "id": "11495204",
+       "dorsal": "1",
+       "name": "Fortes Romero, A.",
+       "full": "Fortes Romero, Aitor",
+       "noshow": false
+      },
+      {
+       "id": "4416212",
+       "dorsal": "2",
+       "name": "Carvajal Herrera, E.",
+       "full": "Carvajal Herrera, Erik",
+       "noshow": false
+      },
+      {
+       "id": "4415502",
+       "dorsal": "3",
+       "name": "Rodriguez Sanmiguel, M.",
+       "full": "Rodriguez Sanmiguel, Manuel",
+       "noshow": false
+      },
+      {
+       "id": "34395388",
+       "dorsal": "4",
+       "name": "Forteza, N.",
+       "full": "Forteza, Nathaniel",
+       "noshow": true
+      },
+      {
+       "id": "16004787",
+       "dorsal": "5",
+       "name": "Gómez Ramírez, D.",
+       "full": "Gómez Ramírez, Dario",
+       "noshow": false
+      },
+      {
+       "id": "12311212",
+       "dorsal": "6",
+       "name": "Zaragoza Ruiz, J.",
+       "full": "Zaragoza Ruiz, Juan Diego",
+       "noshow": false
+      },
+      {
+       "id": "8695534",
+       "dorsal": "7",
+       "name": "Perez Espinosa, A.",
+       "full": "Perez Espinosa, Alvaro",
+       "noshow": false
+      },
+      {
+       "id": "4884888",
+       "dorsal": "8",
+       "name": "Gomez Benavides, Y.",
+       "full": "Gomez Benavides, Yomar",
+       "noshow": false
+      },
+      {
+       "id": "8401286",
+       "dorsal": "9",
+       "name": "Gonzalez Lopez, D.",
+       "full": "Gonzalez Lopez, Daniel",
+       "noshow": false
+      },
+      {
+       "id": "8283034",
+       "dorsal": "10",
+       "name": "Tovar Rojas, J.",
+       "full": "Tovar Rojas, Jose Luis",
+       "noshow": false
+      },
+      {
+       "id": "8204571",
+       "dorsal": "11",
+       "name": "Platero Rodriguez, C.",
+       "full": "Platero Rodriguez, Cristian",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "23738594",
+       "dorsal": "13",
+       "name": "Gililow, A.",
+       "full": "Gililow, Anatolii Antonovich",
+       "noshow": false
+      },
+      {
+       "id": "30978412",
+       "dorsal": "12",
+       "name": "Iranzo Tadeo, R.",
+       "full": "Iranzo Tadeo, Raul",
+       "noshow": false
+      },
+      {
+       "id": "8203736",
+       "dorsal": "14",
+       "name": "Valle Pigni, D.",
+       "full": "Valle Pigni, David",
+       "noshow": false
+      },
+      {
+       "id": "16994395",
+       "dorsal": "15",
+       "name": "Vidal Gómez, J.",
+       "full": "Vidal Gómez, Juan Francisco",
+       "noshow": false
+      },
+      {
+       "id": "15750207",
+       "dorsal": "16",
+       "name": "Abzhoryn Jimenez, A.",
+       "full": "Abzhoryn Jimenez, Artur",
+       "noshow": false
+      }
+     ]
+    },
+    "v": {
+     "tit": [
+      {
+       "id": "44476872",
+       "dorsal": "13",
+       "name": "Vazquez Iglesias, E.",
+       "full": "Vazquez Iglesias, Enzo",
+       "noshow": false
+      },
+      {
+       "id": "7392074",
+       "dorsal": "4",
+       "name": "Fuentes Wilt, N.",
+       "full": "Fuentes Wilt, Nicolas",
+       "noshow": false
+      },
+      {
+       "id": "11433685",
+       "dorsal": "5",
+       "name": "Luque Bautista, C.",
+       "full": "Luque Bautista, Carlos",
+       "noshow": false
+      },
+      {
+       "id": "19563076",
+       "dorsal": "7",
+       "name": "Abdeselam Ruiz, I.",
+       "full": "Abdeselam Ruiz, Ismael",
+       "noshow": false
+      },
+      {
+       "id": "11589601",
+       "dorsal": "11",
+       "name": "Zapata Quiles, I.",
+       "full": "Zapata Quiles, Izan",
+       "noshow": false
+      },
+      {
+       "id": "48413896",
+       "dorsal": "12",
+       "name": "Andreu Becerra, A.",
+       "full": "Andreu Becerra, Aitor",
+       "noshow": false
+      },
+      {
+       "id": "27677021",
+       "dorsal": "14",
+       "name": "Manzambi, I.",
+       "full": "Manzambi, Imran Ibn Bilal",
+       "noshow": false
+      },
+      {
+       "id": "27854023",
+       "dorsal": "20",
+       "name": "Sánchez Arjona, D.",
+       "full": "Sánchez Arjona, David",
+       "noshow": false
+      },
+      {
+       "id": "30932967",
+       "dorsal": "21",
+       "name": "Murillo Erazo, J.",
+       "full": "Murillo Erazo, Juan Jafet Felipe",
+       "noshow": false
+      },
+      {
+       "id": "48564934",
+       "dorsal": "22",
+       "name": "Bermudez Perez, A.",
+       "full": "Bermudez Perez, Aitor",
+       "noshow": false
+      },
+      {
+       "id": "724512",
+       "dorsal": "69",
+       "name": "Garcia Podadera, D.",
+       "full": "Garcia Podadera, David",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "14421427",
+       "dorsal": "3",
+       "name": "Mateo Rodriguez, R.",
+       "full": "Mateo Rodriguez, Raul",
+       "noshow": false
+      },
+      {
+       "id": "91364",
+       "dorsal": "9",
+       "name": "Camacho Marquez, R.",
+       "full": "Camacho Marquez, Ruben",
+       "noshow": false
+      },
+      {
+       "id": "8256438",
+       "dorsal": "17",
+       "name": "Arinze Peter, Q.",
+       "full": "Arinze Peter, Quincy",
+       "noshow": true
+      },
+      {
+       "id": "46288092",
+       "dorsal": "19",
+       "name": "Comas Mesa, M.",
+       "full": "Comas Mesa, Marco",
+       "noshow": false
+      },
+      {
+       "id": "5387692",
+       "dorsal": "29",
+       "name": "Pinta Marin, M.",
+       "full": "Pinta Marin, Manuel",
+       "noshow": false
+      },
+      {
+       "id": "8113676",
+       "dorsal": "33",
+       "name": "Kouassi Giles, D.",
+       "full": "Kouassi Giles, Dayron",
+       "noshow": false
+      }
+     ]
+    }
+   }
   },
   "2653736": {
    "goals": [
@@ -4403,7 +6881,259 @@
      "name": "Peralta Avella, S.",
      "kind": "amarilla"
     }
-   ]
+   ],
+   "lineups": {
+    "l": {
+     "tit": [
+      {
+       "id": "2280125",
+       "dorsal": "1",
+       "name": "Fernandez Lorca, H.",
+       "full": "Fernandez Lorca, Hugo",
+       "noshow": false
+      },
+      {
+       "id": "4774364",
+       "dorsal": "2",
+       "name": "Arroyo Aguilar, H.",
+       "full": "Arroyo Aguilar, Hugo",
+       "noshow": false
+      },
+      {
+       "id": "2396678",
+       "dorsal": "5",
+       "name": "Rios Villanueva, J.",
+       "full": "Rios Villanueva, Julio",
+       "noshow": false
+      },
+      {
+       "id": "14551517",
+       "dorsal": "7",
+       "name": "Portillo Sanchez, J.",
+       "full": "Portillo Sanchez, Jose Ignacio",
+       "noshow": false
+      },
+      {
+       "id": "18429583",
+       "dorsal": "8",
+       "name": "Contreras Bolaño, M.",
+       "full": "Contreras Bolaño, Máximo Emanuel",
+       "noshow": false
+      },
+      {
+       "id": "29623413",
+       "dorsal": "10",
+       "name": "Haimouden Palomino, G.",
+       "full": "Haimouden Palomino, Gonzalo",
+       "noshow": false
+      },
+      {
+       "id": "48251829",
+       "dorsal": "12",
+       "name": "Lopes, M.",
+       "full": "Lopes, Matheus",
+       "noshow": false
+      },
+      {
+       "id": "5014531",
+       "dorsal": "16",
+       "name": "Peinado Chavez, A.",
+       "full": "Peinado Chavez, Alejandro",
+       "noshow": false
+      },
+      {
+       "id": "8618199",
+       "dorsal": "17",
+       "name": "Moukafih Halioua, Y.",
+       "full": "Moukafih Halioua, Younes",
+       "noshow": false
+      },
+      {
+       "id": "14614154",
+       "dorsal": "21",
+       "name": "Musa Bravo, L.",
+       "full": "Musa Bravo, Lukman Joseph",
+       "noshow": false
+      },
+      {
+       "id": "8031507",
+       "dorsal": "22",
+       "name": "Carretero Salinas, M.",
+       "full": "Carretero Salinas, Mario",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "2328602",
+       "dorsal": "3",
+       "name": "Romero Florido, T.",
+       "full": "Romero Florido, Tomas",
+       "noshow": false
+      },
+      {
+       "id": "2277838",
+       "dorsal": "9",
+       "name": "Fernandez Ruiz, D.",
+       "full": "Fernandez Ruiz, Dario",
+       "noshow": false
+      },
+      {
+       "id": "11714602",
+       "dorsal": "11",
+       "name": "Ramirez Coronado, J.",
+       "full": "Ramirez Coronado, Jose",
+       "noshow": false
+      },
+      {
+       "id": "5370058",
+       "dorsal": "20",
+       "name": "Pico Navarro, R.",
+       "full": "Pico Navarro, Raul",
+       "noshow": false
+      },
+      {
+       "id": "2188150",
+       "dorsal": "23",
+       "name": "Reina Ramos, M.",
+       "full": "Reina Ramos, Marcos",
+       "noshow": false
+      },
+      {
+       "id": "11799921",
+       "dorsal": "24",
+       "name": "Congo Barchue, J.",
+       "full": "Congo Barchue, Joelson Manuel",
+       "noshow": false
+      },
+      {
+       "id": "4902444",
+       "dorsal": "29",
+       "name": "Romero Rodriguez, D.",
+       "full": "Romero Rodriguez, Dylan",
+       "noshow": true
+      }
+     ]
+    },
+    "v": {
+     "tit": [
+      {
+       "id": "4871924",
+       "dorsal": "13",
+       "name": "Delgado Garrido, D.",
+       "full": "Delgado Garrido, Dylan",
+       "noshow": false
+      },
+      {
+       "id": "39354",
+       "dorsal": "3",
+       "name": "Mota Rodriguez, A.",
+       "full": "Mota Rodriguez, Abel",
+       "noshow": false
+      },
+      {
+       "id": "4598803",
+       "dorsal": "4",
+       "name": "Barcia Del Marmol, J.",
+       "full": "Barcia Del Marmol, Joan",
+       "noshow": true
+      },
+      {
+       "id": "9825862",
+       "dorsal": "5",
+       "name": "Acedo Pino, A.",
+       "full": "Acedo Pino, Adolfo Javier",
+       "noshow": false
+      },
+      {
+       "id": "39473",
+       "dorsal": "6",
+       "name": "Martin Torres, M.",
+       "full": "Martin Torres, Mario",
+       "noshow": false
+      },
+      {
+       "id": "53200",
+       "dorsal": "7",
+       "name": "Morales Illanes, C.",
+       "full": "Morales Illanes, Cristobal",
+       "noshow": true
+      },
+      {
+       "id": "40522659",
+       "dorsal": "8",
+       "name": "Caro Mota, F.",
+       "full": "Caro Mota, Francisco",
+       "noshow": false
+      },
+      {
+       "id": "48803143",
+       "dorsal": "9",
+       "name": "Perez Bazaga, A.",
+       "full": "Perez Bazaga, Antonio",
+       "noshow": false
+      },
+      {
+       "id": "7922594",
+       "dorsal": "11",
+       "name": "Olalla Hidalgo, S.",
+       "full": "Olalla Hidalgo, Samuel",
+       "noshow": false
+      },
+      {
+       "id": "8684220",
+       "dorsal": "14",
+       "name": "Cobo Rodriguez, J.",
+       "full": "Cobo Rodriguez, Juan Felipe",
+       "noshow": false
+      },
+      {
+       "id": "2064889",
+       "dorsal": "23",
+       "name": "Peralta Avella, S.",
+       "full": "Peralta Avella, Santiago Gabriel",
+       "noshow": true
+      }
+     ],
+     "sup": [
+      {
+       "id": "20656949",
+       "dorsal": "1",
+       "name": "Lara Vazquez, C.",
+       "full": "Lara Vazquez, Cayetano",
+       "noshow": false
+      },
+      {
+       "id": "8309328",
+       "dorsal": "10",
+       "name": "Linero Joven, G.",
+       "full": "Linero Joven, Gonzalo",
+       "noshow": true
+      },
+      {
+       "id": "40444049",
+       "dorsal": "22",
+       "name": "Hidalgo Martinez, H.",
+       "full": "Hidalgo Martinez, Hugo",
+       "noshow": false
+      },
+      {
+       "id": "2020366",
+       "dorsal": "69",
+       "name": "Garcia Gutierrez, M.",
+       "full": "Garcia Gutierrez, Manuel",
+       "noshow": false
+      },
+      {
+       "id": "2041436",
+       "dorsal": "77",
+       "name": "Ocaña Gallego, J.",
+       "full": "Ocaña Gallego, Jose Miguel",
+       "noshow": false
+      }
+     ]
+    }
+   }
   },
   "2653732": {
    "goals": [
@@ -4463,7 +7193,259 @@
      "name": "Carretero Prieto, J.",
      "kind": "amarilla"
     }
-   ]
+   ],
+   "lineups": {
+    "l": {
+     "tit": [
+      {
+       "id": "15635727",
+       "dorsal": "1",
+       "name": "Cortes Muñoz, A.",
+       "full": "Cortes Muñoz, Antonio",
+       "noshow": false
+      },
+      {
+       "id": "7948869",
+       "dorsal": "3",
+       "name": "Aguilar Fernandez, J.",
+       "full": "Aguilar Fernandez, Juan Luis",
+       "noshow": false
+      },
+      {
+       "id": "26285272",
+       "dorsal": "4",
+       "name": "Carnero Maese, P.",
+       "full": "Carnero Maese, Pablo",
+       "noshow": false
+      },
+      {
+       "id": "18714937",
+       "dorsal": "5",
+       "name": "Castillo Doctor, A.",
+       "full": "Castillo Doctor, Adrian",
+       "noshow": true
+      },
+      {
+       "id": "39592",
+       "dorsal": "7",
+       "name": "Palomo Ruiz, J.",
+       "full": "Palomo Ruiz, Jose Juan",
+       "noshow": false
+      },
+      {
+       "id": "2254370",
+       "dorsal": "8",
+       "name": "Castillo Martin, M.",
+       "full": "Castillo Martin, Miguel",
+       "noshow": false
+      },
+      {
+       "id": "26234018",
+       "dorsal": "9",
+       "name": "Alonso Vidal, A.",
+       "full": "Alonso Vidal, Adrian",
+       "noshow": false
+      },
+      {
+       "id": "2444776",
+       "dorsal": "10",
+       "name": "Elias Gomez, S.",
+       "full": "Elias Gomez, Sergio",
+       "noshow": false
+      },
+      {
+       "id": "18984857",
+       "dorsal": "14",
+       "name": "Pasion Lopez, J.",
+       "full": "Pasion Lopez, Javier",
+       "noshow": false
+      },
+      {
+       "id": "19017010",
+       "dorsal": "17",
+       "name": "Ghaylan Bonejma, Y.",
+       "full": "Ghaylan Bonejma, Yassir",
+       "noshow": false
+      },
+      {
+       "id": "2254567",
+       "dorsal": "21",
+       "name": "Luque Sanz, A.",
+       "full": "Luque Sanz, Alejandro",
+       "noshow": true
+      }
+     ],
+     "sup": [
+      {
+       "id": "2255367",
+       "dorsal": "6",
+       "name": "Ruiz Ruiz, A.",
+       "full": "Ruiz Ruiz, Andres",
+       "noshow": false
+      },
+      {
+       "id": "26234951",
+       "dorsal": "11",
+       "name": "Alonso Vidal, D.",
+       "full": "Alonso Vidal, Diego",
+       "noshow": true
+      },
+      {
+       "id": "4555379",
+       "dorsal": "19",
+       "name": "Sanchez Fernandez, I.",
+       "full": "Sanchez Fernandez, Izan",
+       "noshow": false
+      },
+      {
+       "id": "11732067",
+       "dorsal": "20",
+       "name": "Santana Diaz, R.",
+       "full": "Santana Diaz, Raul",
+       "noshow": true
+      },
+      {
+       "id": "11160801",
+       "dorsal": "70",
+       "name": "Nuñez Barea, F.",
+       "full": "Nuñez Barea, Fausto",
+       "noshow": false
+      }
+     ]
+    },
+    "v": {
+     "tit": [
+      {
+       "id": "2245875",
+       "dorsal": "13",
+       "name": "Capitan Conejo, A.",
+       "full": "Capitan Conejo, Antonio",
+       "noshow": false
+      },
+      {
+       "id": "4936341",
+       "dorsal": "2",
+       "name": "Carretero Prieto, J.",
+       "full": "Carretero Prieto, Jose",
+       "noshow": false
+      },
+      {
+       "id": "32421144",
+       "dorsal": "3",
+       "name": "Muñoz Montañez, M.",
+       "full": "Muñoz Montañez, Marcos",
+       "noshow": false
+      },
+      {
+       "id": "2245883",
+       "dorsal": "6",
+       "name": "Gonzalez Rodriguez, A.",
+       "full": "Gonzalez Rodriguez, Alejandro",
+       "noshow": true
+      },
+      {
+       "id": "8315075",
+       "dorsal": "9",
+       "name": "Perez Peñafiel, S.",
+       "full": "Perez Peñafiel, Sergio",
+       "noshow": false
+      },
+      {
+       "id": "5098729",
+       "dorsal": "11",
+       "name": "Ponferrada Berrocal, S.",
+       "full": "Ponferrada Berrocal, Sergio",
+       "noshow": false
+      },
+      {
+       "id": "4545988",
+       "dorsal": "19",
+       "name": "Martin Gonzalez, I.",
+       "full": "Martin Gonzalez, Ivan",
+       "noshow": false
+      },
+      {
+       "id": "5098518",
+       "dorsal": "20",
+       "name": "De La Torre Gonzalez, F.",
+       "full": "De La Torre Gonzalez, Francisco Javier",
+       "noshow": false
+      },
+      {
+       "id": "15284766",
+       "dorsal": "22",
+       "name": "Cabral Gimenez, B.",
+       "full": "Cabral Gimenez, Borja",
+       "noshow": false
+      },
+      {
+       "id": "33724215",
+       "dorsal": "23",
+       "name": "Buhaychuk Lavrynyuk, M.",
+       "full": "Buhaychuk Lavrynyuk, Maxym",
+       "noshow": false
+      },
+      {
+       "id": "8232973",
+       "dorsal": "24",
+       "name": "Martin Portillo, A.",
+       "full": "Martin Portillo, Antonio",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "2245853",
+       "dorsal": "1",
+       "name": "Serrano Tome, C.",
+       "full": "Serrano Tome, Carlos",
+       "noshow": false
+      },
+      {
+       "id": "2245911",
+       "dorsal": "7",
+       "name": "Sanchez Muñoz, R.",
+       "full": "Sanchez Muñoz, Raul",
+       "noshow": false
+      },
+      {
+       "id": "4956869",
+       "dorsal": "8",
+       "name": "Garcia Fernandez, S.",
+       "full": "Garcia Fernandez, Sergio",
+       "noshow": false
+      },
+      {
+       "id": "2245903",
+       "dorsal": "10",
+       "name": "Ruiz Garcia, I.",
+       "full": "Ruiz Garcia, Israel",
+       "noshow": true
+      },
+      {
+       "id": "4958298",
+       "dorsal": "17",
+       "name": "Guerrero Ruiz, J.",
+       "full": "Guerrero Ruiz, Jose Antonio",
+       "noshow": false
+      },
+      {
+       "id": "4957453",
+       "dorsal": "21",
+       "name": "Barba Barba, F.",
+       "full": "Barba Barba, Francisco",
+       "noshow": false
+      },
+      {
+       "id": "19441276",
+       "dorsal": "30",
+       "name": "García Mir, P.",
+       "full": "García Mir, Pablo",
+       "noshow": false
+      }
+     ]
+    }
+   }
   },
   "2653730": {
    "goals": [
@@ -4535,7 +7517,252 @@
      "name": "Villalobos Morales, S.",
      "kind": "amarilla"
     }
-   ]
+   ],
+   "lineups": {
+    "l": {
+     "tit": [
+      {
+       "id": "8298031",
+       "dorsal": "96",
+       "name": "Cerda Gonzalez, P.",
+       "full": "Cerda Gonzalez, Pablo",
+       "noshow": false
+      },
+      {
+       "id": "18826385",
+       "dorsal": "2",
+       "name": "Sanchez Perez, B.",
+       "full": "Sanchez Perez, Benjamin",
+       "noshow": false
+      },
+      {
+       "id": "721154",
+       "dorsal": "3",
+       "name": "Camacho Crespillo, J.",
+       "full": "Camacho Crespillo, Juan Miguel",
+       "noshow": false
+      },
+      {
+       "id": "34928647",
+       "dorsal": "4",
+       "name": "Sierra Camargo, J.",
+       "full": "Sierra Camargo, Jaime",
+       "noshow": false
+      },
+      {
+       "id": "46811880",
+       "dorsal": "6",
+       "name": "Heredia Iznata, J.",
+       "full": "Heredia Iznata, Jesus",
+       "noshow": false
+      },
+      {
+       "id": "11821520",
+       "dorsal": "7",
+       "name": "Ordoñez Fernandez, O.",
+       "full": "Ordoñez Fernandez, Oscar",
+       "noshow": true
+      },
+      {
+       "id": "12160721",
+       "dorsal": "9",
+       "name": "Martin Rodriguez, S.",
+       "full": "Martin Rodriguez, Sergio",
+       "noshow": false
+      },
+      {
+       "id": "19522297",
+       "dorsal": "10",
+       "name": "Ruiz Garcia, R.",
+       "full": "Ruiz Garcia, Rafael",
+       "noshow": false
+      },
+      {
+       "id": "30263302",
+       "dorsal": "11",
+       "name": "Moreno Espejo, J.",
+       "full": "Moreno Espejo, Jorge",
+       "noshow": false
+      },
+      {
+       "id": "35587870",
+       "dorsal": "17",
+       "name": "Maldonado Rodriguez, L.",
+       "full": "Maldonado Rodriguez, Luis",
+       "noshow": false
+      },
+      {
+       "id": "12564702",
+       "dorsal": "24",
+       "name": "Rodriguez Heredia, R.",
+       "full": "Rodriguez Heredia, Ramon",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "49901608",
+       "dorsal": "1",
+       "name": "Gssaiar Shaita, Y.",
+       "full": "Gssaiar Shaita, Youssef",
+       "noshow": false
+      },
+      {
+       "id": "26964523",
+       "dorsal": "5",
+       "name": "Alot Bazalo, O.",
+       "full": "Alot Bazalo, Oliver",
+       "noshow": false
+      },
+      {
+       "id": "11821308",
+       "dorsal": "8",
+       "name": "Cabra Porras, A.",
+       "full": "Cabra Porras, Abrahan",
+       "noshow": false
+      },
+      {
+       "id": "35325415",
+       "dorsal": "18",
+       "name": "Baeza Fuentes, J.",
+       "full": "Baeza Fuentes, Jose Anibal",
+       "noshow": false
+      },
+      {
+       "id": "16095080",
+       "dorsal": "19",
+       "name": "Colmenares Santana, A.",
+       "full": "Colmenares Santana, Alejandro Gabriel",
+       "noshow": false
+      },
+      {
+       "id": "49852451",
+       "dorsal": "21",
+       "name": "Rodriguez Rodriguez, V.",
+       "full": "Rodriguez Rodriguez, Victor",
+       "noshow": false
+      }
+     ]
+    },
+    "v": {
+     "tit": [
+      {
+       "id": "30918044",
+       "dorsal": "25",
+       "name": "Diaz Ruiz, M.",
+       "full": "Diaz Ruiz, Marcos",
+       "noshow": false
+      },
+      {
+       "id": "8356693",
+       "dorsal": "3",
+       "name": "Mesa Sanz, L.",
+       "full": "Mesa Sanz, Leo",
+       "noshow": false
+      },
+      {
+       "id": "54824",
+       "dorsal": "5",
+       "name": "Rodriguez De Cas Martin, H.",
+       "full": "Rodriguez De Cas Martin, Hugo",
+       "noshow": false
+      },
+      {
+       "id": "49448466",
+       "dorsal": "8",
+       "name": "Gomez Perez, E.",
+       "full": "Gomez Perez, Ethan",
+       "noshow": false
+      },
+      {
+       "id": "4922368",
+       "dorsal": "9",
+       "name": "Sanchez Rodriguez, I.",
+       "full": "Sanchez Rodriguez, Iker",
+       "noshow": false
+      },
+      {
+       "id": "8306501",
+       "dorsal": "11",
+       "name": "Zaragoza Maldonado, A.",
+       "full": "Zaragoza Maldonado, Antonio",
+       "noshow": false
+      },
+      {
+       "id": "16136271",
+       "dorsal": "15",
+       "name": "López Roldán, M.",
+       "full": "López Roldán, Manuel",
+       "noshow": true
+      },
+      {
+       "id": "2275444",
+       "dorsal": "20",
+       "name": "Regalado Nuñez, G.",
+       "full": "Regalado Nuñez, Guillermo",
+       "noshow": false
+      },
+      {
+       "id": "32909266",
+       "dorsal": "69",
+       "name": "Mendoza Quintana, X.",
+       "full": "Mendoza Quintana, Xavier Esteban",
+       "noshow": true
+      },
+      {
+       "id": "2211248",
+       "dorsal": "80",
+       "name": "Maldonado Galea, M.",
+       "full": "Maldonado Galea, Mario",
+       "noshow": false
+      },
+      {
+       "id": "4859125",
+       "dorsal": "93",
+       "name": "Romero Morales, D.",
+       "full": "Romero Morales, Dario",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "2402436",
+       "dorsal": "1",
+       "name": "Postigo Alcazar, F.",
+       "full": "Postigo Alcazar, Fabio",
+       "noshow": false
+      },
+      {
+       "id": "2211341",
+       "dorsal": "4",
+       "name": "Villalobos Morales, S.",
+       "full": "Villalobos Morales, Saul",
+       "noshow": false
+      },
+      {
+       "id": "2282485",
+       "dorsal": "6",
+       "name": "Gallego Ruiz, H.",
+       "full": "Gallego Ruiz, Hugo",
+       "noshow": false
+      },
+      {
+       "id": "8288909",
+       "dorsal": "12",
+       "name": "Pineda Quintana, P.",
+       "full": "Pineda Quintana, Pablo",
+       "noshow": false
+      },
+      {
+       "id": "8108285",
+       "dorsal": "14",
+       "name": "Bueno Alcaide, I.",
+       "full": "Bueno Alcaide, Ismael",
+       "noshow": false
+      }
+     ]
+    }
+   }
   }
  }
 }

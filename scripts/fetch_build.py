@@ -146,6 +146,19 @@ def short_name(n):
         return f"{sur.strip().title()}, {fst[0]}." if fst else sur.strip().title()
     return n
 
+
+def parse_lineup_rows(seg):
+    """Titulares/Suplentes section of an acta -> [{'id','dorsal','name','full','noshow'}]"""
+    out=[]
+    for m in re.finditer(r"<tr onclick=\"location\.href='NFG_EstadisticasJugador\?[^']*jugador=(\d+)[^']*'[^>]*>(.*?)</tr>",seg,re.S):
+        jid,row=m.group(1),m.group(2)
+        cells=[re.sub(r'\s+',' ',re.sub(r'<[^>]+>','',td)).strip() for td in re.findall(r'<td[^>]*>(.*?)</td>',row,re.S)]
+        cells=[c for c in cells if c]
+        name=next((c for c in cells if not c.isdigit() and len(c)>2),'')
+        dorsal=next((c for c in cells if c.isdigit()),'')
+        out.append({'id':jid,'dorsal':dorsal,'name':short_name(name),'full':name.strip().title(),'noshow':'icon_no_presentado' in row})
+    return out
+
 def parse_acta(h,d):
     """Parse a NFG_CmpPartido acta -> {'goals':[...], 'cards':[...]}"""
     out={'goals':[],'cards':[]}
@@ -169,8 +182,14 @@ def parse_acta(h,d):
                 side='l' if gl>prev[0] else 'v'
                 prev=[gl,gv]
                 out['goals'].append({'side':side,'min':mm.group(1),'name':name,'kind':kind})
+    out['lineups']={}
     for ti,(pos,tname) in enumerate(teams[:2]):
         seg=h[pos:teams[ti+1][0] if ti+1<len(teams) else len(h)]
+        p_tit=seg.find('>Titulares<'); p_sup=seg.find('>Suplentes<'); p_tar=seg.find('>Tarjetas<')
+        if p_tit>=0 and p_sup>p_tit:
+            side='l' if ti==0 else 'v'
+            end_sup=p_tar if p_tar>p_sup else len(seg)
+            out['lineups'][side]={'tit':parse_lineup_rows(seg[p_tit:p_sup]),'sup':parse_lineup_rows(seg[p_sup:end_sup])}
         for tr in re.findall(r'<tr>(.*?)</tr>',seg,re.S):
             if 'tarj_' not in tr: continue
             mc=re.search(r'tarj_([a-z_]+)\.gif',tr)
@@ -296,7 +315,7 @@ def main():
     render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp,actas)
     print(f"Built site{'(horarios)' if horarios_only else ''}: {len(tabla)} equipos, {total} partidos ({jugados} jugados), jornada actual {actual}, escudos {sum(1 for v in escudo_file.values() if v)}/{len(crests)}, actualizado {stamp}")
 
-NAV=[('jornadas.html','Jornadas')]
+NAV=[('jornadas.html','Jornadas'),('plantilla.html','Plantilla')]
 def page(title,active,body):
     nav=''.join(f'<a href="{u}" class="{"on" if u==active else ""}">{t}</a>' for u,t in NAV)
     return f'''<!DOCTYPE html>
@@ -368,8 +387,33 @@ def match_row(m,escudo_file,actas):
     det=''
     if a and m['gl']!='':
         ev_l,ev_v=fmt_ev(a,m)
+        evhtml=''
         if ev_l or ev_v:
-            det=('<div class="det"><div>'+'<br>'.join(ev_l)+'</div><div>'+'<br>'.join(ev_v)+'</div></div>')
+            evhtml=('<div class="det"><div>'+'<br>'.join(ev_l)+'</div><div>'+'<br>'.join(ev_v)+'</div></div>')
+        lu=a.get('lineups') or {}
+        rom_local=TEAM_SHORT in m['local'].upper()
+        if evhtml and lu.get('l') and lu.get('v'):
+            aid=m.get('acta','') or 'x%d'%(abs(hash(m['local']+m['visitante']))%99999)
+            def xicol(side,teamname):
+                d=lu[side]
+                tit=''.join('<div><span class="d">%s</span>%s%s</div>'%(
+                    p['dorsal'],html.escape(p['name']),'<span class="np" title="No presentado">np</span>' if p['noshow'] else '') for p in d['tit'])
+                sup=' &middot; '.join('%s %s'%(p['dorsal'],html.escape(p['name'])) for p in d['sup'])
+                suphtml='<div class="xib"><b>SUPLENTES &middot;</b> %s</div>'%sup if sup else ''
+                return '<div><div class="xit">%s &middot; TITULARES</div><div class="xi">%s</div>%s</div>'%(html.escape(teamname),tit,suphtml)
+            if m.get('romeral') and not rom_local:
+                cols=xicol('v',m['visitante'])+xicol('l',m['local'])
+            else:
+                cols=xicol('l',m['local'])+xicol('v',m['visitante'])
+            det=('''<div class="dett">
+<input class="tabr tabr-p" type="radio" name="tb-%s" id="tb-%s-p" checked>
+<input class="tabr tabr-a" type="radio" name="tb-%s" id="tb-%s-a">
+<div class="tabbar"><label class="lb-p" for="tb-%s-p">Partido</label><label class="lb-a" for="tb-%s-a">Alineaciones</label></div>
+<div class="pane pane-p">%s</div>
+<div class="pane pane-a"><div class="xi2">%s</div></div>
+</div>'''%(aid,aid,aid,aid,aid,aid,evhtml,cols))
+        else:
+            det=evhtml
     if det:
         return f'''<details class="mwrap{rm}" name="jdet"><summary class="mrow"><span class="chev">&#9662;</span>{head}</summary>{det}</details>'''
     return f'''<div class="mwrap{rm}"><div class="mrow">{head}</div></div>'''
@@ -380,6 +424,42 @@ def tabla_html(tabla,escudo_file):
         cls=' class="rm"' if t['romeral'] else ''
         rows+=f'<tr{cls}><td class="pos">{t["pos"]}</td><td class="eq">{crest_img(escudo_file.get(t["code"],""))}<span>{html.escape(t["equipo"])}</span></td><td class="num pts">{t["pts"]}</td><td class="num">{t["j"]}</td><td class="num">{t["g"]}</td><td class="num">{t["e"]}</td><td class="num">{t["p"]}</td><td class="num">{t["gf"]}</td><td class="num">{t["gc"]}</td></tr>\n'
     return '<table class="tabla"><thead><tr><th>#</th><th>Equipo</th><th>Pts</th><th>J</th><th>G</th><th>E</th><th>P</th><th>GF</th><th>GC</th></tr></thead>\n<tbody>'+rows+'</tbody></table>'
+
+
+def plantilla_rows(jornadas,actas):
+    """Season aggregates for Romeral players, computed from actas."""
+    players={}
+    def ent(key,name,dorsal):
+        e=players.setdefault(key,{'name':name,'dorsal':dorsal,'conv':0,'tit':0,'g':0,'ta':0,'tr':0})
+        if dorsal: e['dorsal']=dorsal
+        if len(name)>len(e['name']): e['name']=name
+        return e
+    for j in jornadas:
+        for m in jornadas[j]:
+            if not m.get('romeral') or m['gl']=='': continue
+            a=actas.get(m.get('acta',''))
+            if not a: continue
+            rom_local=TEAM_SHORT in m['local'].upper()
+            side='l' if rom_local else 'v'
+            rname=norm(m['local'] if rom_local else m['visitante'])
+            lu=(a.get('lineups') or {}).get(side)
+            if not lu: continue
+            id2key={}
+            for lst,istit in ((lu['tit'],True),(lu['sup'],False)):
+                for p in lst:
+                    k=p['id'] or ('nm:'+norm(p['name']))
+                    e=ent(k,p['full'],p['dorsal'])
+                    e['conv']+=1
+                    if istit and not p['noshow']: e['tit']+=1
+                    id2key[norm(p['name'])]=k
+            def evkey(nm):
+                return id2key.get(norm(nm),'nm:'+norm(nm))
+            for g in a.get('goals',[]):
+                if g['side']==side: ent(evkey(g['name']),g['name'],'')['g']+=1
+            for c in a.get('cards',[]):
+                if c['team']==rname:
+                    ent(evkey(c['name']),c['name'],'')['ta' if c['kind']=='amarilla' else 'tr']+=1
+    return sorted(players.values(),key=lambda e:(-e['conv'],-e['tit'],e['name']))
 
 def render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp,actas):
     # --- index
@@ -428,6 +508,19 @@ def render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp,actas):
         body=f'''<div class="jnav">{prevl}<span class="jt">Jornada {j}{f" · {fdate(fo)}" if fo else ""}</span>{nextl}</div>
 {rows}'''
         (OUT/f'jornada-{j}.html').write_text(page(f'Jornada {j}','jornadas.html',body),encoding='utf-8')
+    # --- plantilla
+    pr=plantilla_rows(jornadas,actas)
+    prows=''.join('<tr><td class="eq"><span>%s</span></td><td class="num">%s</td><td class="num">%d</td><td class="num">%d</td><td class="num">%d</td><td class="num">%d</td><td class="num">%d</td></tr>\n'%(
+        html.escape(p['name']),p['dorsal'],p['conv'],p['tit'],p['g'],p['ta'],p['tr']) for p in pr)
+    pbody='''<div class="kicker">C.D. FUTBOL ROMERAL</div>
+<h1>Plantilla</h1>
+<p class="lede">Acumulado de la temporada por jugador, computado de las actas de la RFAF.</p>
+<table class="tabla"><thead><tr><th>Jugador</th><th>Dor.</th><th>Conv.</th><th>Tit.</th><th>Goles</th><th>TA</th><th>TR</th></tr></thead>
+<tbody>%s</tbody></table>
+<p class="src">Conv. = convocatorias (titular o suplente en el acta) &middot; Tit. = titularidades &middot; TA/TR = tarjetas amarillas/rojas. A este nivel la RFAF no registra las sustituciones, as&iacute; que no se puede saber qu&eacute; suplentes llegaron a jugar.</p>
+<p class="upd">Actualizado: %s</p>'''%(prows,stamp)
+    (OUT/'plantilla.html').write_text(page('Plantilla','plantilla.html',pbody),encoding='utf-8')
+
     # calendario.html = jornada actual
     ms=jornadas.get(actual,[])
     fo=fechas_org.get(actual,'')
