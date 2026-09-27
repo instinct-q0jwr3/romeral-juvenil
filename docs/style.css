@@ -94,7 +94,6 @@ details.mwrap[open] .det{border-top:1px dashed #e6e6e2;margin:0 12px;padding:8px
 .xi .np{font-size:9.5px;color:#b0623a;border:1px solid #ecd9cb;border-radius:3px;padding:0 3px;margin-left:4px;vertical-align:1px}
 .xib{font-size:11.5px;color:#585254;line-height:1.55;margin-top:8px}
 .xib b{color:#8a8a83;font-size:10px;letter-spacing:.06em}
-@media screen and (max-width:560px){.xi2{flex-direction:column}.xi2>div+div{border-top:1px dashed #eee;padding-top:8px}}
 .tabla.plantilla th:first-child{text-align:left}
 .tabla.plantilla th:nth-child(2){text-align:left}
 .tabla.plantilla td.dor{font-weight:700}
@@ -114,5 +113,5 @@ details.mwrap[open] .det{border-top:1px dashed #e6e6e2;margin:0 12px;padding:8px
 .dett .xi .d{color:#a3a39c}
 .dett .xi2>div:last-child{text-align:right}
 .dett .xi2>div:last-child .xi .d{color:#a3a39c}
-@media screen and (max-width:560px){.dett .xi2>div:last-child{text-align:left}}
 .dett .xi .d{margin-right:5px}
+@media screen and (max-width:560px){.xi2{gap:8px}.dett .xi{font-size:11px}}
