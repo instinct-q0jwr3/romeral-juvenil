@@ -393,14 +393,14 @@ def match_row(m,escudo_file,actas):
         lu=a.get('lineups') or {}
         if evhtml and lu.get('l') and lu.get('v'):
             aid=m.get('acta','') or 'x%d'%(abs(hash(m['local']+m['visitante']))%99999)
-            def xicol(side,teamname):
+            def xicol(side):
                 d=lu[side]
                 tit=''.join('<div><span class="d">%s</span>%s%s</div>'%(
                     p['dorsal'],html.escape(p['name']),'<span class="np" title="No presentado">np</span>' if p['noshow'] else '') for p in d['tit'])
                 sup=' &middot; '.join('%s %s'%(p['dorsal'],html.escape(p['name'])) for p in d['sup'])
                 suphtml='<div class="xib"><b>SUPLENTES &middot;</b> %s</div>'%sup if sup else ''
-                return '<div><div class="xih">%s</div><div class="xi">%s</div>%s</div>'%(html.escape(teamname),tit,suphtml)
-            cols=xicol('l',m['local'])+xicol('v',m['visitante'])
+                return '<div><div class="xi">%s</div>%s</div>'%(tit,suphtml)
+            cols=xicol('l')+xicol('v')
             det=('''<div class="dett">
 <input class="tabr tabr-p" type="radio" name="tb-%s" id="tb-%s-p" checked>
 <input class="tabr tabr-a" type="radio" name="tb-%s" id="tb-%s-a">
