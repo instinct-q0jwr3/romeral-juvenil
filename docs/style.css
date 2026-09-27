@@ -99,3 +99,12 @@ details.mwrap[open] .det{border-top:1px dashed #e6e6e2;margin:0 12px;padding:8px
 .tabla.plantilla th:nth-child(2){text-align:left}
 .tabla.plantilla td.dor{font-weight:700}
 .tabla.plantilla th:first-child{text-align:right}
+/* dorsal con Bebas Neue (elegida por Óscar 27/09) + columna comprimida */
+@font-face{font-family:'Bebas Neue';src:url(fonts/bebas-neue.woff2) format('woff2');font-weight:400;font-display:swap}
+.tabla.plantilla th:first-child,.tabla.plantilla td.dor{width:1%;white-space:nowrap}
+.tabla.plantilla td.dor{font-family:'Bebas Neue',system-ui;font-weight:400;font-size:19px;padding-right:8px}
+.tabla.plantilla td.num{white-space:nowrap}
+@media screen and (max-width:560px){
+  .tabla.plantilla td,.tabla.plantilla th{padding:7px 5px;font-size:12px}
+  .tabla.plantilla td.dor{font-size:17px}
+}
