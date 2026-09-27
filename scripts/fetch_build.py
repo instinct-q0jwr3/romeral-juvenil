@@ -400,7 +400,7 @@ def match_row(m,escudo_file,actas):
                     p['dorsal'],html.escape(p['name']),'<span class="np" title="No presentado">np</span>' if p['noshow'] else '') for p in d['tit'])
                 sup=' &middot; '.join('%s %s'%(p['dorsal'],html.escape(p['name'])) for p in d['sup'])
                 suphtml='<div class="xib"><b>SUPLENTES &middot;</b> %s</div>'%sup if sup else ''
-                return '<div><div class="xit">%s &middot; TITULARES</div><div class="xi">%s</div>%s</div>'%(html.escape(teamname),tit,suphtml)
+                return '<div><div class="xih">%s</div><div class="xi">%s</div>%s</div>'%(html.escape(teamname),tit,suphtml)
             if m.get('romeral') and not rom_local:
                 cols=xicol('v',m['visitante'])+xicol('l',m['local'])
             else:

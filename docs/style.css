@@ -108,3 +108,10 @@ details.mwrap[open] .det{border-top:1px dashed #e6e6e2;margin:0 12px;padding:8px
   .tabla.plantilla td,.tabla.plantilla th{padding:7px 5px;font-size:12px}
   .tabla.plantilla td.dor{font-size:17px}
 }
+/* alineaciones con el mismo patron que goles/tarjetas: nombre de equipo como cabecera, alineacion debajo (27/09 20:10) */
+.xih{font-size:11.5px;font-weight:700;color:#191918;margin-bottom:6px;padding-bottom:5px;border-bottom:1px solid #eee;line-height:1.35}
+.dett .xi{font-size:11.5px;line-height:1.7;color:#6a6a63}
+.dett .xi .d{color:#a3a39c}
+.dett .xi2>div:last-child{text-align:right}
+.dett .xi2>div:last-child .xi .d{color:#a3a39c}
+@media screen and (max-width:560px){.dett .xi2>div:last-child{text-align:left}}
