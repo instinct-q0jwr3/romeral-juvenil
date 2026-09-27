@@ -1,5 +1,5 @@
 {
- "actualizado": "26/09/2026, 23:18 CEST",
+ "actualizado": "27/09/2026, 14:00 CEST",
  "clasificacion": [
   {
    "pos": 1,
@@ -29,6 +29,19 @@
   },
   {
    "pos": 3,
+   "equipo": "C.D. CONEJITO DE MALAGA",
+   "code": "28567623",
+   "pts": "6",
+   "j": 2,
+   "g": 2,
+   "e": 0,
+   "p": 0,
+   "gf": "7",
+   "gc": "1",
+   "romeral": false
+  },
+  {
+   "pos": 4,
    "equipo": "CD UD DOS HERMANAS SAN ANDRES \"B\"",
    "code": "828217",
    "pts": "3",
@@ -41,33 +54,7 @@
    "romeral": false
   },
   {
-   "pos": 4,
-   "equipo": "C.D. CONEJITO DE MALAGA",
-   "code": "28567623",
-   "pts": "3",
-   "j": 1,
-   "g": 1,
-   "e": 0,
-   "p": 0,
-   "gf": "4",
-   "gc": "1",
-   "romeral": false
-  },
-  {
    "pos": 5,
-   "equipo": "PTO.MALAGUEÑO CDAD.JARDIN G.I. \"A\"",
-   "code": "800916",
-   "pts": "3",
-   "j": 1,
-   "g": 1,
-   "e": 0,
-   "p": 0,
-   "gf": "4",
-   "gc": "1",
-   "romeral": false
-  },
-  {
-   "pos": 6,
    "equipo": "EF DE VELEZ FRANCISCO CASTEJON",
    "code": "849615",
    "pts": "3",
@@ -80,7 +67,7 @@
    "romeral": false
   },
   {
-   "pos": 7,
+   "pos": 6,
    "equipo": "ATLETICO JUVAL",
    "code": "804216",
    "pts": "3",
@@ -93,7 +80,33 @@
    "romeral": false
   },
   {
+   "pos": 7,
+   "equipo": "C.D. CORTIJILLO BAZAN",
+   "code": "20065106",
+   "pts": "3",
+   "j": 2,
+   "g": 1,
+   "e": 0,
+   "p": 1,
+   "gf": "6",
+   "gc": "6",
+   "romeral": false
+  },
+  {
    "pos": 8,
+   "equipo": "PTO.MALAGUEÑO CDAD.JARDIN G.I. \"A\"",
+   "code": "800916",
+   "pts": "3",
+   "j": 2,
+   "g": 1,
+   "e": 0,
+   "p": 1,
+   "gf": "4",
+   "gc": "4",
+   "romeral": false
+  },
+  {
+   "pos": 9,
    "equipo": "CLUB POLIDEPORTIVO MIJAS LAS LAGUNAS \"B\"",
    "code": "39001729",
    "pts": "3",
@@ -106,7 +119,7 @@
    "romeral": false
   },
   {
-   "pos": 9,
+   "pos": 10,
    "equipo": "C.D. 26 DE FEBRERO",
    "code": "847616",
    "pts": "0",
@@ -119,33 +132,7 @@
    "romeral": false
   },
   {
-   "pos": 10,
-   "equipo": "LA CALA C.D. \"A\"",
-   "code": "808616",
-   "pts": "0",
-   "j": 1,
-   "g": 0,
-   "e": 0,
-   "p": 1,
-   "gf": "1",
-   "gc": "2",
-   "romeral": false
-  },
-  {
    "pos": 11,
-   "equipo": "C.D. CORTIJILLO BAZAN",
-   "code": "20065106",
-   "pts": "0",
-   "j": 1,
-   "g": 0,
-   "e": 0,
-   "p": 1,
-   "gf": "3",
-   "gc": "5",
-   "romeral": false
-  },
-  {
-   "pos": 12,
    "equipo": "U.D. LOS PRADOS \"A\"",
    "code": "7523607",
    "pts": "0",
@@ -155,6 +142,19 @@
    "p": 1,
    "gf": "0",
    "gc": "2",
+   "romeral": false
+  },
+  {
+   "pos": 12,
+   "equipo": "LA CALA C.D. \"A\"",
+   "code": "808616",
+   "pts": "0",
+   "j": 2,
+   "g": 0,
+   "e": 0,
+   "p": 2,
+   "gf": "2",
+   "gc": "5",
    "romeral": false
   },
   {
@@ -261,8 +261,8 @@
     "visitante_code": "20065106",
     "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000483064_trescuartos.jpg",
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001802717_ESCUDO_peque__o.jpg",
-    "gl": "",
-    "gv": "",
+    "gl": "5",
+    "gv": "3",
     "fecha": "20-09-2026",
     "hora": "12:00",
     "acta": "2653724",
@@ -333,8 +333,8 @@
     "visitante_code": "814417",
     "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000818862_escudo.jpg",
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000123043_admalaka-escudo.jpg",
-    "gl": "5",
-    "gv": "0",
+    "gl": "0",
+    "gv": "5",
     "fecha": "26-09-2026",
     "hora": "20:00",
     "acta": "2653731",
@@ -375,11 +375,11 @@
     "visitante_code": "28567623",
     "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000643486_ESCUDO_BUENO.jpg",
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001589039_LOGO_CONEJITO_color.png",
-    "gl": "",
-    "gv": "",
+    "gl": "0",
+    "gv": "3",
     "fecha": "27-09-2026",
     "hora": "10:00",
-    "acta": "",
+    "acta": "2653736",
     "romeral": false
    },
    {
@@ -389,11 +389,11 @@
     "visitante_code": "808616",
     "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001802717_ESCUDO_peque__o.jpg",
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001146686_escudo.jpg",
-    "gl": "",
-    "gv": "",
+    "gl": "3",
+    "gv": "1",
     "fecha": "27-09-2026",
     "hora": "12:00",
-    "acta": "",
+    "acta": "2653732",
     "romeral": false
    },
    {
@@ -3665,7 +3665,7 @@
   "30": "30-05-2027"
  },
  "ultima_jugada": 2,
- "jornada_actual": 3,
+ "jornada_actual": 2,
  "actas": {
   "2653727": {
    "goals": [
@@ -3843,6 +3843,150 @@
      "team": "C.D. CHURRIANA",
      "min": "89",
      "name": "Espinosa Martinez, P.",
+     "kind": "amarilla"
+    }
+   ]
+  },
+  "2653724": {
+   "goals": [
+    {
+     "side": "l",
+     "min": "13",
+     "name": "Baena Lebron, S.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "15",
+     "name": "Luque Prieto, R.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "28",
+     "name": "Luque Prieto, R.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "48",
+     "name": "Garcia Rodriguez, H.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "60",
+     "name": "Gomez Carrascal, J.",
+     "kind": ""
+    },
+    {
+     "side": "v",
+     "min": "60",
+     "name": "Alonso Vidal, A.",
+     "kind": ""
+    },
+    {
+     "side": "v",
+     "min": "74",
+     "name": "Luque Sanz, A.",
+     "kind": ""
+    },
+    {
+     "side": "v",
+     "min": "81",
+     "name": "Palomo Ruiz, J.",
+     "kind": ""
+    }
+   ],
+   "cards": [
+    {
+     "team": "EF DE VELEZ FRANCISCO CASTEJON",
+     "min": "25",
+     "name": "Baena Lebron, S.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "EF DE VELEZ FRANCISCO CASTEJON",
+     "min": "38",
+     "name": "Luque Prieto, R.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "EF DE VELEZ FRANCISCO CASTEJON",
+     "min": "50",
+     "name": "Gomez Carrascal, J.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "EF DE VELEZ FRANCISCO CASTEJON",
+     "min": "53",
+     "name": "Nicola Diaz, A.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "EF DE VELEZ FRANCISCO CASTEJON",
+     "min": "63",
+     "name": "Tome Fernandez, J.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "EF DE VELEZ FRANCISCO CASTEJON",
+     "min": "65",
+     "name": "Portillo Garcia, F.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "EF DE VELEZ FRANCISCO CASTEJON",
+     "min": "65",
+     "name": "Chacon Pendon, M.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "EF DE VELEZ FRANCISCO CASTEJON",
+     "min": "80",
+     "name": "Arias Ramos, O.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "EF DE VELEZ FRANCISCO CASTEJON",
+     "min": "87",
+     "name": "Gutierrez Gallar, I.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "C.D. CORTIJILLO BAZAN",
+     "min": "20",
+     "name": "Palomo Ruiz, J.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "C.D. CORTIJILLO BAZAN",
+     "min": "36",
+     "name": "Elias Gomez, S.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "C.D. CORTIJILLO BAZAN",
+     "min": "42",
+     "name": "Millan Pinto, D.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "C.D. CORTIJILLO BAZAN",
+     "min": "48",
+     "name": "Luque Sanz, A.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "C.D. CORTIJILLO BAZAN",
+     "min": "54",
+     "name": "Alonso Vidal, D.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "C.D. CORTIJILLO BAZAN",
+     "min": "86",
+     "name": "Millan Pinto, D.",
      "kind": "amarilla"
     }
    ]
@@ -4203,6 +4347,114 @@
      "team": "CD UD DOS HERMANAS SAN ANDRES B",
      "min": "89",
      "name": "Murillo Erazo, J.",
+     "kind": "amarilla"
+    }
+   ]
+  },
+  "2653736": {
+   "goals": [
+    {
+     "side": "v",
+     "min": "1",
+     "name": "Morales Illanes, C.",
+     "kind": ""
+    },
+    {
+     "side": "v",
+     "min": "60",
+     "name": "Perez Bazaga, A.",
+     "kind": ""
+    },
+    {
+     "side": "v",
+     "min": "83",
+     "name": "Morales Illanes, C.",
+     "kind": ""
+    }
+   ],
+   "cards": [
+    {
+     "team": "PTO.MALAGUEÑO CDAD.JARDIN G.I. A",
+     "min": "16",
+     "name": "Contreras Bolaño, M.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "PTO.MALAGUEÑO CDAD.JARDIN G.I. A",
+     "min": "60",
+     "name": "Arroyo Aguilar, H.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "C.D. CONEJITO DE MALAGA",
+     "min": "35",
+     "name": "Ocaña Gallego, J.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "C.D. CONEJITO DE MALAGA",
+     "min": "72",
+     "name": "Peralta Avella, S.",
+     "kind": "amarilla"
+    }
+   ]
+  },
+  "2653732": {
+   "goals": [
+    {
+     "side": "v",
+     "min": "41",
+     "name": "García Mir, P.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "66",
+     "name": "Elias Gomez, S.",
+     "kind": " (p.)"
+    },
+    {
+     "side": "l",
+     "min": "77",
+     "name": "Alonso Vidal, A.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "86",
+     "name": "Alonso Vidal, A.",
+     "kind": ""
+    }
+   ],
+   "cards": [
+    {
+     "team": "C.D. CORTIJILLO BAZAN",
+     "min": "42",
+     "name": "Fernandez Orozco, J.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "C.D. CORTIJILLO BAZAN",
+     "min": "89",
+     "name": "Sanchez Fernandez, I.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "LA CALA C.D. A",
+     "min": "43",
+     "name": "García Mir, P.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "LA CALA C.D. A",
+     "min": "55",
+     "name": "Muñoz Montañez, M.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "LA CALA C.D. A",
+     "min": "89",
+     "name": "Carretero Prieto, J.",
      "kind": "amarilla"
     }
    ]

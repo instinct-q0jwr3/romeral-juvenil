@@ -197,6 +197,19 @@ def crest_img(fn,alt=''):
     if fn: return f'<img class="esc" src="{fn}" alt="" loading="lazy">'
     return '<img class="esc" src="escudos/placeholder.svg" alt="" loading="lazy">'
 
+
+def jornada_actual_semana(fechas_org,now):
+    """Jornada vigente: la primera cuyo domingo (semana lunes-domingo de su fecha oficial) aun no ha pasado."""
+    today=now.date()
+    for j in range(1,NJ+1):
+        f=fechas_org.get(j)
+        if not f: continue
+        try: d=datetime.datetime.strptime(f,'%d-%m-%Y').date()
+        except Exception: continue
+        sunday=d-datetime.timedelta(days=d.weekday())+datetime.timedelta(days=6)
+        if sunday>=today: return j
+    return NJ
+
 def main():
     horarios_only='--horarios' in sys.argv
     RAW.mkdir(exist_ok=True); OUT.mkdir(exist_ok=True); ESC.mkdir(exist_ok=True)
@@ -265,7 +278,7 @@ def main():
 
     jugadas=[j for j in jornadas if any(m['gl']!='' for m in jornadas[j])]
     ultima=max(jugadas) if jugadas else 0
-    actual=ultima+1 if ultima<NJ else ultima
+    actual=jornada_actual_semana(fechas_org,now)
     jugados=sum(1 for j in jornadas for m in jornadas[j] if m['gl']!='')
     total=sum(len(v) for v in jornadas.values())
 
@@ -278,7 +291,7 @@ def main():
     render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp,actas)
     print(f"Built site{'(horarios)' if horarios_only else ''}: {len(tabla)} equipos, {total} partidos ({jugados} jugados), jornada actual {actual}, escudos {sum(1 for v in escudo_file.values() if v)}/{len(crests)}, actualizado {stamp}")
 
-NAV=[('clasificacion.html','Clasificación'),('calendario.html','Calendario y resultados')]
+NAV=[('clasificacion.html','Clasificación'),('calendario.html','Jornadas')]
 def page(title,active,body):
     nav=''.join(f'<a href="{u}" class="{"on" if u==active else ""}">{t}</a>' for u,t in NAV)
     return f'''<!DOCTYPE html>
@@ -356,6 +369,13 @@ def match_row(m,escudo_file,actas):
         return f'''<details class="mwrap{rm}" name="jdet"><summary class="mrow"><span class="chev">&#9662;</span>{head}</summary>{det}</details>'''
     return f'''<div class="mwrap{rm}"><div class="mrow">{head}</div></div>'''
 
+def tabla_html(tabla,escudo_file):
+    rows=''
+    for t in tabla:
+        cls=' class="rm"' if t['romeral'] else ''
+        rows+=f'<tr{cls}><td class="pos">{t["pos"]}</td><td class="eq">{crest_img(escudo_file.get(t["code"],""))}<span>{html.escape(t["equipo"])}</span></td><td class="num pts">{t["pts"]}</td><td class="num">{t["j"]}</td><td class="num">{t["g"]}</td><td class="num">{t["e"]}</td><td class="num">{t["p"]}</td><td class="num">{t["gf"]}</td><td class="num">{t["gc"]}</td></tr>\n'
+    return '<table class="tabla"><thead><tr><th>#</th><th>Equipo</th><th>Pts</th><th>J</th><th>G</th><th>E</th><th>P</th><th>GF</th><th>GC</th></tr></thead>\n<tbody>'+rows+'</tbody></table>'
+
 def render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp,actas):
     # --- index
     rom=next((t for t in tabla if t['romeral']),None)
@@ -387,6 +407,8 @@ def render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp,actas):
 <p class="upd">Actualizado: {stamp}</p>
 {stats}
 {blocks}
+<h3 class="lbl">Clasificación</h3>
+{tabla_html(tabla,escudo_file)}
 <p class="src">Fuente: <a href="https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&amp;codgrupo=48465932&amp;codcompeticion=48465931">rfaf.es</a></p>'''
     (OUT/'index.html').write_text(page('Inicio','index.html',home),encoding='utf-8')
 
@@ -418,11 +440,11 @@ def render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp,actas):
     prevl=f'<a class="pj" href="jornada-{actual-1}.html">‹ J{actual-1}</a>' if actual>1 else '<span class="pj off"></span>'
     nextl=f'<a class="pj" href="jornada-{actual+1}.html">J{actual+1} ›</a>' if actual<NJ else '<span class="pj off"></span>'
     rows='\n'.join(match_row(m,escudo_file,actas) for m in ms)
-    body=f'''<div class="kicker">CALENDARIO Y RESULTADOS</div>
+    body=f'''<div class="kicker">JORNADAS</div>
 <div class="jnav">{prevl}<span class="jt">Jornada {actual}{f" · {fdate(fo)}" if fo else ""}</span>{nextl}</div>
 {rows}
 <p class="upd">Actualizado: {stamp}</p>'''
-    (OUT/'calendario.html').write_text(page('Calendario y resultados','calendario.html',body),encoding='utf-8')
+    (OUT/'calendario.html').write_text(page('Jornadas','calendario.html',body),encoding='utf-8')
 
 if __name__=='__main__':
     main()
