@@ -391,7 +391,6 @@ def match_row(m,escudo_file,actas):
         if ev_l or ev_v:
             evhtml=('<div class="det"><div>'+'<br>'.join(ev_l)+'</div><div>'+'<br>'.join(ev_v)+'</div></div>')
         lu=a.get('lineups') or {}
-        rom_local=TEAM_SHORT in m['local'].upper()
         if evhtml and lu.get('l') and lu.get('v'):
             aid=m.get('acta','') or 'x%d'%(abs(hash(m['local']+m['visitante']))%99999)
             def xicol(side,teamname):
@@ -401,10 +400,7 @@ def match_row(m,escudo_file,actas):
                 sup=' &middot; '.join('%s %s'%(p['dorsal'],html.escape(p['name'])) for p in d['sup'])
                 suphtml='<div class="xib"><b>SUPLENTES &middot;</b> %s</div>'%sup if sup else ''
                 return '<div><div class="xih">%s</div><div class="xi">%s</div>%s</div>'%(html.escape(teamname),tit,suphtml)
-            if m.get('romeral') and not rom_local:
-                cols=xicol('v',m['visitante'])+xicol('l',m['local'])
-            else:
-                cols=xicol('l',m['local'])+xicol('v',m['visitante'])
+            cols=xicol('l',m['local'])+xicol('v',m['visitante'])
             det=('''<div class="dett">
 <input class="tabr tabr-p" type="radio" name="tb-%s" id="tb-%s-p" checked>
 <input class="tabr tabr-a" type="radio" name="tb-%s" id="tb-%s-a">
