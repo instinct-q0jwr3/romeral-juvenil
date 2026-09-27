@@ -95,3 +95,4 @@ details.mwrap[open] .det{border-top:1px dashed #e6e6e2;margin:0 12px;padding:8px
 .xib{font-size:11.5px;color:#585254;line-height:1.55;margin-top:8px}
 .xib b{color:#8a8a83;font-size:10px;letter-spacing:.06em}
 @media screen and (max-width:560px){.xi2{flex-direction:column}.xi2>div+div{border-top:1px dashed #eee;padding-top:8px}}
+.tabla.plantilla th:first-child{text-align:left}

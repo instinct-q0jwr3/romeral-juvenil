@@ -515,7 +515,7 @@ def render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp,actas):
     pbody='''<div class="kicker">C.D. FUTBOL ROMERAL</div>
 <h1>Plantilla</h1>
 <p class="lede">Acumulado de la temporada por jugador, computado de las actas de la RFAF.</p>
-<table class="tabla"><thead><tr><th>Jugador</th><th>Dor.</th><th>Conv.</th><th>Tit.</th><th>Goles</th><th>TA</th><th>TR</th></tr></thead>
+<table class="tabla plantilla"><thead><tr><th>Jugador</th><th>Dor.</th><th>Conv.</th><th>Tit.</th><th>Goles</th><th>TA</th><th>TR</th></tr></thead>
 <tbody>%s</tbody></table>
 <p class="src">Conv. = convocatorias (titular o suplente en el acta) &middot; Tit. = titularidades &middot; TA/TR = tarjetas amarillas/rojas. A este nivel la RFAF no registra las sustituciones, as&iacute; que no se puede saber qu&eacute; suplentes llegaron a jugar.</p>
 <p class="upd">Actualizado: %s</p>'''%(prows,stamp)
