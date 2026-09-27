@@ -296,7 +296,7 @@ def main():
     render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp,actas)
     print(f"Built site{'(horarios)' if horarios_only else ''}: {len(tabla)} equipos, {total} partidos ({jugados} jugados), jornada actual {actual}, escudos {sum(1 for v in escudo_file.values() if v)}/{len(crests)}, actualizado {stamp}")
 
-NAV=[('clasificacion.html','Clasificación'),('jornadas.html','Jornadas')]
+NAV=[('jornadas.html','Jornadas')]
 def page(title,active,body):
     nav=''.join(f'<a href="{u}" class="{"on" if u==active else ""}">{t}</a>' for u,t in NAV)
     return f'''<!DOCTYPE html>
@@ -412,24 +412,13 @@ def render(tabla,jornadas,fechas_org,ultima,actual,escudo_file,stamp,actas):
 <p class="upd">Actualizado: {stamp}</p>
 {stats}
 {blocks}
-<h3 class="lbl">Clasificación</h3>
+<h3 class="lbl" id="clasificacion">Clasificación</h3>
 {tabla_html(tabla,escudo_file)}
 <p class="src">Fuente: <a href="https://www.rfaf.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&amp;codgrupo=48465932&amp;codcompeticion=48465931">rfaf.es</a></p>'''
     (OUT/'index.html').write_text(page('Inicio','index.html',home),encoding='utf-8')
 
-    # --- clasificacion
-    rows=''
-    for t in tabla:
-        cls=' class="rm"' if t['romeral'] else ''
-        rows+=f'''<tr{cls}><td class="pos">{t["pos"]}</td><td class="eq">{crest_img(escudo_file.get(t["code"],""))}<span>{html.escape(t["equipo"])}</span></td><td class="num pts">{t["pts"]}</td><td class="num">{t["j"]}</td><td class="num">{t["g"]}</td><td class="num">{t["e"]}</td><td class="num">{t["p"]}</td><td class="num">{t["gf"]}</td><td class="num">{t["gc"]}</td></tr>\n'''
-    body=f'''<div class="kicker">GRUPO 1</div>
-<h1>Clasificación</h1>
-<p class="upd">Actualizado: {stamp}</p>
-<table class="tabla"><thead><tr><th>#</th><th>Equipo</th><th>Pts</th><th>J</th><th>G</th><th>E</th><th>P</th><th>GF</th><th>GC</th></tr></thead>
-<tbody>{rows}</tbody></table>'''
-    (OUT/'clasificacion.html').write_text(page('Clasificación','clasificacion.html',body),encoding='utf-8')
-
-    # --- jornadas
+    # --- clasificacion (pagina retirada 27/09: redundante con la portada)
+    (OUT/'clasificacion.html').write_text('<!DOCTYPE html>\n<html lang="es"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=index.html#clasificacion"><link rel="canonical" href="index.html#clasificacion"><title>Clasificaci\u00f3n \u00b7 Liga 26/27</title></head><body><p>La clasificaci\u00f3n ahora est\u00e1 en la <a href="index.html#clasificacion">portada</a>.</p></body></html>',encoding='utf-8')
     for j in range(1,NJ+1):
         ms=jornadas.get(j,[])
         fo=fechas_org.get(j,'')
