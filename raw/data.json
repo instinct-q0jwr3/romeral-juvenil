@@ -1,5 +1,5 @@
 {
- "actualizado": "27/09/2026, 14:16 CEST",
+ "actualizado": "27/09/2026, 18:19 CEST",
  "clasificacion": [
   {
    "pos": 1,
@@ -68,6 +68,19 @@
   },
   {
    "pos": 6,
+   "equipo": "C.D. 26 DE FEBRERO",
+   "code": "847616",
+   "pts": "3",
+   "j": 1,
+   "g": 1,
+   "e": 0,
+   "p": 0,
+   "gf": "3",
+   "gc": "1",
+   "romeral": false
+  },
+  {
+   "pos": 7,
    "equipo": "ATLETICO JUVAL",
    "code": "804216",
    "pts": "3",
@@ -80,7 +93,7 @@
    "romeral": false
   },
   {
-   "pos": 7,
+   "pos": 8,
    "equipo": "C.D. CORTIJILLO BAZAN",
    "code": "20065106",
    "pts": "3",
@@ -93,7 +106,7 @@
    "romeral": false
   },
   {
-   "pos": 8,
+   "pos": 9,
    "equipo": "PTO.MALAGUEÑO CDAD.JARDIN G.I. \"A\"",
    "code": "800916",
    "pts": "3",
@@ -106,7 +119,7 @@
    "romeral": false
   },
   {
-   "pos": 9,
+   "pos": 10,
    "equipo": "CLUB POLIDEPORTIVO MIJAS LAS LAGUNAS \"B\"",
    "code": "39001729",
    "pts": "3",
@@ -119,33 +132,7 @@
    "romeral": false
   },
   {
-   "pos": 10,
-   "equipo": "C.D. 26 DE FEBRERO",
-   "code": "847616",
-   "pts": "0",
-   "j": 0,
-   "g": 0,
-   "e": 0,
-   "p": 0,
-   "gf": "0",
-   "gc": "0",
-   "romeral": false
-  },
-  {
    "pos": 11,
-   "equipo": "U.D. LOS PRADOS \"A\"",
-   "code": "7523607",
-   "pts": "0",
-   "j": 1,
-   "g": 0,
-   "e": 0,
-   "p": 1,
-   "gf": "0",
-   "gc": "2",
-   "romeral": false
-  },
-  {
-   "pos": 12,
    "equipo": "LA CALA C.D. \"A\"",
    "code": "808616",
    "pts": "0",
@@ -158,7 +145,7 @@
    "romeral": false
   },
   {
-   "pos": 13,
+   "pos": 12,
    "equipo": "C.D. ATHLETIC PUERTA BLANCA \"A\"",
    "code": "807215",
    "pts": "0",
@@ -168,6 +155,19 @@
    "p": 1,
    "gf": "1",
    "gc": "4",
+   "romeral": false
+  },
+  {
+   "pos": 13,
+   "equipo": "U.D. LOS PRADOS \"A\"",
+   "code": "7523607",
+   "pts": "0",
+   "j": 2,
+   "g": 0,
+   "e": 0,
+   "p": 2,
+   "gf": "1",
+   "gc": "5",
    "romeral": false
   },
   {
@@ -403,11 +403,11 @@
     "visitante_code": "7523607",
     "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001185325_26_FEBERO.jpg",
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000216879_ESCUDO_PRADOS.png",
-    "gl": "",
-    "gv": "",
+    "gl": "3",
+    "gv": "1",
     "fecha": "27-09-2026",
     "hora": "14:00",
-    "acta": "",
+    "acta": "2653730",
     "romeral": false
    },
    {
@@ -4461,6 +4461,78 @@
      "team": "LA CALA C.D. A",
      "min": "89",
      "name": "Carretero Prieto, J.",
+     "kind": "amarilla"
+    }
+   ]
+  },
+  "2653730": {
+   "goals": [
+    {
+     "side": "v",
+     "min": "4",
+     "name": "Sanchez Rodriguez, I.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "44",
+     "name": "Ordoñez Fernandez, O.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "81",
+     "name": "Martin Rodriguez, S.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "89",
+     "name": "Martin Rodriguez, S.",
+     "kind": ""
+    }
+   ],
+   "cards": [
+    {
+     "team": "C.D. 26 DE FEBRERO",
+     "min": "14",
+     "name": "Alot Bazalo, O.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "C.D. 26 DE FEBRERO",
+     "min": "42",
+     "name": "Sierra Camargo, J.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "C.D. 26 DE FEBRERO",
+     "min": "57",
+     "name": "Baeza Fuentes, J.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "C.D. 26 DE FEBRERO",
+     "min": "87",
+     "name": "Cabra Porras, A.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "U.D. LOS PRADOS A",
+     "min": "56",
+     "name": "Zaragoza Maldonado, A.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "U.D. LOS PRADOS A",
+     "min": "62",
+     "name": "Haro Peña, R.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "U.D. LOS PRADOS A",
+     "min": "65",
+     "name": "Villalobos Morales, S.",
      "kind": "amarilla"
     }
    ]
