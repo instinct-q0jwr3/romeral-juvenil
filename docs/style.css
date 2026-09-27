@@ -115,3 +115,4 @@ details.mwrap[open] .det{border-top:1px dashed #e6e6e2;margin:0 12px;padding:8px
 .dett .xi2>div:last-child{text-align:right}
 .dett .xi2>div:last-child .xi .d{color:#a3a39c}
 @media screen and (max-width:560px){.dett .xi2>div:last-child{text-align:left}}
+.dett .xi .d{margin-right:5px}
