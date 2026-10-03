@@ -1,8 +1,21 @@
 {
- "actualizado": "03/10/2026, 20:42 CEST",
+ "actualizado": "03/10/2026, 21:42 CEST",
  "clasificacion": [
   {
    "pos": 1,
+   "equipo": "EF DE VELEZ FRANCISCO CASTEJON",
+   "code": "849615",
+   "pts": "9",
+   "j": 3,
+   "g": 3,
+   "e": 0,
+   "p": 0,
+   "gf": "11",
+   "gc": "3",
+   "romeral": false
+  },
+  {
+   "pos": 2,
    "equipo": "C.D. CONEJITO DE MALAGA",
    "code": "28567623",
    "pts": "9",
@@ -12,19 +25,6 @@
    "p": 0,
    "gf": "8",
    "gc": "1",
-   "romeral": false
-  },
-  {
-   "pos": 2,
-   "equipo": "EF DE VELEZ FRANCISCO CASTEJON",
-   "code": "849615",
-   "pts": "7",
-   "j": 3,
-   "g": 2,
-   "e": 1,
-   "p": 0,
-   "gf": "10",
-   "gc": "3",
    "romeral": false
   },
   {
@@ -68,19 +68,6 @@
   },
   {
    "pos": 6,
-   "equipo": "CLUB POLIDEPORTIVO MIJAS LAS LAGUNAS \"B\"",
-   "code": "39001729",
-   "pts": "4",
-   "j": 3,
-   "g": 1,
-   "e": 1,
-   "p": 1,
-   "gf": "5",
-   "gc": "8",
-   "romeral": false
-  },
-  {
-   "pos": 7,
    "equipo": "CD UD DOS HERMANAS SAN ANDRES \"B\"",
    "code": "828217",
    "pts": "3",
@@ -93,7 +80,7 @@
    "romeral": false
   },
   {
-   "pos": 8,
+   "pos": 7,
    "equipo": "C.D. 26 DE FEBRERO",
    "code": "847616",
    "pts": "3",
@@ -106,7 +93,7 @@
    "romeral": false
   },
   {
-   "pos": 9,
+   "pos": 8,
    "equipo": "C.D. CORTIJILLO BAZAN",
    "code": "20065106",
    "pts": "3",
@@ -119,7 +106,7 @@
    "romeral": false
   },
   {
-   "pos": 10,
+   "pos": 9,
    "equipo": "PTO.MALAGUEÑO CDAD.JARDIN G.I. \"A\"",
    "code": "800916",
    "pts": "3",
@@ -129,6 +116,19 @@
    "p": 1,
    "gf": "4",
    "gc": "4",
+   "romeral": false
+  },
+  {
+   "pos": 10,
+   "equipo": "CLUB POLIDEPORTIVO MIJAS LAS LAGUNAS \"B\"",
+   "code": "39001729",
+   "pts": "3",
+   "j": 3,
+   "g": 1,
+   "e": 0,
+   "p": 2,
+   "gf": "5",
+   "gc": "9",
    "romeral": false
   },
   {
@@ -447,11 +447,11 @@
     "visitante_code": "39001729",
     "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000483064_trescuartos.jpg",
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000455475_escudo_futbol18.jpg",
-    "gl": "",
-    "gv": "",
+    "gl": "1",
+    "gv": "0",
     "fecha": "03-10-2026",
     "hora": "18:00",
-    "acta": "",
+    "acta": "2653741",
     "romeral": false
    },
    {
@@ -8420,6 +8420,300 @@
        "dorsal": "20",
        "name": "Iniesta Guzman, D.",
        "full": "Iniesta Guzman, David",
+       "noshow": false
+      }
+     ]
+    }
+   }
+  },
+  "2653741": {
+   "goals": [
+    {
+     "side": "l",
+     "min": "71",
+     "name": "Gomez Carrascal, J.",
+     "kind": " (p.)"
+    }
+   ],
+   "cards": [
+    {
+     "team": "EF DE VELEZ FRANCISCO CASTEJON",
+     "min": "46",
+     "name": "Rios Diaz, A.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "EF DE VELEZ FRANCISCO CASTEJON",
+     "min": "60",
+     "name": "El Maani El Yamni, Y.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "EF DE VELEZ FRANCISCO CASTEJON",
+     "min": "68",
+     "name": "Lopez Sanchez, J.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "CLUB POLIDEPORTIVO MIJAS LAS LAGUNAS B",
+     "min": "55",
+     "name": "Zaragoza Ruiz, J.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "CLUB POLIDEPORTIVO MIJAS LAS LAGUNAS B",
+     "min": "999",
+     "name": "Fortes Romero, A.",
+     "kind": "amarilla"
+    }
+   ],
+   "lineups": {
+    "l": {
+     "tit": [
+      {
+       "id": "2248500",
+       "dorsal": "1",
+       "name": "Portillo Garcia, F.",
+       "full": "Portillo Garcia, Francisco",
+       "noshow": false
+      },
+      {
+       "id": "45483204",
+       "dorsal": "2",
+       "name": "Nicola Diaz, A.",
+       "full": "Nicola Diaz, Alvaro Jose",
+       "noshow": false
+      },
+      {
+       "id": "25935887",
+       "dorsal": "4",
+       "name": "Dominguez Jimenez, R.",
+       "full": "Dominguez Jimenez, Ruben",
+       "noshow": false
+      },
+      {
+       "id": "39418",
+       "dorsal": "17",
+       "name": "Tome Fernandez, J.",
+       "full": "Tome Fernandez, Jorge",
+       "noshow": false
+      },
+      {
+       "id": "33816713",
+       "dorsal": "19",
+       "name": "Rios Diaz, A.",
+       "full": "Rios Diaz, Antonio",
+       "noshow": false
+      },
+      {
+       "id": "4110955",
+       "dorsal": "21",
+       "name": "Gutierrez Gallar, I.",
+       "full": "Gutierrez Gallar, Ignacio",
+       "noshow": false
+      },
+      {
+       "id": "7358755",
+       "dorsal": "23",
+       "name": "Garcia Rodriguez, H.",
+       "full": "Garcia Rodriguez, Hugo",
+       "noshow": false
+      },
+      {
+       "id": "4709562",
+       "dorsal": "52",
+       "name": "Chacon Pendon, M.",
+       "full": "Chacon Pendon, Martin",
+       "noshow": false
+      },
+      {
+       "id": "3162604",
+       "dorsal": "88",
+       "name": "Luque Prieto, R.",
+       "full": "Luque Prieto, Rafael",
+       "noshow": false
+      },
+      {
+       "id": "4709791",
+       "dorsal": "94",
+       "name": "Chacon Pendon, D.",
+       "full": "Chacon Pendon, Dario",
+       "noshow": false
+      },
+      {
+       "id": "18018887",
+       "dorsal": "99",
+       "name": "El Maani El Yamni, Y.",
+       "full": "El Maani El Yamni, Yassin",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "4709084",
+       "dorsal": "6",
+       "name": "Morales Nuñez, E.",
+       "full": "Morales Nuñez, Eduardo",
+       "noshow": false
+      },
+      {
+       "id": "45482981",
+       "dorsal": "7",
+       "name": "Cubo Piña, S.",
+       "full": "Cubo Piña, Sergio",
+       "noshow": false
+      },
+      {
+       "id": "8345360",
+       "dorsal": "9",
+       "name": "Gomez Carrascal, J.",
+       "full": "Gomez Carrascal, José Antonio",
+       "noshow": false
+      },
+      {
+       "id": "8364800",
+       "dorsal": "11",
+       "name": "Slagmolen Rodriguez, S.",
+       "full": "Slagmolen Rodriguez, Simon",
+       "noshow": false
+      },
+      {
+       "id": "25799180",
+       "dorsal": "14",
+       "name": "Gallego Granados, I.",
+       "full": "Gallego Granados, Iker",
+       "noshow": false
+      },
+      {
+       "id": "7923859",
+       "dorsal": "26",
+       "name": "Arias Ramos, O.",
+       "full": "Arias Ramos, Oscar",
+       "noshow": false
+      },
+      {
+       "id": "4716377",
+       "dorsal": "47",
+       "name": "Diaz Jimenez, F.",
+       "full": "Diaz Jimenez, Francisco",
+       "noshow": false
+      }
+     ]
+    },
+    "v": {
+     "tit": [
+      {
+       "id": "23738594",
+       "dorsal": "13",
+       "name": "Gililow, A.",
+       "full": "Gililow, Anatolii Antonovich",
+       "noshow": false
+      },
+      {
+       "id": "16004787",
+       "dorsal": "2",
+       "name": "Gómez Ramírez, D.",
+       "full": "Gómez Ramírez, Dario",
+       "noshow": false
+      },
+      {
+       "id": "8695534",
+       "dorsal": "3",
+       "name": "Perez Espinosa, A.",
+       "full": "Perez Espinosa, Alvaro",
+       "noshow": false
+      },
+      {
+       "id": "4415502",
+       "dorsal": "4",
+       "name": "Rodriguez Sanmiguel, M.",
+       "full": "Rodriguez Sanmiguel, Manuel",
+       "noshow": false
+      },
+      {
+       "id": "34395388",
+       "dorsal": "5",
+       "name": "Forteza, N.",
+       "full": "Forteza, Nathaniel",
+       "noshow": false
+      },
+      {
+       "id": "12311212",
+       "dorsal": "6",
+       "name": "Zaragoza Ruiz, J.",
+       "full": "Zaragoza Ruiz, Juan Diego",
+       "noshow": false
+      },
+      {
+       "id": "8766607",
+       "dorsal": "7",
+       "name": "Del Vecchio Tilli, V.",
+       "full": "Del Vecchio Tilli, Valentino",
+       "noshow": false
+      },
+      {
+       "id": "4884888",
+       "dorsal": "8",
+       "name": "Gomez Benavides, Y.",
+       "full": "Gomez Benavides, Yomar",
+       "noshow": false
+      },
+      {
+       "id": "8401286",
+       "dorsal": "9",
+       "name": "Gonzalez Lopez, D.",
+       "full": "Gonzalez Lopez, Daniel",
+       "noshow": false
+      },
+      {
+       "id": "8204571",
+       "dorsal": "10",
+       "name": "Platero Rodriguez, C.",
+       "full": "Platero Rodriguez, Cristian",
+       "noshow": false
+      },
+      {
+       "id": "30978412",
+       "dorsal": "11",
+       "name": "Iranzo Tadeo, R.",
+       "full": "Iranzo Tadeo, Raul",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "11495204",
+       "dorsal": "1",
+       "name": "Fortes Romero, A.",
+       "full": "Fortes Romero, Aitor",
+       "noshow": false
+      },
+      {
+       "id": "8695415",
+       "dorsal": "12",
+       "name": "Tantoun Azzouadi, O.",
+       "full": "Tantoun Azzouadi, Oussama",
+       "noshow": false
+      },
+      {
+       "id": "8283034",
+       "dorsal": "14",
+       "name": "Tovar Rojas, J.",
+       "full": "Tovar Rojas, Jose Luis",
+       "noshow": false
+      },
+      {
+       "id": "16994395",
+       "dorsal": "16",
+       "name": "Vidal Gómez, J.",
+       "full": "Vidal Gómez, Juan Francisco",
+       "noshow": false
+      },
+      {
+       "id": "8203736",
+       "dorsal": "17",
+       "name": "Valle Pigni, D.",
+       "full": "Valle Pigni, David",
        "noshow": false
       }
      ]
