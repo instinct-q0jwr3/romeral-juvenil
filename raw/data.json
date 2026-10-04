@@ -1,8 +1,21 @@
 {
- "actualizado": "04/10/2026, 13:42 CEST",
+ "actualizado": "04/10/2026, 17:12 CEST",
  "clasificacion": [
   {
    "pos": 1,
+   "equipo": "C.D. CHURRIANA",
+   "code": "802816",
+   "pts": "9",
+   "j": 3,
+   "g": 3,
+   "e": 0,
+   "p": 0,
+   "gf": "12",
+   "gc": "2",
+   "romeral": false
+  },
+  {
+   "pos": 2,
    "equipo": "EF DE VELEZ FRANCISCO CASTEJON",
    "code": "849615",
    "pts": "9",
@@ -15,7 +28,7 @@
    "romeral": false
   },
   {
-   "pos": 2,
+   "pos": 3,
    "equipo": "C.D. CONEJITO DE MALAGA",
    "code": "28567623",
    "pts": "9",
@@ -28,7 +41,7 @@
    "romeral": false
   },
   {
-   "pos": 3,
+   "pos": 4,
    "equipo": "C.D. FUTBOL ROMERAL",
    "code": "2064582",
    "pts": "6",
@@ -39,19 +52,6 @@
    "gf": "10",
    "gc": "1",
    "romeral": true
-  },
-  {
-   "pos": 4,
-   "equipo": "C.D. CHURRIANA",
-   "code": "802816",
-   "pts": "6",
-   "j": 2,
-   "g": 2,
-   "e": 0,
-   "p": 0,
-   "gf": "7",
-   "gc": "1",
-   "romeral": false
   },
   {
    "pos": 5,
@@ -94,19 +94,6 @@
   },
   {
    "pos": 8,
-   "equipo": "C.D. 26 DE FEBRERO",
-   "code": "847616",
-   "pts": "3",
-   "j": 1,
-   "g": 1,
-   "e": 0,
-   "p": 0,
-   "gf": "3",
-   "gc": "1",
-   "romeral": false
-  },
-  {
-   "pos": 9,
    "equipo": "PTO.MALAGUEÑO CDAD.JARDIN G.I. \"A\"",
    "code": "800916",
    "pts": "3",
@@ -116,6 +103,19 @@
    "p": 1,
    "gf": "4",
    "gc": "4",
+   "romeral": false
+  },
+  {
+   "pos": 9,
+   "equipo": "C.D. 26 DE FEBRERO",
+   "code": "847616",
+   "pts": "3",
+   "j": 2,
+   "g": 1,
+   "e": 0,
+   "p": 1,
+   "gf": "4",
+   "gc": "6",
    "romeral": false
   },
   {
@@ -517,8 +517,8 @@
     "visitante_code": "802816",
     "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001185325_26_FEBERO.jpg",
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000818862_escudo.jpg",
-    "gl": "",
-    "gv": "",
+    "gl": "1",
+    "gv": "5",
     "fecha": "04-10-2026",
     "hora": "15:00",
     "acta": "",
