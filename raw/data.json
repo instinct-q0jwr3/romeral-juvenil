@@ -1,5 +1,5 @@
 {
- "actualizado": "04/10/2026, 20:42 CEST",
+ "actualizado": "04/10/2026, 22:12 CEST",
  "clasificacion": [
   {
    "pos": 1,
@@ -55,6 +55,19 @@
   },
   {
    "pos": 5,
+   "equipo": "CD UD DOS HERMANAS SAN ANDRES \"B\"",
+   "code": "828217",
+   "pts": "6",
+   "j": 3,
+   "g": 2,
+   "e": 0,
+   "p": 1,
+   "gf": "14",
+   "gc": "7",
+   "romeral": false
+  },
+  {
+   "pos": 6,
    "equipo": "ATLETICO JUVAL",
    "code": "804216",
    "pts": "6",
@@ -67,7 +80,7 @@
    "romeral": false
   },
   {
-   "pos": 6,
+   "pos": 7,
    "equipo": "C.D. CORTIJILLO BAZAN",
    "code": "20065106",
    "pts": "6",
@@ -77,19 +90,6 @@
    "p": 1,
    "gf": "11",
    "gc": "10",
-   "romeral": false
-  },
-  {
-   "pos": 7,
-   "equipo": "CD UD DOS HERMANAS SAN ANDRES \"B\"",
-   "code": "828217",
-   "pts": "3",
-   "j": 2,
-   "g": 1,
-   "e": 0,
-   "p": 1,
-   "gf": "9",
-   "gc": "6",
    "romeral": false
   },
   {
@@ -201,12 +201,12 @@
    "equipo": "SECCIÓN DEPORTIVA FUNDACIÓN MCF",
    "code": "39920802",
    "pts": "0",
-   "j": 2,
+   "j": 3,
    "g": 0,
    "e": 0,
-   "p": 2,
-   "gf": "2",
-   "gc": "9",
+   "p": 3,
+   "gf": "3",
+   "gc": "14",
    "romeral": false
   }
  ],
@@ -545,11 +545,11 @@
     "visitante_code": "39920802",
     "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001421_DGRPublicidad.Escudo_San_Andres.jpg",
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0002233591_Escudo_Fundaci__n_MCF.png",
-    "gl": "",
-    "gv": "",
+    "gl": "5",
+    "gv": "1",
     "fecha": "04-10-2026",
     "hora": "19:45",
-    "acta": "",
+    "acta": "2653742",
     "romeral": false
    }
   ],
@@ -10619,6 +10619,341 @@
        "name": "Romero Rodriguez, D.",
        "full": "Romero Rodriguez, Dylan",
        "noshow": true
+      }
+     ]
+    }
+   }
+  },
+  "2653742": {
+   "goals": [
+    {
+     "side": "l",
+     "min": "19",
+     "name": "Hernando Ortega, A.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "36",
+     "name": "Murillo Erazo, J.",
+     "kind": " (p.)"
+    },
+    {
+     "side": "v",
+     "min": "65",
+     "name": "Ouqebli, A.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "70",
+     "name": "Alarcon Enciso, J.",
+     "kind": " (pp)"
+    },
+    {
+     "side": "l",
+     "min": "83",
+     "name": "Abdeselam Ruiz, I.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "87",
+     "name": "Hernandez Gonzalez, D.",
+     "kind": ""
+    }
+   ],
+   "cards": [
+    {
+     "team": "CD UD DOS HERMANAS SAN ANDRES B",
+     "min": "20",
+     "name": "Mérida Rodriguez, A.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "CD UD DOS HERMANAS SAN ANDRES B",
+     "min": "40",
+     "name": "Manzambi, I.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "CD UD DOS HERMANAS SAN ANDRES B",
+     "min": "66",
+     "name": "Ramos Sanz, H.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "SECCIÓN DEPORTIVA FUNDACIÓN MCF",
+     "min": "36",
+     "name": "Carmona Tapia, I.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "SECCIÓN DEPORTIVA FUNDACIÓN MCF",
+     "min": "65",
+     "name": "Lopez Arguello, A.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "SECCIÓN DEPORTIVA FUNDACIÓN MCF",
+     "min": "78",
+     "name": "Carmona Tapia, I.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "SECCIÓN DEPORTIVA FUNDACIÓN MCF",
+     "min": "83",
+     "name": "Mondragon Rizzo, P.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "SECCIÓN DEPORTIVA FUNDACIÓN MCF",
+     "min": "999",
+     "name": "Garcia Perez, E.",
+     "kind": "roja"
+    }
+   ],
+   "lineups": {
+    "l": {
+     "tit": [
+      {
+       "id": "21079245",
+       "dorsal": "1",
+       "name": "Fofana Silva, I.",
+       "full": "Fofana Silva, Ibrahim",
+       "noshow": false
+      },
+      {
+       "id": "7392074",
+       "dorsal": "4",
+       "name": "Fuentes Wilt, N.",
+       "full": "Fuentes Wilt, Nicolas",
+       "noshow": false
+      },
+      {
+       "id": "11433685",
+       "dorsal": "5",
+       "name": "Luque Bautista, C.",
+       "full": "Luque Bautista, Carlos",
+       "noshow": false
+      },
+      {
+       "id": "11589601",
+       "dorsal": "11",
+       "name": "Zapata Quiles, I.",
+       "full": "Zapata Quiles, Izan",
+       "noshow": false
+      },
+      {
+       "id": "48413896",
+       "dorsal": "12",
+       "name": "Andreu Becerra, A.",
+       "full": "Andreu Becerra, Aitor",
+       "noshow": false
+      },
+      {
+       "id": "7929497",
+       "dorsal": "16",
+       "name": "Hernando Ortega, A.",
+       "full": "Hernando Ortega, Alvaro",
+       "noshow": false
+      },
+      {
+       "id": "27854023",
+       "dorsal": "20",
+       "name": "Sánchez Arjona, D.",
+       "full": "Sánchez Arjona, David",
+       "noshow": false
+      },
+      {
+       "id": "30932967",
+       "dorsal": "21",
+       "name": "Murillo Erazo, J.",
+       "full": "Murillo Erazo, Juan Jafet Felipe",
+       "noshow": false
+      },
+      {
+       "id": "4924351",
+       "dorsal": "24",
+       "name": "Mérida Rodriguez, A.",
+       "full": "Mérida Rodriguez, Antonio",
+       "noshow": false
+      },
+      {
+       "id": "48564934",
+       "dorsal": "27",
+       "name": "Bermudez Perez, A.",
+       "full": "Bermudez Perez, Aitor",
+       "noshow": false
+      },
+      {
+       "id": "724512",
+       "dorsal": "29",
+       "name": "Garcia Podadera, D.",
+       "full": "Garcia Podadera, David",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "44476872",
+       "dorsal": "13",
+       "name": "Vazquez Iglesias, E.",
+       "full": "Vazquez Iglesias, Enzo",
+       "noshow": false
+      },
+      {
+       "id": "19563076",
+       "dorsal": "7",
+       "name": "Abdeselam Ruiz, I.",
+       "full": "Abdeselam Ruiz, Ismael",
+       "noshow": false
+      },
+      {
+       "id": "27677021",
+       "dorsal": "14",
+       "name": "Manzambi, I.",
+       "full": "Manzambi, Imran Ibn Bilal",
+       "noshow": false
+      },
+      {
+       "id": "4890477",
+       "dorsal": "18",
+       "name": "Hernandez Gonzalez, D.",
+       "full": "Hernandez Gonzalez, Daniel",
+       "noshow": false
+      },
+      {
+       "id": "26006371",
+       "dorsal": "30",
+       "name": "Erhabor Isaac, A.",
+       "full": "Erhabor Isaac, Alexis Alex",
+       "noshow": false
+      },
+      {
+       "id": "8113676",
+       "dorsal": "33",
+       "name": "Kouassi Giles, D.",
+       "full": "Kouassi Giles, Dayron",
+       "noshow": false
+      },
+      {
+       "id": "45675066",
+       "dorsal": "69",
+       "name": "Ramos Sanz, H.",
+       "full": "Ramos Sanz, Hugo",
+       "noshow": false
+      }
+     ]
+    },
+    "v": {
+     "tit": [
+      {
+       "id": "12076057",
+       "dorsal": "1",
+       "name": "Mancebo Castaño, S.",
+       "full": "Mancebo Castaño, Sandro",
+       "noshow": false
+      },
+      {
+       "id": "8512697",
+       "dorsal": "2",
+       "name": "Alarcon Enciso, J.",
+       "full": "Alarcon Enciso, Jose",
+       "noshow": false
+      },
+      {
+       "id": "8456694",
+       "dorsal": "4",
+       "name": "Carmona Tapia, I.",
+       "full": "Carmona Tapia, Izan",
+       "noshow": false
+      },
+      {
+       "id": "2280082",
+       "dorsal": "5",
+       "name": "Martin Moreno, J.",
+       "full": "Martin Moreno, Juan Francisco",
+       "noshow": false
+      },
+      {
+       "id": "19851037",
+       "dorsal": "6",
+       "name": "Adams Salcedo, S.",
+       "full": "Adams Salcedo, Sergio",
+       "noshow": true
+      },
+      {
+       "id": "18685798",
+       "dorsal": "7",
+       "name": "Llinás Cortes, K.",
+       "full": "Llinás Cortes, Kevin",
+       "noshow": true
+      },
+      {
+       "id": "35918899",
+       "dorsal": "8",
+       "name": "Lopez Arguello, A.",
+       "full": "Lopez Arguello, Alvaro Ezequiel",
+       "noshow": false
+      },
+      {
+       "id": "18691157",
+       "dorsal": "10",
+       "name": "Gomez Ponce, M.",
+       "full": "Gomez Ponce, Marcos",
+       "noshow": false
+      },
+      {
+       "id": "27053650",
+       "dorsal": "11",
+       "name": "Mondragon Rizzo, P.",
+       "full": "Mondragon Rizzo, Pablo",
+       "noshow": false
+      },
+      {
+       "id": "6957069",
+       "dorsal": "14",
+       "name": "Jurado Barbeito, S.",
+       "full": "Jurado Barbeito, Samuel",
+       "noshow": false
+      },
+      {
+       "id": "15164338",
+       "dorsal": "16",
+       "name": "Otaola Ramos, M.",
+       "full": "Otaola Ramos, Mario",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "8374584",
+       "dorsal": "9",
+       "name": "Ternero Gonzalez, A.",
+       "full": "Ternero Gonzalez, Alejandro",
+       "noshow": false
+      },
+      {
+       "id": "47518409",
+       "dorsal": "17",
+       "name": "Mosker, S.",
+       "full": "Mosker, Sabyl Daoud",
+       "noshow": false
+      },
+      {
+       "id": "49828611",
+       "dorsal": "19",
+       "name": "Ouqebli, A.",
+       "full": "Ouqebli, Adam",
+       "noshow": false
+      },
+      {
+       "id": "23174725",
+       "dorsal": "21",
+       "name": "Diaz Ruiz, T.",
+       "full": "Diaz Ruiz, Tomas",
+       "noshow": false
       }
      ]
     }
