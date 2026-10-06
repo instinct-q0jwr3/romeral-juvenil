@@ -1,5 +1,5 @@
 {
- "actualizado": "04/10/2026, 22:12 CEST",
+ "actualizado": "06/10/2026, 07:56 CEST",
  "clasificacion": [
   {
    "pos": 1,
@@ -555,48 +555,6 @@
   ],
   "4": [
    {
-    "local": "C.D. CHURRIANA",
-    "local_code": "802816",
-    "visitante": "U.D. LOS PRADOS \"A\"",
-    "visitante_code": "7523607",
-    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000818862_escudo.jpg",
-    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000216879_ESCUDO_PRADOS.png",
-    "gl": "",
-    "gv": "",
-    "fecha": "11-10-2026",
-    "hora": "",
-    "acta": "",
-    "romeral": false
-   },
-   {
-    "local": "C.D. CORTIJILLO BAZAN",
-    "local_code": "20065106",
-    "visitante": "C.D. 26 DE FEBRERO",
-    "visitante_code": "847616",
-    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001802717_ESCUDO_peque__o.jpg",
-    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001185325_26_FEBERO.jpg",
-    "gl": "",
-    "gv": "",
-    "fecha": "11-10-2026",
-    "hora": "",
-    "acta": "",
-    "romeral": false
-   },
-   {
-    "local": "C.D. TRABUCO",
-    "local_code": "817416",
-    "visitante": "A.D. MALAKA C.F. \"A\"",
-    "visitante_code": "814417",
-    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001139555_D47E978D_364D_4916_9EAE_AD4BD04B24AD.jpeg",
-    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000123043_admalaka-escudo.jpg",
-    "gl": "",
-    "gv": "",
-    "fecha": "11-10-2026",
-    "hora": "",
-    "acta": "",
-    "romeral": false
-   },
-   {
     "local": "CLUB POLIDEPORTIVO MIJAS LAS LAGUNAS \"B\"",
     "local_code": "39001729",
     "visitante": "LA CALA C.D. \"A\"",
@@ -605,7 +563,35 @@
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001146686_escudo.jpg",
     "gl": "",
     "gv": "",
-    "fecha": "11-10-2026",
+    "fecha": "10-10-2026",
+    "hora": "",
+    "acta": "",
+    "romeral": false
+   },
+   {
+    "local": "C.D. ATHLETIC PUERTA BLANCA \"A\"",
+    "local_code": "807215",
+    "visitante": "C.D. CONEJITO DE MALAGA",
+    "visitante_code": "28567623",
+    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001548939_Escudo_Athletic_sin_fondo.jpg",
+    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001589039_LOGO_CONEJITO_color.png",
+    "gl": "",
+    "gv": "",
+    "fecha": "10-10-2026",
+    "hora": "",
+    "acta": "",
+    "romeral": false
+   },
+   {
+    "local": "C.D. CHURRIANA",
+    "local_code": "802816",
+    "visitante": "U.D. LOS PRADOS \"A\"",
+    "visitante_code": "7523607",
+    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000818862_escudo.jpg",
+    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000216879_ESCUDO_PRADOS.png",
+    "gl": "",
+    "gv": "",
+    "fecha": "10-10-2026",
     "hora": "",
     "acta": "",
     "romeral": false
@@ -617,6 +603,34 @@
     "visitante_code": "849615",
     "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0002233591_Escudo_Fundaci__n_MCF.png",
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000483064_trescuartos.jpg",
+    "gl": "",
+    "gv": "",
+    "fecha": "10-10-2026",
+    "hora": "",
+    "acta": "",
+    "romeral": false
+   },
+   {
+    "local": "ATLETICO JUVAL",
+    "local_code": "804216",
+    "visitante": "C.D. FUTBOL ROMERAL",
+    "visitante_code": "2064582",
+    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0002202866_escudojpg.jpg",
+    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0002203762_IMG_2005.png",
+    "gl": "",
+    "gv": "",
+    "fecha": "11-10-2026",
+    "hora": "",
+    "acta": "",
+    "romeral": true
+   },
+   {
+    "local": "C.D. CORTIJILLO BAZAN",
+    "local_code": "20065106",
+    "visitante": "C.D. 26 DE FEBRERO",
+    "visitante_code": "847616",
+    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001802717_ESCUDO_peque__o.jpg",
+    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001185325_26_FEBERO.jpg",
     "gl": "",
     "gv": "",
     "fecha": "11-10-2026",
@@ -639,26 +653,12 @@
     "romeral": false
    },
    {
-    "local": "ATLETICO JUVAL",
-    "local_code": "804216",
-    "visitante": "C.D. FUTBOL ROMERAL",
-    "visitante_code": "2064582",
-    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0002202866_escudojpg.jpg",
-    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0002203762_IMG_2005.png",
-    "gl": "",
-    "gv": "",
-    "fecha": "11-10-2026",
-    "hora": "",
-    "acta": "",
-    "romeral": true
-   },
-   {
-    "local": "C.D. ATHLETIC PUERTA BLANCA \"A\"",
-    "local_code": "807215",
-    "visitante": "C.D. CONEJITO DE MALAGA",
-    "visitante_code": "28567623",
-    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001548939_Escudo_Athletic_sin_fondo.jpg",
-    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001589039_LOGO_CONEJITO_color.png",
+    "local": "C.D. TRABUCO",
+    "local_code": "817416",
+    "visitante": "A.D. MALAKA C.F. \"A\"",
+    "visitante_code": "814417",
+    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001139555_D47E978D_364D_4916_9EAE_AD4BD04B24AD.jpeg",
+    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000123043_admalaka-escudo.jpg",
     "gl": "",
     "gv": "",
     "fecha": "11-10-2026",
@@ -3665,7 +3665,7 @@
   "30": "30-05-2027"
  },
  "ultima_jugada": 3,
- "jornada_actual": 3,
+ "jornada_actual": 4,
  "actas": {
   "2653727": {
    "goals": [
