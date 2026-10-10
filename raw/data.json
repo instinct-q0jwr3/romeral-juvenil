@@ -1,5 +1,5 @@
 {
- "actualizado": "06/10/2026, 15:17 CEST",
+ "actualizado": "10/10/2026, 20:42 CEST",
  "clasificacion": [
   {
    "pos": 1,
@@ -94,6 +94,19 @@
   },
   {
    "pos": 8,
+   "equipo": "CLUB POLIDEPORTIVO MIJAS LAS LAGUNAS \"B\"",
+   "code": "39001729",
+   "pts": "6",
+   "j": 4,
+   "g": 2,
+   "e": 0,
+   "p": 2,
+   "gf": "11",
+   "gc": "10",
+   "romeral": false
+  },
+  {
+   "pos": 9,
    "equipo": "PTO.MALAGUEÑO CDAD.JARDIN G.I. \"A\"",
    "code": "800916",
    "pts": "3",
@@ -106,7 +119,7 @@
    "romeral": false
   },
   {
-   "pos": 9,
+   "pos": 10,
    "equipo": "C.D. 26 DE FEBRERO",
    "code": "847616",
    "pts": "3",
@@ -119,33 +132,7 @@
    "romeral": false
   },
   {
-   "pos": 10,
-   "equipo": "CLUB POLIDEPORTIVO MIJAS LAS LAGUNAS \"B\"",
-   "code": "39001729",
-   "pts": "3",
-   "j": 3,
-   "g": 1,
-   "e": 0,
-   "p": 2,
-   "gf": "5",
-   "gc": "9",
-   "romeral": false
-  },
-  {
    "pos": 11,
-   "equipo": "LA CALA C.D. \"A\"",
-   "code": "808616",
-   "pts": "1",
-   "j": 3,
-   "g": 0,
-   "e": 1,
-   "p": 2,
-   "gf": "5",
-   "gc": "8",
-   "romeral": false
-  },
-  {
-   "pos": 12,
    "equipo": "U.D. LOS PRADOS \"A\"",
    "code": "7523607",
    "pts": "1",
@@ -158,7 +145,7 @@
    "romeral": false
   },
   {
-   "pos": 13,
+   "pos": 12,
    "equipo": "C.D. ATHLETIC PUERTA BLANCA \"A\"",
    "code": "807215",
    "pts": "1",
@@ -168,6 +155,19 @@
    "p": 2,
    "gf": "4",
    "gc": "9",
+   "romeral": false
+  },
+  {
+   "pos": 13,
+   "equipo": "LA CALA C.D. \"A\"",
+   "code": "808616",
+   "pts": "1",
+   "j": 4,
+   "g": 0,
+   "e": 1,
+   "p": 3,
+   "gf": "6",
+   "gc": "14",
    "romeral": false
   },
   {
@@ -561,11 +561,11 @@
     "visitante_code": "808616",
     "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000455475_escudo_futbol18.jpg",
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001146686_escudo.jpg",
-    "gl": "",
-    "gv": "",
+    "gl": "6",
+    "gv": "1",
     "fecha": "10-10-2026",
     "hora": "18:15",
-    "acta": "",
+    "acta": "2653749",
     "romeral": false
    },
    {
@@ -3664,7 +3664,7 @@
   "29": "23-05-2027",
   "30": "30-05-2027"
  },
- "ultima_jugada": 3,
+ "ultima_jugada": 4,
  "jornada_actual": 4,
  "actas": {
   "2653727": {
@@ -10953,6 +10953,319 @@
        "dorsal": "21",
        "name": "Diaz Ruiz, T.",
        "full": "Diaz Ruiz, Tomas",
+       "noshow": false
+      }
+     ]
+    }
+   }
+  },
+  "2653749": {
+   "goals": [
+    {
+     "side": "l",
+     "min": "4",
+     "name": "Platero Rodriguez, C.",
+     "kind": ""
+    },
+    {
+     "side": "v",
+     "min": "14",
+     "name": "Ponferrada Berrocal, S.",
+     "kind": " (p.)"
+    },
+    {
+     "side": "l",
+     "min": "49",
+     "name": "Platero Rodriguez, C.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "63",
+     "name": "Gonzalez Lopez, D.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "69",
+     "name": "Gonzalez Lopez, D.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "72",
+     "name": "Forteza, N.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "88",
+     "name": "Valle Pigni, D.",
+     "kind": ""
+    }
+   ],
+   "cards": [
+    {
+     "team": "CLUB POLIDEPORTIVO MIJAS LAS LAGUNAS B",
+     "min": "60",
+     "name": "Zaragoza Ruiz, J.",
+     "kind": "amarilla"
+    }
+   ],
+   "lineups": {
+    "l": {
+     "tit": [
+      {
+       "id": "23738594",
+       "dorsal": "1",
+       "name": "Gililow, A.",
+       "full": "Gililow, Anatolii Antonovich",
+       "noshow": false
+      },
+      {
+       "id": "16994395",
+       "dorsal": "2",
+       "name": "Vidal Gómez, J.",
+       "full": "Vidal Gómez, Juan Francisco",
+       "noshow": false
+      },
+      {
+       "id": "8283034",
+       "dorsal": "3",
+       "name": "Tovar Rojas, J.",
+       "full": "Tovar Rojas, Jose Luis",
+       "noshow": false
+      },
+      {
+       "id": "4415502",
+       "dorsal": "4",
+       "name": "Rodriguez Sanmiguel, M.",
+       "full": "Rodriguez Sanmiguel, Manuel",
+       "noshow": false
+      },
+      {
+       "id": "34395388",
+       "dorsal": "5",
+       "name": "Forteza, N.",
+       "full": "Forteza, Nathaniel",
+       "noshow": false
+      },
+      {
+       "id": "8695415",
+       "dorsal": "6",
+       "name": "Tantoun Azzouadi, O.",
+       "full": "Tantoun Azzouadi, Oussama",
+       "noshow": false
+      },
+      {
+       "id": "8766607",
+       "dorsal": "7",
+       "name": "Del Vecchio Tilli, V.",
+       "full": "Del Vecchio Tilli, Valentino",
+       "noshow": false
+      },
+      {
+       "id": "4884888",
+       "dorsal": "8",
+       "name": "Gomez Benavides, Y.",
+       "full": "Gomez Benavides, Yomar",
+       "noshow": false
+      },
+      {
+       "id": "8401286",
+       "dorsal": "9",
+       "name": "Gonzalez Lopez, D.",
+       "full": "Gonzalez Lopez, Daniel",
+       "noshow": false
+      },
+      {
+       "id": "8204571",
+       "dorsal": "10",
+       "name": "Platero Rodriguez, C.",
+       "full": "Platero Rodriguez, Cristian",
+       "noshow": false
+      },
+      {
+       "id": "8203736",
+       "dorsal": "11",
+       "name": "Valle Pigni, D.",
+       "full": "Valle Pigni, David",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "21201686",
+       "dorsal": "13",
+       "name": "Torres Sedeño, M.",
+       "full": "Torres Sedeño, Mario",
+       "noshow": false
+      },
+      {
+       "id": "4873384",
+       "dorsal": "12",
+       "name": "Rey Flores, C.",
+       "full": "Rey Flores, Carlos",
+       "noshow": false
+      },
+      {
+       "id": "8695534",
+       "dorsal": "14",
+       "name": "Perez Espinosa, A.",
+       "full": "Perez Espinosa, Alvaro",
+       "noshow": false
+      },
+      {
+       "id": "30978412",
+       "dorsal": "15",
+       "name": "Iranzo Tadeo, R.",
+       "full": "Iranzo Tadeo, Raul",
+       "noshow": false
+      },
+      {
+       "id": "16004787",
+       "dorsal": "16",
+       "name": "Gómez Ramírez, D.",
+       "full": "Gómez Ramírez, Dario",
+       "noshow": false
+      },
+      {
+       "id": "12311212",
+       "dorsal": "17",
+       "name": "Zaragoza Ruiz, J.",
+       "full": "Zaragoza Ruiz, Juan Diego",
+       "noshow": false
+      }
+     ]
+    },
+    "v": {
+     "tit": [
+      {
+       "id": "2245875",
+       "dorsal": "13",
+       "name": "Capitan Conejo, A.",
+       "full": "Capitan Conejo, Antonio",
+       "noshow": false
+      },
+      {
+       "id": "8233033",
+       "dorsal": "4",
+       "name": "Sanchez Muñoz, A.",
+       "full": "Sanchez Muñoz, Aitor",
+       "noshow": true
+      },
+      {
+       "id": "2245883",
+       "dorsal": "6",
+       "name": "Gonzalez Rodriguez, A.",
+       "full": "Gonzalez Rodriguez, Alejandro",
+       "noshow": true
+      },
+      {
+       "id": "4956869",
+       "dorsal": "8",
+       "name": "Garcia Fernandez, S.",
+       "full": "Garcia Fernandez, Sergio",
+       "noshow": false
+      },
+      {
+       "id": "5098729",
+       "dorsal": "11",
+       "name": "Ponferrada Berrocal, S.",
+       "full": "Ponferrada Berrocal, Sergio",
+       "noshow": false
+      },
+      {
+       "id": "2245915",
+       "dorsal": "15",
+       "name": "Burgos Carmona, F.",
+       "full": "Burgos Carmona, Francisco Jose",
+       "noshow": true
+      },
+      {
+       "id": "4958298",
+       "dorsal": "17",
+       "name": "Guerrero Ruiz, J.",
+       "full": "Guerrero Ruiz, Jose Antonio",
+       "noshow": false
+      },
+      {
+       "id": "5098518",
+       "dorsal": "20",
+       "name": "De La Torre Gonzalez, F.",
+       "full": "De La Torre Gonzalez, Francisco Javier",
+       "noshow": false
+      },
+      {
+       "id": "4957453",
+       "dorsal": "21",
+       "name": "Barba Barba, F.",
+       "full": "Barba Barba, Francisco",
+       "noshow": false
+      },
+      {
+       "id": "15284766",
+       "dorsal": "22",
+       "name": "Cabral Gimenez, B.",
+       "full": "Cabral Gimenez, Borja",
+       "noshow": false
+      },
+      {
+       "id": "8232973",
+       "dorsal": "24",
+       "name": "Martin Portillo, A.",
+       "full": "Martin Portillo, Antonio",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "2245853",
+       "dorsal": "1",
+       "name": "Serrano Tome, C.",
+       "full": "Serrano Tome, Carlos",
+       "noshow": false
+      },
+      {
+       "id": "4936341",
+       "dorsal": "2",
+       "name": "Carretero Prieto, J.",
+       "full": "Carretero Prieto, Jose",
+       "noshow": false
+      },
+      {
+       "id": "4891046",
+       "dorsal": "5",
+       "name": "Torres Gil, C.",
+       "full": "Torres Gil, Curro",
+       "noshow": false
+      },
+      {
+       "id": "8315075",
+       "dorsal": "9",
+       "name": "Perez Peñafiel, S.",
+       "full": "Perez Peñafiel, Sergio",
+       "noshow": false
+      },
+      {
+       "id": "33724215",
+       "dorsal": "23",
+       "name": "Buhaychuk Lavrynyuk, M.",
+       "full": "Buhaychuk Lavrynyuk, Maxym",
+       "noshow": false
+      },
+      {
+       "id": "12104056",
+       "dorsal": "29",
+       "name": "Esposito, C.",
+       "full": "Esposito, Christian",
+       "noshow": false
+      },
+      {
+       "id": "19441276",
+       "dorsal": "30",
+       "name": "García Mir, P.",
+       "full": "García Mir, Pablo",
        "noshow": false
       }
      ]
