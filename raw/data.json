@@ -1,5 +1,5 @@
 {
- "actualizado": "10/10/2026, 21:12 CEST",
+ "actualizado": "10/10/2026, 22:12 CEST",
  "clasificacion": [
   {
    "pos": 1,
@@ -45,12 +45,12 @@
    "equipo": "EF DE VELEZ FRANCISCO CASTEJON",
    "code": "849615",
    "pts": "9",
-   "j": 3,
+   "j": 4,
    "g": 3,
    "e": 0,
-   "p": 0,
+   "p": 1,
    "gf": "11",
-   "gc": "3",
+   "gc": "7",
    "romeral": false
   },
   {
@@ -133,6 +133,19 @@
   },
   {
    "pos": 11,
+   "equipo": "SECCIÓN DEPORTIVA FUNDACIÓN MCF",
+   "code": "39920802",
+   "pts": "3",
+   "j": 4,
+   "g": 1,
+   "e": 0,
+   "p": 3,
+   "gf": "7",
+   "gc": "14",
+   "romeral": false
+  },
+  {
+   "pos": 12,
    "equipo": "C.D. ATHLETIC PUERTA BLANCA \"A\"",
    "code": "807215",
    "pts": "1",
@@ -145,7 +158,7 @@
    "romeral": false
   },
   {
-   "pos": 12,
+   "pos": 13,
    "equipo": "LA CALA C.D. \"A\"",
    "code": "808616",
    "pts": "1",
@@ -158,7 +171,7 @@
    "romeral": false
   },
   {
-   "pos": 13,
+   "pos": 14,
    "equipo": "C.D. TRABUCO",
    "code": "817416",
    "pts": "1",
@@ -171,7 +184,7 @@
    "romeral": false
   },
   {
-   "pos": 14,
+   "pos": 15,
    "equipo": "U.D. LOS PRADOS \"A\"",
    "code": "7523607",
    "pts": "1",
@@ -184,7 +197,7 @@
    "romeral": false
   },
   {
-   "pos": 15,
+   "pos": 16,
    "equipo": "A.D. MALAKA C.F. \"A\"",
    "code": "814417",
    "pts": "0",
@@ -194,19 +207,6 @@
    "p": 2,
    "gf": "4",
    "gc": "10",
-   "romeral": false
-  },
-  {
-   "pos": 16,
-   "equipo": "SECCIÓN DEPORTIVA FUNDACIÓN MCF",
-   "code": "39920802",
-   "pts": "0",
-   "j": 3,
-   "g": 0,
-   "e": 0,
-   "p": 3,
-   "gf": "3",
-   "gc": "14",
    "romeral": false
   }
  ],
@@ -603,11 +603,11 @@
     "visitante_code": "849615",
     "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0002233591_Escudo_Fundaci__n_MCF.png",
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000483064_trescuartos.jpg",
-    "gl": "",
-    "gv": "",
+    "gl": "4",
+    "gv": "0",
     "fecha": "10-10-2026",
     "hora": "20:00",
-    "acta": "",
+    "acta": "2653750",
     "romeral": false
    },
    {
@@ -11878,6 +11878,286 @@
        "dorsal": "69",
        "name": "Pineda Quintana, P.",
        "full": "Pineda Quintana, Pablo",
+       "noshow": false
+      }
+     ]
+    }
+   }
+  },
+  "2653750": {
+   "goals": [
+    {
+     "side": "l",
+     "min": "42",
+     "name": "Lopez Arguello, A.",
+     "kind": " (p.)"
+    },
+    {
+     "side": "l",
+     "min": "56",
+     "name": "Gomez Ponce, M.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "65",
+     "name": "Ternero Gonzalez, A.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "89",
+     "name": "Ouqebli, A.",
+     "kind": ""
+    }
+   ],
+   "cards": [
+    {
+     "team": "EF DE VELEZ FRANCISCO CASTEJON",
+     "min": "78",
+     "name": "El Maani El Yamni, Y.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "EF DE VELEZ FRANCISCO CASTEJON",
+     "min": "80",
+     "name": "Molina Garcia, T.",
+     "kind": "roja"
+    }
+   ],
+   "lineups": {
+    "l": {
+     "tit": [
+      {
+       "id": "12076057",
+       "dorsal": "1",
+       "name": "Mancebo Castaño, S.",
+       "full": "Mancebo Castaño, Sandro",
+       "noshow": false
+      },
+      {
+       "id": "8512697",
+       "dorsal": "2",
+       "name": "Alarcon Enciso, J.",
+       "full": "Alarcon Enciso, Jose",
+       "noshow": false
+      },
+      {
+       "id": "2280082",
+       "dorsal": "5",
+       "name": "Martin Moreno, J.",
+       "full": "Martin Moreno, Juan Francisco",
+       "noshow": false
+      },
+      {
+       "id": "18685798",
+       "dorsal": "7",
+       "name": "Llinás Cortes, K.",
+       "full": "Llinás Cortes, Kevin",
+       "noshow": true
+      },
+      {
+       "id": "35918899",
+       "dorsal": "8",
+       "name": "Lopez Arguello, A.",
+       "full": "Lopez Arguello, Alvaro Ezequiel",
+       "noshow": false
+      },
+      {
+       "id": "18691157",
+       "dorsal": "10",
+       "name": "Gomez Ponce, M.",
+       "full": "Gomez Ponce, Marcos",
+       "noshow": false
+      },
+      {
+       "id": "6957069",
+       "dorsal": "14",
+       "name": "Jurado Barbeito, S.",
+       "full": "Jurado Barbeito, Samuel",
+       "noshow": false
+      },
+      {
+       "id": "15164338",
+       "dorsal": "16",
+       "name": "Otaola Ramos, M.",
+       "full": "Otaola Ramos, Mario",
+       "noshow": false
+      },
+      {
+       "id": "47518409",
+       "dorsal": "17",
+       "name": "Mosker, S.",
+       "full": "Mosker, Sabyl Daoud",
+       "noshow": false
+      },
+      {
+       "id": "49828611",
+       "dorsal": "19",
+       "name": "Ouqebli, A.",
+       "full": "Ouqebli, Adam",
+       "noshow": false
+      },
+      {
+       "id": "23174725",
+       "dorsal": "21",
+       "name": "Diaz Ruiz, T.",
+       "full": "Diaz Ruiz, Tomas",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "8374584",
+       "dorsal": "9",
+       "name": "Ternero Gonzalez, A.",
+       "full": "Ternero Gonzalez, Alejandro",
+       "noshow": false
+      },
+      {
+       "id": "27053650",
+       "dorsal": "11",
+       "name": "Mondragon Rizzo, P.",
+       "full": "Mondragon Rizzo, Pablo",
+       "noshow": false
+      },
+      {
+       "id": "15820698",
+       "dorsal": "28",
+       "name": "Mérida Mérida, R.",
+       "full": "Mérida Mérida, Rodrigo",
+       "noshow": true
+      }
+     ]
+    },
+    "v": {
+     "tit": [
+      {
+       "id": "8333108",
+       "dorsal": "33",
+       "name": "De Miguel Bentil, L.",
+       "full": "De Miguel Bentil, Leonardo",
+       "noshow": false
+      },
+      {
+       "id": "20859214",
+       "dorsal": "3",
+       "name": "Bermudez Zaluskiy, J.",
+       "full": "Bermudez Zaluskiy, Jose Alejandro",
+       "noshow": false
+      },
+      {
+       "id": "25935887",
+       "dorsal": "4",
+       "name": "Dominguez Jimenez, R.",
+       "full": "Dominguez Jimenez, Ruben",
+       "noshow": false
+      },
+      {
+       "id": "4709084",
+       "dorsal": "6",
+       "name": "Morales Nuñez, E.",
+       "full": "Morales Nuñez, Eduardo",
+       "noshow": false
+      },
+      {
+       "id": "8345360",
+       "dorsal": "9",
+       "name": "Gomez Carrascal, J.",
+       "full": "Gomez Carrascal, José Antonio",
+       "noshow": false
+      },
+      {
+       "id": "39418",
+       "dorsal": "17",
+       "name": "Tome Fernandez, J.",
+       "full": "Tome Fernandez, Jorge",
+       "noshow": false
+      },
+      {
+       "id": "4110955",
+       "dorsal": "21",
+       "name": "Gutierrez Gallar, I.",
+       "full": "Gutierrez Gallar, Ignacio",
+       "noshow": false
+      },
+      {
+       "id": "7923859",
+       "dorsal": "26",
+       "name": "Arias Ramos, O.",
+       "full": "Arias Ramos, Oscar",
+       "noshow": false
+      },
+      {
+       "id": "4716377",
+       "dorsal": "47",
+       "name": "Diaz Jimenez, F.",
+       "full": "Diaz Jimenez, Francisco",
+       "noshow": false
+      },
+      {
+       "id": "4709562",
+       "dorsal": "52",
+       "name": "Chacon Pendon, M.",
+       "full": "Chacon Pendon, Martin",
+       "noshow": false
+      },
+      {
+       "id": "3162604",
+       "dorsal": "88",
+       "name": "Luque Prieto, R.",
+       "full": "Luque Prieto, Rafael",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "45482981",
+       "dorsal": "7",
+       "name": "Cubo Piña, S.",
+       "full": "Cubo Piña, Sergio",
+       "noshow": false
+      },
+      {
+       "id": "4717185",
+       "dorsal": "8",
+       "name": "Gonzalez Mata, D.",
+       "full": "Gonzalez Mata, David",
+       "noshow": false
+      },
+      {
+       "id": "8364800",
+       "dorsal": "11",
+       "name": "Slagmolen Rodriguez, S.",
+       "full": "Slagmolen Rodriguez, Simon",
+       "noshow": false
+      },
+      {
+       "id": "33816713",
+       "dorsal": "19",
+       "name": "Rios Diaz, A.",
+       "full": "Rios Diaz, Antonio",
+       "noshow": false
+      },
+      {
+       "id": "7358755",
+       "dorsal": "23",
+       "name": "Garcia Rodriguez, H.",
+       "full": "Garcia Rodriguez, Hugo",
+       "noshow": false
+      },
+      {
+       "id": "31451245",
+       "dorsal": "30",
+       "name": "Mejias Moore, T.",
+       "full": "Mejias Moore, Tomas",
+       "noshow": false
+      },
+      {
+       "id": "18018887",
+       "dorsal": "99",
+       "name": "El Maani El Yamni, Y.",
+       "full": "El Maani El Yamni, Yassin",
        "noshow": false
       }
      ]
