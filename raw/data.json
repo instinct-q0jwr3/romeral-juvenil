@@ -1,5 +1,5 @@
 {
- "actualizado": "10/10/2026, 22:12 CEST",
+ "actualizado": "11/10/2026, 19:12 CEST",
  "clasificacion": [
   {
    "pos": 1,
@@ -29,19 +29,32 @@
   },
   {
    "pos": 3,
-   "equipo": "C.D. FUTBOL ROMERAL",
-   "code": "2064582",
+   "equipo": "ATLETICO JUVAL",
+   "code": "804216",
    "pts": "9",
-   "j": 3,
+   "j": 4,
    "g": 3,
    "e": 0,
-   "p": 0,
+   "p": 1,
    "gf": "11",
-   "gc": "1",
-   "romeral": true
+   "gc": "2",
+   "romeral": false
   },
   {
    "pos": 4,
+   "equipo": "C.D. FUTBOL ROMERAL",
+   "code": "2064582",
+   "pts": "9",
+   "j": 4,
+   "g": 3,
+   "e": 0,
+   "p": 1,
+   "gf": "11",
+   "gc": "7",
+   "romeral": true
+  },
+  {
+   "pos": 5,
    "equipo": "EF DE VELEZ FRANCISCO CASTEJON",
    "code": "849615",
    "pts": "9",
@@ -54,7 +67,7 @@
    "romeral": false
   },
   {
-   "pos": 5,
+   "pos": 6,
    "equipo": "CD UD DOS HERMANAS SAN ANDRES \"B\"",
    "code": "828217",
    "pts": "6",
@@ -64,19 +77,6 @@
    "p": 1,
    "gf": "14",
    "gc": "7",
-   "romeral": false
-  },
-  {
-   "pos": 6,
-   "equipo": "ATLETICO JUVAL",
-   "code": "804216",
-   "pts": "6",
-   "j": 3,
-   "g": 2,
-   "e": 0,
-   "p": 1,
-   "gf": "5",
-   "gc": "2",
    "romeral": false
   },
   {
@@ -617,11 +617,11 @@
     "visitante_code": "2064582",
     "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0002202866_escudojpg.jpg",
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0002203762_IMG_2005.png",
-    "gl": "",
-    "gv": "",
+    "gl": "6",
+    "gv": "0",
     "fecha": "11-10-2026",
     "hora": "17:00",
-    "acta": "",
+    "acta": "2653752",
     "romeral": true
    },
    {
@@ -12158,6 +12158,312 @@
        "dorsal": "99",
        "name": "El Maani El Yamni, Y.",
        "full": "El Maani El Yamni, Yassin",
+       "noshow": false
+      }
+     ]
+    }
+   }
+  },
+  "2653752": {
+   "goals": [
+    {
+     "side": "l",
+     "min": "8",
+     "name": "Mihas Fedorovych, M.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "19",
+     "name": "Karlsson Cantador, M.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "25",
+     "name": "Ortega Peña, G.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "30",
+     "name": "El Mohammadi Hafaf, A.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "55",
+     "name": "Cortes Fernandez, F.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "87",
+     "name": "Parra Ruiz, H.",
+     "kind": ""
+    }
+   ],
+   "cards": [
+    {
+     "team": "C.D. FUTBOL ROMERAL",
+     "min": "53",
+     "name": "Martin Del Cid, I.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "C.D. FUTBOL ROMERAL",
+     "min": "83",
+     "name": "Fernandez Fortes, S.",
+     "kind": "amarilla"
+    }
+   ],
+   "lineups": {
+    "l": {
+     "tit": [
+      {
+       "id": "15099342",
+       "dorsal": "1",
+       "name": "Campos Lopez, A.",
+       "full": "Campos Lopez, Angel",
+       "noshow": false
+      },
+      {
+       "id": "5387898",
+       "dorsal": "2",
+       "name": "Kononov, A.",
+       "full": "Kononov, Aron",
+       "noshow": false
+      },
+      {
+       "id": "20648566",
+       "dorsal": "3",
+       "name": "Guerrero Martinez, M.",
+       "full": "Guerrero Martinez, Miguel",
+       "noshow": false
+      },
+      {
+       "id": "11674933",
+       "dorsal": "4",
+       "name": "Cevallos Yaguachi, F.",
+       "full": "Cevallos Yaguachi, Felix David",
+       "noshow": false
+      },
+      {
+       "id": "53231",
+       "dorsal": "6",
+       "name": "Ortega Peña, G.",
+       "full": "Ortega Peña, Gonzalo",
+       "noshow": false
+      },
+      {
+       "id": "11699318",
+       "dorsal": "7",
+       "name": "Perez Badia, J.",
+       "full": "Perez Badia, Jaime",
+       "noshow": false
+      },
+      {
+       "id": "45835613",
+       "dorsal": "8",
+       "name": "Karlsson Cantador, M.",
+       "full": "Karlsson Cantador, Matias",
+       "noshow": false
+      },
+      {
+       "id": "2204418",
+       "dorsal": "10",
+       "name": "Cortes Fernandez, F.",
+       "full": "Cortes Fernandez, Federico",
+       "noshow": false
+      },
+      {
+       "id": "2304398",
+       "dorsal": "11",
+       "name": "Parra Ruiz, H.",
+       "full": "Parra Ruiz, Hugo",
+       "noshow": true
+      },
+      {
+       "id": "30512864",
+       "dorsal": "21",
+       "name": "Pedrosa Villasana, A.",
+       "full": "Pedrosa Villasana, Adrian",
+       "noshow": false
+      },
+      {
+       "id": "28685398",
+       "dorsal": "23",
+       "name": "Mihas Fedorovych, M.",
+       "full": "Mihas Fedorovych, Marko",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "8251005",
+       "dorsal": "14",
+       "name": "Laamarti Jimenez, A.",
+       "full": "Laamarti Jimenez, Anwar",
+       "noshow": true
+      },
+      {
+       "id": "8293108",
+       "dorsal": "19",
+       "name": "Sánchez Bernier, I.",
+       "full": "Sánchez Bernier, Iván",
+       "noshow": false
+      },
+      {
+       "id": "27236830",
+       "dorsal": "22",
+       "name": "Cabrera Suarez, M.",
+       "full": "Cabrera Suarez, Mikel",
+       "noshow": false
+      },
+      {
+       "id": "21048891",
+       "dorsal": "29",
+       "name": "El Mohammadi Hafaf, A.",
+       "full": "El Mohammadi Hafaf, Amin",
+       "noshow": false
+      },
+      {
+       "id": "15023136",
+       "dorsal": "80",
+       "name": "Sow Ba, H.",
+       "full": "Sow Ba, Hamadusiray",
+       "noshow": false
+      }
+     ]
+    },
+    "v": {
+     "tit": [
+      {
+       "id": "15636970",
+       "dorsal": "1",
+       "name": "Rodríguez Oncina, F.",
+       "full": "Rodríguez Oncina, Felix",
+       "noshow": false
+      },
+      {
+       "id": "2064899",
+       "dorsal": "7",
+       "name": "Medina Moreno, H.",
+       "full": "Medina Moreno, Hugo",
+       "noshow": true
+      },
+      {
+       "id": "27406877",
+       "dorsal": "8",
+       "name": "Martin Del Cid, I.",
+       "full": "Martin Del Cid, Ignacio",
+       "noshow": false
+      },
+      {
+       "id": "2008549",
+       "dorsal": "10",
+       "name": "Lorca Leiva, C.",
+       "full": "Lorca Leiva, Christian",
+       "noshow": true
+      },
+      {
+       "id": "18829865",
+       "dorsal": "14",
+       "name": "Mendez López, J.",
+       "full": "Mendez López, Jorge",
+       "noshow": false
+      },
+      {
+       "id": "14824355",
+       "dorsal": "15",
+       "name": "Marin Morales, J.",
+       "full": "Marin Morales, Joaquin",
+       "noshow": false
+      },
+      {
+       "id": "15274581",
+       "dorsal": "20",
+       "name": "Parra Perez, A.",
+       "full": "Parra Perez, Alejandro",
+       "noshow": false
+      },
+      {
+       "id": "11667379",
+       "dorsal": "21",
+       "name": "Ballesteros Florido, R.",
+       "full": "Ballesteros Florido, Rafael",
+       "noshow": true
+      },
+      {
+       "id": "2393656",
+       "dorsal": "22",
+       "name": "Gonzalez Martin, J.",
+       "full": "Gonzalez Martin, Javier",
+       "noshow": false
+      },
+      {
+       "id": "2121322",
+       "dorsal": "24",
+       "name": "Romero Galan, L.",
+       "full": "Romero Galan, Lucas",
+       "noshow": false
+      },
+      {
+       "id": "2276204",
+       "dorsal": "80",
+       "name": "Fernandez Fortes, S.",
+       "full": "Fernandez Fortes, Saul",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "8364222",
+       "dorsal": "3",
+       "name": "Fernández Mancha, Á.",
+       "full": "Fernández Mancha, Ángel",
+       "noshow": false
+      },
+      {
+       "id": "19048326",
+       "dorsal": "11",
+       "name": "Del Valle Zamora, F.",
+       "full": "Del Valle Zamora, Fernando",
+       "noshow": false
+      },
+      {
+       "id": "31940564",
+       "dorsal": "13",
+       "name": "Dengra Cea, M.",
+       "full": "Dengra Cea, Mateo",
+       "noshow": true
+      },
+      {
+       "id": "26784547",
+       "dorsal": "17",
+       "name": "Olmedo Pacheco, I.",
+       "full": "Olmedo Pacheco, Ivan",
+       "noshow": false
+      },
+      {
+       "id": "25391015",
+       "dorsal": "19",
+       "name": "Olea Martín, I.",
+       "full": "Olea Martín, Israel",
+       "noshow": false
+      },
+      {
+       "id": "8363919",
+       "dorsal": "23",
+       "name": "Gomez Hernandez, N.",
+       "full": "Gomez Hernandez, Nicolas",
+       "noshow": false
+      },
+      {
+       "id": "2064907",
+       "dorsal": "77",
+       "name": "Benedetti Benedetti, V.",
+       "full": "Benedetti Benedetti, Vito Jr",
        "noshow": false
       }
      ]
