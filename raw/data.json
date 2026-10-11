@@ -1,5 +1,5 @@
 {
- "actualizado": "11/10/2026, 20:42 CEST",
+ "actualizado": "11/10/2026, 21:12 CEST",
  "clasificacion": [
   {
    "pos": 1,
@@ -146,6 +146,32 @@
   },
   {
    "pos": 12,
+   "equipo": "C.D. TRABUCO",
+   "code": "817416",
+   "pts": "2",
+   "j": 4,
+   "g": 0,
+   "e": 2,
+   "p": 2,
+   "gf": "8",
+   "gc": "18",
+   "romeral": false
+  },
+  {
+   "pos": 13,
+   "equipo": "A.D. MALAKA C.F. \"A\"",
+   "code": "814417",
+   "pts": "1",
+   "j": 3,
+   "g": 0,
+   "e": 1,
+   "p": 2,
+   "gf": "8",
+   "gc": "14",
+   "romeral": false
+  },
+  {
+   "pos": 14,
    "equipo": "C.D. ATHLETIC PUERTA BLANCA \"A\"",
    "code": "807215",
    "pts": "1",
@@ -158,7 +184,7 @@
    "romeral": false
   },
   {
-   "pos": 13,
+   "pos": 15,
    "equipo": "LA CALA C.D. \"A\"",
    "code": "808616",
    "pts": "1",
@@ -171,20 +197,7 @@
    "romeral": false
   },
   {
-   "pos": 14,
-   "equipo": "C.D. TRABUCO",
-   "code": "817416",
-   "pts": "1",
-   "j": 3,
-   "g": 0,
-   "e": 1,
-   "p": 2,
-   "gf": "4",
-   "gc": "14",
-   "romeral": false
-  },
-  {
-   "pos": 15,
+   "pos": 16,
    "equipo": "U.D. LOS PRADOS \"A\"",
    "code": "7523607",
    "pts": "1",
@@ -194,19 +207,6 @@
    "p": 3,
    "gf": "3",
    "gc": "14",
-   "romeral": false
-  },
-  {
-   "pos": 16,
-   "equipo": "A.D. MALAKA C.F. \"A\"",
-   "code": "814417",
-   "pts": "0",
-   "j": 2,
-   "g": 0,
-   "e": 0,
-   "p": 2,
-   "gf": "4",
-   "gc": "10",
    "romeral": false
   }
  ],
@@ -659,11 +659,11 @@
     "visitante_code": "814417",
     "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001139555_D47E978D_364D_4916_9EAE_AD4BD04B24AD.jpeg",
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000123043_admalaka-escudo.jpg",
-    "gl": "",
-    "gv": "",
+    "gl": "4",
+    "gv": "4",
     "fecha": "11-10-2026",
     "hora": "18:30",
-    "acta": "",
+    "acta": "2653748",
     "romeral": false
    }
   ],
