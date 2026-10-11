@@ -1,5 +1,5 @@
 {
- "actualizado": "11/10/2026, 21:12 CEST",
+ "actualizado": "11/10/2026, 23:15 CEST",
  "clasificacion": [
   {
    "pos": 1,
@@ -13086,6 +13086,384 @@
        "dorsal": "15",
        "name": "Maldonado Rodriguez, L.",
        "full": "Maldonado Rodriguez, Luis",
+       "noshow": false
+      }
+     ]
+    }
+   }
+  },
+  "2653748": {
+   "goals": [
+    {
+     "side": "l",
+     "min": "6",
+     "name": "Sancho Caro, J.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "17",
+     "name": "Roman Valenzuela, A.",
+     "kind": ""
+    },
+    {
+     "side": "v",
+     "min": "38",
+     "name": "Callejon Ocon, E.",
+     "kind": ""
+    },
+    {
+     "side": "v",
+     "min": "39",
+     "name": "Muñoz Benitez, D.",
+     "kind": ""
+    },
+    {
+     "side": "v",
+     "min": "45",
+     "name": "Florido Aleña, D.",
+     "kind": ""
+    },
+    {
+     "side": "v",
+     "min": "49",
+     "name": "Soto Villarrubia, M.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "54",
+     "name": "Roman Bermudez, A.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "87",
+     "name": "Roman Valenzuela, A.",
+     "kind": ""
+    }
+   ],
+   "cards": [
+    {
+     "team": "C.D. TRABUCO",
+     "min": "18",
+     "name": "Luque Rodriguez, J.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "C.D. TRABUCO",
+     "min": "60",
+     "name": "García Carmona, J.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "C.D. TRABUCO",
+     "min": "65",
+     "name": "Perez Jimenez, A.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "A.D. MALAKA C.F. A",
+     "min": "2",
+     "name": "Soto Villarrubia, M.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "A.D. MALAKA C.F. A",
+     "min": "5",
+     "name": "Postigo Lopez, N.",
+     "kind": "roja"
+    },
+    {
+     "team": "A.D. MALAKA C.F. A",
+     "min": "20",
+     "name": "Rodriguez Sanchez, J.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "A.D. MALAKA C.F. A",
+     "min": "20",
+     "name": "Gomez Blanco, J.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "A.D. MALAKA C.F. A",
+     "min": "25",
+     "name": "Gomez Blanco, J.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "A.D. MALAKA C.F. A",
+     "min": "70",
+     "name": "Franco Fernandez, D.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "A.D. MALAKA C.F. A",
+     "min": "75",
+     "name": "Sanchez Zurita, M.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "A.D. MALAKA C.F. A",
+     "min": "87",
+     "name": "Cervantes Torreblanca, A.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "A.D. MALAKA C.F. A",
+     "min": "90",
+     "name": "Rodriguez Sanchez, J.",
+     "kind": "amarilla"
+    }
+   ],
+   "lineups": {
+    "l": {
+     "tit": [
+      {
+       "id": "8224614",
+       "dorsal": "1",
+       "name": "Astorga Ortigosa, J.",
+       "full": "Astorga Ortigosa, Javier",
+       "noshow": false
+      },
+      {
+       "id": "4982347",
+       "dorsal": "4",
+       "name": "Valencia Arjona, A.",
+       "full": "Valencia Arjona, Alvaro",
+       "noshow": false
+      },
+      {
+       "id": "8223413",
+       "dorsal": "5",
+       "name": "Luque Rodriguez, J.",
+       "full": "Luque Rodriguez, Jorge",
+       "noshow": false
+      },
+      {
+       "id": "4982485",
+       "dorsal": "8",
+       "name": "Sancho Caro, J.",
+       "full": "Sancho Caro, Jesus",
+       "noshow": false
+      },
+      {
+       "id": "11998602",
+       "dorsal": "12",
+       "name": "Campillo Arjona, D.",
+       "full": "Campillo Arjona, Diego",
+       "noshow": false
+      },
+      {
+       "id": "15733834",
+       "dorsal": "13",
+       "name": "Lara Ferrer, F.",
+       "full": "Lara Ferrer, Fernando",
+       "noshow": false
+      },
+      {
+       "id": "8224501",
+       "dorsal": "17",
+       "name": "Reina Arrebola, I.",
+       "full": "Reina Arrebola, Iker",
+       "noshow": false
+      },
+      {
+       "id": "8223554",
+       "dorsal": "24",
+       "name": "Ardila Alba, A.",
+       "full": "Ardila Alba, Alberto",
+       "noshow": false
+      },
+      {
+       "id": "8223981",
+       "dorsal": "27",
+       "name": "Garcia Luque, M.",
+       "full": "Garcia Luque, Manuel Jacinto",
+       "noshow": false
+      },
+      {
+       "id": "25068991",
+       "dorsal": "28",
+       "name": "García Carmona, J.",
+       "full": "García Carmona, José Antonio",
+       "noshow": false
+      },
+      {
+       "id": "8224087",
+       "dorsal": "47",
+       "name": "Fernandez Wheeler, K.",
+       "full": "Fernandez Wheeler, Kevin",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "45873058",
+       "dorsal": "16",
+       "name": "Martinez De Armas, R.",
+       "full": "Martinez De Armas, Roger",
+       "noshow": false
+      },
+      {
+       "id": "29983141",
+       "dorsal": "2",
+       "name": "Roman Bermudez, A.",
+       "full": "Roman Bermudez, Alejandro",
+       "noshow": false
+      },
+      {
+       "id": "35342894",
+       "dorsal": "7",
+       "name": "Perez Jimenez, A.",
+       "full": "Perez Jimenez, Abrahan Alfonso",
+       "noshow": false
+      },
+      {
+       "id": "2380119",
+       "dorsal": "11",
+       "name": "Roman Valenzuela, A.",
+       "full": "Roman Valenzuela, Alejandro",
+       "noshow": false
+      },
+      {
+       "id": "8224449",
+       "dorsal": "21",
+       "name": "Jimenez Gonzalez, E.",
+       "full": "Jimenez Gonzalez, Erik",
+       "noshow": false
+      },
+      {
+       "id": "8226418",
+       "dorsal": "22",
+       "name": "Garcia Cabrera, G.",
+       "full": "Garcia Cabrera, Gonzalo",
+       "noshow": false
+      }
+     ]
+    },
+    "v": {
+     "tit": [
+      {
+       "id": "8224247",
+       "dorsal": "13",
+       "name": "Garcia Reina, M.",
+       "full": "Garcia Reina, Manuel German",
+       "noshow": false
+      },
+      {
+       "id": "4857690",
+       "dorsal": "2",
+       "name": "Soto Villarrubia, M.",
+       "full": "Soto Villarrubia, Marcos",
+       "noshow": false
+      },
+      {
+       "id": "8354936",
+       "dorsal": "3",
+       "name": "Martinez Cortes, M.",
+       "full": "Martinez Cortes, Miguel",
+       "noshow": false
+      },
+      {
+       "id": "4912766",
+       "dorsal": "5",
+       "name": "Cervantes Torreblanca, A.",
+       "full": "Cervantes Torreblanca, Angel",
+       "noshow": false
+      },
+      {
+       "id": "4922526",
+       "dorsal": "11",
+       "name": "Muñoz Benitez, D.",
+       "full": "Muñoz Benitez, Diego",
+       "noshow": false
+      },
+      {
+       "id": "4914322",
+       "dorsal": "14",
+       "name": "Callejon Ocon, E.",
+       "full": "Callejon Ocon, Enzo",
+       "noshow": false
+      },
+      {
+       "id": "18638586",
+       "dorsal": "19",
+       "name": "Akhiat El Ouajibi, A.",
+       "full": "Akhiat El Ouajibi, Anas",
+       "noshow": false
+      },
+      {
+       "id": "5107675",
+       "dorsal": "20",
+       "name": "Gonzalez De La Mota Ardila, I.",
+       "full": "Gonzalez De La Mota Ardila, Izan",
+       "noshow": false
+      },
+      {
+       "id": "34739812",
+       "dorsal": "21",
+       "name": "Ramirez Borjas, S.",
+       "full": "Ramirez Borjas, Sebastian Ivan",
+       "noshow": false
+      },
+      {
+       "id": "21966425",
+       "dorsal": "69",
+       "name": "Garcia Heredia, M.",
+       "full": "Garcia Heredia, Manuel",
+       "noshow": false
+      },
+      {
+       "id": "39360624",
+       "dorsal": "80",
+       "name": "Postigo Lopez, N.",
+       "full": "Postigo Lopez, Noah",
+       "noshow": true
+      }
+     ],
+     "sup": [
+      {
+       "id": "8286186",
+       "dorsal": "99",
+       "name": "Jerez Ortega, U.",
+       "full": "Jerez Ortega, Unai",
+       "noshow": false
+      },
+      {
+       "id": "2276098",
+       "dorsal": "4",
+       "name": "Franco Fernandez, D.",
+       "full": "Franco Fernandez, Daniel",
+       "noshow": false
+      },
+      {
+       "id": "11563542",
+       "dorsal": "7",
+       "name": "Sanchez Zurita, M.",
+       "full": "Sanchez Zurita, Manuel",
+       "noshow": false
+      },
+      {
+       "id": "2064879",
+       "dorsal": "8",
+       "name": "Sánchez Torres, Á.",
+       "full": "Sánchez Torres, Álvaro",
+       "noshow": false
+      },
+      {
+       "id": "17281010",
+       "dorsal": "10",
+       "name": "Florido Aleña, D.",
+       "full": "Florido Aleña, David",
+       "noshow": false
+      },
+      {
+       "id": "8247475",
+       "dorsal": "73",
+       "name": "Guirado Diaz, L.",
+       "full": "Guirado Diaz, Lucca",
        "noshow": false
       }
      ]
