@@ -1,5 +1,5 @@
 {
- "actualizado": "11/10/2026, 20:12 CEST",
+ "actualizado": "11/10/2026, 20:42 CEST",
  "clasificacion": [
   {
    "pos": 1,
@@ -42,6 +42,19 @@
   },
   {
    "pos": 4,
+   "equipo": "C.D. CORTIJILLO BAZAN",
+   "code": "20065106",
+   "pts": "9",
+   "j": 4,
+   "g": 3,
+   "e": 0,
+   "p": 1,
+   "gf": "20",
+   "gc": "13",
+   "romeral": false
+  },
+  {
+   "pos": 5,
    "equipo": "C.D. FUTBOL ROMERAL",
    "code": "2064582",
    "pts": "9",
@@ -54,7 +67,7 @@
    "romeral": true
   },
   {
-   "pos": 5,
+   "pos": 6,
    "equipo": "EF DE VELEZ FRANCISCO CASTEJON",
    "code": "849615",
    "pts": "9",
@@ -67,7 +80,7 @@
    "romeral": false
   },
   {
-   "pos": 6,
+   "pos": 7,
    "equipo": "CD UD DOS HERMANAS SAN ANDRES \"B\"",
    "code": "828217",
    "pts": "7",
@@ -77,19 +90,6 @@
    "p": 1,
    "gf": "14",
    "gc": "7",
-   "romeral": false
-  },
-  {
-   "pos": 7,
-   "equipo": "C.D. CORTIJILLO BAZAN",
-   "code": "20065106",
-   "pts": "6",
-   "j": 3,
-   "g": 2,
-   "e": 0,
-   "p": 1,
-   "gf": "11",
-   "gc": "10",
    "romeral": false
   },
   {
@@ -120,19 +120,6 @@
   },
   {
    "pos": 10,
-   "equipo": "C.D. 26 DE FEBRERO",
-   "code": "847616",
-   "pts": "3",
-   "j": 2,
-   "g": 1,
-   "e": 0,
-   "p": 1,
-   "gf": "4",
-   "gc": "6",
-   "romeral": false
-  },
-  {
-   "pos": 11,
    "equipo": "SECCIÓN DEPORTIVA FUNDACIÓN MCF",
    "code": "39920802",
    "pts": "3",
@@ -142,6 +129,19 @@
    "p": 3,
    "gf": "7",
    "gc": "14",
+   "romeral": false
+  },
+  {
+   "pos": 11,
+   "equipo": "C.D. 26 DE FEBRERO",
+   "code": "847616",
+   "pts": "3",
+   "j": 3,
+   "g": 1,
+   "e": 0,
+   "p": 2,
+   "gf": "7",
+   "gc": "15",
    "romeral": false
   },
   {
@@ -625,20 +625,6 @@
     "romeral": true
    },
    {
-    "local": "C.D. CORTIJILLO BAZAN",
-    "local_code": "20065106",
-    "visitante": "C.D. 26 DE FEBRERO",
-    "visitante_code": "847616",
-    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001802717_ESCUDO_peque__o.jpg",
-    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001185325_26_FEBERO.jpg",
-    "gl": "",
-    "gv": "",
-    "fecha": "11-10-2026",
-    "hora": "18:00",
-    "acta": "",
-    "romeral": false
-   },
-   {
     "local": "PTO.MALAGUEÑO CDAD.JARDIN G.I. \"A\"",
     "local_code": "800916",
     "visitante": "CD UD DOS HERMANAS SAN ANDRES \"B\"",
@@ -650,6 +636,20 @@
     "fecha": "11-10-2026",
     "hora": "18:00",
     "acta": "2653751",
+    "romeral": false
+   },
+   {
+    "local": "C.D. CORTIJILLO BAZAN",
+    "local_code": "20065106",
+    "visitante": "C.D. 26 DE FEBRERO",
+    "visitante_code": "847616",
+    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001802717_ESCUDO_peque__o.jpg",
+    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001185325_26_FEBERO.jpg",
+    "gl": "9",
+    "gv": "3",
+    "fecha": "11-10-2026",
+    "hora": "18:15",
+    "acta": "2653747",
     "romeral": false
    },
    {
@@ -12752,6 +12752,340 @@
        "dorsal": "18",
        "name": "Hernandez Gonzalez, D.",
        "full": "Hernandez Gonzalez, Daniel",
+       "noshow": false
+      }
+     ]
+    }
+   }
+  },
+  "2653747": {
+   "goals": [
+    {
+     "side": "l",
+     "min": "3",
+     "name": "Alonso Vidal, D.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "23",
+     "name": "Luque Sanz, A.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "30",
+     "name": "Palomo Ruiz, J.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "31",
+     "name": "Elias Gomez, S.",
+     "kind": ""
+    },
+    {
+     "side": "v",
+     "min": "34",
+     "name": "Cabra Porras, A.",
+     "kind": ""
+    },
+    {
+     "side": "v",
+     "min": "41",
+     "name": "Rodriguez Heredia, R.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "50",
+     "name": "Alonso Vidal, A.",
+     "kind": " (p.)"
+    },
+    {
+     "side": "v",
+     "min": "67",
+     "name": "Camacho Crespillo, J.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "73",
+     "name": "Luque Sanz, A.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "76",
+     "name": "Elias Gomez, S.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "84",
+     "name": "Alonso Vidal, D.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "93",
+     "name": "Ghaylan Bonejma, Y.",
+     "kind": ""
+    }
+   ],
+   "cards": [
+    {
+     "team": "C.D. 26 DE FEBRERO",
+     "min": "49",
+     "name": "Florido Aman, F.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "C.D. 26 DE FEBRERO",
+     "min": "66",
+     "name": "Rodriguez Rodriguez, V.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "C.D. 26 DE FEBRERO",
+     "min": "69",
+     "name": "Camacho Crespillo, J.",
+     "kind": "amarilla"
+    }
+   ],
+   "lineups": {
+    "l": {
+     "tit": [
+      {
+       "id": "15635727",
+       "dorsal": "1",
+       "name": "Cortes Muñoz, A.",
+       "full": "Cortes Muñoz, Antonio",
+       "noshow": false
+      },
+      {
+       "id": "7948869",
+       "dorsal": "3",
+       "name": "Aguilar Fernandez, J.",
+       "full": "Aguilar Fernandez, Juan Luis",
+       "noshow": false
+      },
+      {
+       "id": "18714937",
+       "dorsal": "5",
+       "name": "Castillo Doctor, A.",
+       "full": "Castillo Doctor, Adrian",
+       "noshow": true
+      },
+      {
+       "id": "2255367",
+       "dorsal": "6",
+       "name": "Ruiz Ruiz, A.",
+       "full": "Ruiz Ruiz, Andres",
+       "noshow": false
+      },
+      {
+       "id": "39592",
+       "dorsal": "7",
+       "name": "Palomo Ruiz, J.",
+       "full": "Palomo Ruiz, Jose Juan",
+       "noshow": false
+      },
+      {
+       "id": "2254370",
+       "dorsal": "8",
+       "name": "Castillo Martin, M.",
+       "full": "Castillo Martin, Miguel",
+       "noshow": false
+      },
+      {
+       "id": "2444776",
+       "dorsal": "10",
+       "name": "Elias Gomez, S.",
+       "full": "Elias Gomez, Sergio",
+       "noshow": false
+      },
+      {
+       "id": "26234951",
+       "dorsal": "11",
+       "name": "Alonso Vidal, D.",
+       "full": "Alonso Vidal, Diego",
+       "noshow": true
+      },
+      {
+       "id": "19017010",
+       "dorsal": "17",
+       "name": "Ghaylan Bonejma, Y.",
+       "full": "Ghaylan Bonejma, Yassir",
+       "noshow": false
+      },
+      {
+       "id": "4555379",
+       "dorsal": "19",
+       "name": "Sanchez Fernandez, I.",
+       "full": "Sanchez Fernandez, Izan",
+       "noshow": false
+      },
+      {
+       "id": "2254567",
+       "dorsal": "21",
+       "name": "Luque Sanz, A.",
+       "full": "Luque Sanz, Alejandro",
+       "noshow": true
+      }
+     ],
+     "sup": [
+      {
+       "id": "26285272",
+       "dorsal": "4",
+       "name": "Carnero Maese, P.",
+       "full": "Carnero Maese, Pablo",
+       "noshow": false
+      },
+      {
+       "id": "26234018",
+       "dorsal": "9",
+       "name": "Alonso Vidal, A.",
+       "full": "Alonso Vidal, Adrian",
+       "noshow": false
+      },
+      {
+       "id": "18984857",
+       "dorsal": "14",
+       "name": "Pasion Lopez, J.",
+       "full": "Pasion Lopez, Javier",
+       "noshow": false
+      },
+      {
+       "id": "4555491",
+       "dorsal": "20",
+       "name": "Millan Pinto, D.",
+       "full": "Millan Pinto, Diego Jesus",
+       "noshow": false
+      }
+     ]
+    },
+    "v": {
+     "tit": [
+      {
+       "id": "49901608",
+       "dorsal": "1",
+       "name": "Gssaiar Shaita, Y.",
+       "full": "Gssaiar Shaita, Youssef",
+       "noshow": false
+      },
+      {
+       "id": "721154",
+       "dorsal": "3",
+       "name": "Camacho Crespillo, J.",
+       "full": "Camacho Crespillo, Juan Miguel",
+       "noshow": false
+      },
+      {
+       "id": "22427118",
+       "dorsal": "5",
+       "name": "Ekene Ekene, C.",
+       "full": "Ekene Ekene, Chison",
+       "noshow": false
+      },
+      {
+       "id": "46811880",
+       "dorsal": "6",
+       "name": "Heredia Iznata, J.",
+       "full": "Heredia Iznata, Jesus",
+       "noshow": false
+      },
+      {
+       "id": "11821520",
+       "dorsal": "7",
+       "name": "Ordoñez Fernandez, O.",
+       "full": "Ordoñez Fernandez, Oscar",
+       "noshow": true
+      },
+      {
+       "id": "12160721",
+       "dorsal": "9",
+       "name": "Martin Rodriguez, S.",
+       "full": "Martin Rodriguez, Sergio",
+       "noshow": false
+      },
+      {
+       "id": "19522297",
+       "dorsal": "10",
+       "name": "Ruiz Garcia, R.",
+       "full": "Ruiz Garcia, Rafael",
+       "noshow": false
+      },
+      {
+       "id": "36338417",
+       "dorsal": "17",
+       "name": "Ekechukwu, C.",
+       "full": "Ekechukwu, Christian Chigozie",
+       "noshow": false
+      },
+      {
+       "id": "2248715",
+       "dorsal": "18",
+       "name": "Florido Aman, F.",
+       "full": "Florido Aman, Francisco Mario",
+       "noshow": false
+      },
+      {
+       "id": "26964523",
+       "dorsal": "19",
+       "name": "Alot Bazalo, O.",
+       "full": "Alot Bazalo, Oliver",
+       "noshow": false
+      },
+      {
+       "id": "8199486",
+       "dorsal": "21",
+       "name": "Camacho Trujillo, M.",
+       "full": "Camacho Trujillo, Manuel",
+       "noshow": true
+      }
+     ],
+     "sup": [
+      {
+       "id": "18826385",
+       "dorsal": "2",
+       "name": "Sanchez Perez, B.",
+       "full": "Sanchez Perez, Benjamin",
+       "noshow": false
+      },
+      {
+       "id": "34928647",
+       "dorsal": "4",
+       "name": "Sierra Camargo, J.",
+       "full": "Sierra Camargo, Jaime",
+       "noshow": false
+      },
+      {
+       "id": "11821308",
+       "dorsal": "8",
+       "name": "Cabra Porras, A.",
+       "full": "Cabra Porras, Abrahan",
+       "noshow": false
+      },
+      {
+       "id": "12564702",
+       "dorsal": "11",
+       "name": "Rodriguez Heredia, R.",
+       "full": "Rodriguez Heredia, Ramon",
+       "noshow": false
+      },
+      {
+       "id": "49852451",
+       "dorsal": "14",
+       "name": "Rodriguez Rodriguez, V.",
+       "full": "Rodriguez Rodriguez, Victor",
+       "noshow": false
+      },
+      {
+       "id": "35587870",
+       "dorsal": "15",
+       "name": "Maldonado Rodriguez, L.",
+       "full": "Maldonado Rodriguez, Luis",
        "noshow": false
       }
      ]
