@@ -1,5 +1,5 @@
 {
- "actualizado": "12/10/2026, 13:42 CEST",
+ "actualizado": "12/10/2026, 22:04 CEST",
  "clasificacion": [
   {
    "pos": 1,
@@ -669,6 +669,48 @@
   ],
   "5": [
    {
+    "local": "CD UD DOS HERMANAS SAN ANDRES \"B\"",
+    "local_code": "828217",
+    "visitante": "ATLETICO JUVAL",
+    "visitante_code": "804216",
+    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001421_DGRPublicidad.Escudo_San_Andres.jpg",
+    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0002202866_escudojpg.jpg",
+    "gl": "",
+    "gv": "",
+    "fecha": "17-10-2026",
+    "hora": "",
+    "acta": "",
+    "romeral": false
+   },
+   {
+    "local": "EF DE VELEZ FRANCISCO CASTEJON",
+    "local_code": "849615",
+    "visitante": "PTO.MALAGUEÑO CDAD.JARDIN G.I. \"A\"",
+    "visitante_code": "800916",
+    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000483064_trescuartos.jpg",
+    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000643486_ESCUDO_BUENO.jpg",
+    "gl": "",
+    "gv": "",
+    "fecha": "17-10-2026",
+    "hora": "",
+    "acta": "",
+    "romeral": false
+   },
+   {
+    "local": "C.D. FUTBOL ROMERAL",
+    "local_code": "2064582",
+    "visitante": "C.D. ATHLETIC PUERTA BLANCA \"A\"",
+    "visitante_code": "807215",
+    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0002203762_IMG_2005.png",
+    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001548939_Escudo_Athletic_sin_fondo.jpg",
+    "gl": "",
+    "gv": "",
+    "fecha": "17-10-2026",
+    "hora": "",
+    "acta": "",
+    "romeral": true
+   },
+   {
     "local": "C.D. CHURRIANA",
     "local_code": "802816",
     "visitante": "C.D. CORTIJILLO BAZAN",
@@ -677,7 +719,7 @@
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001802717_ESCUDO_peque__o.jpg",
     "gl": "",
     "gv": "",
-    "fecha": "18-10-2026",
+    "fecha": "17-10-2026",
     "hora": "",
     "acta": "",
     "romeral": false
@@ -723,48 +765,6 @@
     "hora": "",
     "acta": "",
     "romeral": false
-   },
-   {
-    "local": "EF DE VELEZ FRANCISCO CASTEJON",
-    "local_code": "849615",
-    "visitante": "PTO.MALAGUEÑO CDAD.JARDIN G.I. \"A\"",
-    "visitante_code": "800916",
-    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000483064_trescuartos.jpg",
-    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000643486_ESCUDO_BUENO.jpg",
-    "gl": "",
-    "gv": "",
-    "fecha": "18-10-2026",
-    "hora": "",
-    "acta": "",
-    "romeral": false
-   },
-   {
-    "local": "CD UD DOS HERMANAS SAN ANDRES \"B\"",
-    "local_code": "828217",
-    "visitante": "ATLETICO JUVAL",
-    "visitante_code": "804216",
-    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001421_DGRPublicidad.Escudo_San_Andres.jpg",
-    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0002202866_escudojpg.jpg",
-    "gl": "",
-    "gv": "",
-    "fecha": "18-10-2026",
-    "hora": "",
-    "acta": "",
-    "romeral": false
-   },
-   {
-    "local": "C.D. FUTBOL ROMERAL",
-    "local_code": "2064582",
-    "visitante": "C.D. ATHLETIC PUERTA BLANCA \"A\"",
-    "visitante_code": "807215",
-    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0002203762_IMG_2005.png",
-    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001548939_Escudo_Athletic_sin_fondo.jpg",
-    "gl": "",
-    "gv": "",
-    "fecha": "18-10-2026",
-    "hora": "",
-    "acta": "",
-    "romeral": true
    },
    {
     "local": "U.D. LOS PRADOS \"A\"",
