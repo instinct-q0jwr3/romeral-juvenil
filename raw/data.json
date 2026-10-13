@@ -1,5 +1,5 @@
 {
- "actualizado": "12/10/2026, 22:04 CEST",
+ "actualizado": "13/10/2026, 07:56 CEST",
  "clasificacion": [
   {
    "pos": 1,
@@ -711,6 +711,34 @@
     "romeral": true
    },
    {
+    "local": "LA CALA C.D. \"A\"",
+    "local_code": "808616",
+    "visitante": "SECCIÓN DEPORTIVA FUNDACIÓN MCF",
+    "visitante_code": "39920802",
+    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001146686_escudo.jpg",
+    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0002233591_Escudo_Fundaci__n_MCF.png",
+    "gl": "",
+    "gv": "",
+    "fecha": "17-10-2026",
+    "hora": "",
+    "acta": "",
+    "romeral": false
+   },
+   {
+    "local": "U.D. LOS PRADOS \"A\"",
+    "local_code": "7523607",
+    "visitante": "C.D. CONEJITO DE MALAGA",
+    "visitante_code": "28567623",
+    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000216879_ESCUDO_PRADOS.png",
+    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001589039_LOGO_CONEJITO_color.png",
+    "gl": "",
+    "gv": "",
+    "fecha": "17-10-2026",
+    "hora": "",
+    "acta": "",
+    "romeral": false
+   },
+   {
     "local": "C.D. CHURRIANA",
     "local_code": "802816",
     "visitante": "C.D. CORTIJILLO BAZAN",
@@ -745,34 +773,6 @@
     "visitante_code": "39001729",
     "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000123043_admalaka-escudo.jpg",
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000455475_escudo_futbol18.jpg",
-    "gl": "",
-    "gv": "",
-    "fecha": "18-10-2026",
-    "hora": "",
-    "acta": "",
-    "romeral": false
-   },
-   {
-    "local": "LA CALA C.D. \"A\"",
-    "local_code": "808616",
-    "visitante": "SECCIÓN DEPORTIVA FUNDACIÓN MCF",
-    "visitante_code": "39920802",
-    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001146686_escudo.jpg",
-    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0002233591_Escudo_Fundaci__n_MCF.png",
-    "gl": "",
-    "gv": "",
-    "fecha": "18-10-2026",
-    "hora": "",
-    "acta": "",
-    "romeral": false
-   },
-   {
-    "local": "U.D. LOS PRADOS \"A\"",
-    "local_code": "7523607",
-    "visitante": "C.D. CONEJITO DE MALAGA",
-    "visitante_code": "28567623",
-    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000216879_ESCUDO_PRADOS.png",
-    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001589039_LOGO_CONEJITO_color.png",
     "gl": "",
     "gv": "",
     "fecha": "18-10-2026",
