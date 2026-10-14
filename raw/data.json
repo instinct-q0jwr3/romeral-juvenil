@@ -1,5 +1,5 @@
 {
- "actualizado": "13/10/2026, 12:09 CEST",
+ "actualizado": "14/10/2026, 13:49 CEST",
  "clasificacion": [
   {
    "pos": 1,
@@ -120,6 +120,19 @@
   },
   {
    "pos": 10,
+   "equipo": "A.D. MALAKA C.F. \"A\"",
+   "code": "814417",
+   "pts": "4",
+   "j": 4,
+   "g": 1,
+   "e": 1,
+   "p": 2,
+   "gf": "12",
+   "gc": "15",
+   "romeral": false
+  },
+  {
+   "pos": 11,
    "equipo": "SECCIÓN DEPORTIVA FUNDACIÓN MCF",
    "code": "39920802",
    "pts": "3",
@@ -132,20 +145,20 @@
    "romeral": false
   },
   {
-   "pos": 11,
+   "pos": 12,
    "equipo": "C.D. 26 DE FEBRERO",
    "code": "847616",
    "pts": "3",
-   "j": 3,
+   "j": 4,
    "g": 1,
    "e": 0,
-   "p": 2,
-   "gf": "7",
-   "gc": "15",
+   "p": 3,
+   "gf": "8",
+   "gc": "19",
    "romeral": false
   },
   {
-   "pos": 12,
+   "pos": 13,
    "equipo": "C.D. TRABUCO",
    "code": "817416",
    "pts": "2",
@@ -155,19 +168,6 @@
    "p": 2,
    "gf": "8",
    "gc": "18",
-   "romeral": false
-  },
-  {
-   "pos": 13,
-   "equipo": "A.D. MALAKA C.F. \"A\"",
-   "code": "814417",
-   "pts": "1",
-   "j": 3,
-   "g": 0,
-   "e": 1,
-   "p": 2,
-   "gf": "8",
-   "gc": "14",
    "romeral": false
   },
   {
@@ -776,7 +776,7 @@
     "gl": "",
     "gv": "",
     "fecha": "18-10-2026",
-    "hora": "17:30",
+    "hora": "15:00",
     "acta": "",
     "romeral": false
    }
