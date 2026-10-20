@@ -1,5 +1,5 @@
 {
- "actualizado": "20/10/2026, 07:57 CEST",
+ "actualizado": "20/10/2026, 20:01 CEST",
  "clasificacion": [
   {
    "pos": 1,
@@ -791,10 +791,24 @@
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0002203762_IMG_2005.png",
     "gl": "",
     "gv": "",
-    "fecha": "25-10-2026",
-    "hora": "",
+    "fecha": "24-10-2026",
+    "hora": "13:30",
     "acta": "",
     "romeral": true
+   },
+   {
+    "local": "C.D. ATHLETIC PUERTA BLANCA \"A\"",
+    "local_code": "807215",
+    "visitante": "CD UD DOS HERMANAS SAN ANDRES \"B\"",
+    "visitante_code": "828217",
+    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001548939_Escudo_Athletic_sin_fondo.jpg",
+    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001421_DGRPublicidad.Escudo_San_Andres.jpg",
+    "gl": "",
+    "gv": "",
+    "fecha": "24-10-2026",
+    "hora": "16:30",
+    "acta": "",
+    "romeral": false
    },
    {
     "local": "C.D. CORTIJILLO BAZAN",
@@ -805,8 +819,8 @@
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000216879_ESCUDO_PRADOS.png",
     "gl": "",
     "gv": "",
-    "fecha": "25-10-2026",
-    "hora": "",
+    "fecha": "24-10-2026",
+    "hora": "18:00",
     "acta": "",
     "romeral": false
    },
@@ -819,8 +833,8 @@
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000483064_trescuartos.jpg",
     "gl": "",
     "gv": "",
-    "fecha": "25-10-2026",
-    "hora": "",
+    "fecha": "24-10-2026",
+    "hora": "18:00",
     "acta": "",
     "romeral": false
    },
@@ -833,8 +847,8 @@
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000123043_admalaka-escudo.jpg",
     "gl": "",
     "gv": "",
-    "fecha": "25-10-2026",
-    "hora": "",
+    "fecha": "24-10-2026",
+    "hora": "20:00",
     "acta": "",
     "romeral": false
    },
@@ -848,7 +862,7 @@
     "gl": "",
     "gv": "",
     "fecha": "25-10-2026",
-    "hora": "",
+    "hora": "12:40",
     "acta": "",
     "romeral": false
    },
@@ -862,7 +876,7 @@
     "gl": "",
     "gv": "",
     "fecha": "25-10-2026",
-    "hora": "",
+    "hora": "15:45",
     "acta": "",
     "romeral": false
    },
@@ -876,21 +890,7 @@
     "gl": "",
     "gv": "",
     "fecha": "25-10-2026",
-    "hora": "",
-    "acta": "",
-    "romeral": false
-   },
-   {
-    "local": "C.D. ATHLETIC PUERTA BLANCA \"A\"",
-    "local_code": "807215",
-    "visitante": "CD UD DOS HERMANAS SAN ANDRES \"B\"",
-    "visitante_code": "828217",
-    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001548939_Escudo_Athletic_sin_fondo.jpg",
-    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001421_DGRPublicidad.Escudo_San_Andres.jpg",
-    "gl": "",
-    "gv": "",
-    "fecha": "25-10-2026",
-    "hora": "",
+    "hora": "16:15",
     "acta": "",
     "romeral": false
    }
