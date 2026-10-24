@@ -1,5 +1,5 @@
 {
- "actualizado": "24/10/2026, 16:12 CEST",
+ "actualizado": "24/10/2026, 19:12 CEST",
  "clasificacion": [
   {
    "pos": 1,
@@ -18,13 +18,13 @@
    "pos": 2,
    "equipo": "CD UD DOS HERMANAS SAN ANDRES \"B\"",
    "code": "828217",
-   "pts": "10",
-   "j": 5,
-   "g": 3,
+   "pts": "13",
+   "j": 6,
+   "g": 4,
    "e": 1,
    "p": 1,
-   "gf": "17",
-   "gc": "8",
+   "gf": "22",
+   "gc": "10",
    "romeral": false
   },
   {
@@ -133,19 +133,6 @@
   },
   {
    "pos": 11,
-   "equipo": "C.D. ATHLETIC PUERTA BLANCA \"A\"",
-   "code": "807215",
-   "pts": "4",
-   "j": 5,
-   "g": 1,
-   "e": 1,
-   "p": 3,
-   "gf": "8",
-   "gc": "12",
-   "romeral": false
-  },
-  {
-   "pos": 12,
    "equipo": "A.D. MALAKA C.F. \"A\"",
    "code": "814417",
    "pts": "4",
@@ -155,6 +142,19 @@
    "p": 3,
    "gf": "13",
    "gc": "20",
+   "romeral": false
+  },
+  {
+   "pos": 12,
+   "equipo": "C.D. ATHLETIC PUERTA BLANCA \"A\"",
+   "code": "807215",
+   "pts": "4",
+   "j": 6,
+   "g": 1,
+   "e": 1,
+   "p": 4,
+   "gf": "10",
+   "gc": "17",
    "romeral": false
   },
   {
@@ -803,11 +803,11 @@
     "visitante_code": "828217",
     "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001548939_Escudo_Athletic_sin_fondo.jpg",
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001421_DGRPublicidad.Escudo_San_Andres.jpg",
-    "gl": "",
-    "gv": "",
+    "gl": "2",
+    "gv": "5",
     "fecha": "24-10-2026",
     "hora": "16:30",
-    "acta": "",
+    "acta": "2653768",
     "romeral": false
    },
    {
@@ -16380,6 +16380,337 @@
        "dorsal": "80",
        "name": "Fernandez Fortes, S.",
        "full": "Fernandez Fortes, Saul",
+       "noshow": false
+      }
+     ]
+    }
+   }
+  },
+  "2653768": {
+   "goals": [
+    {
+     "side": "v",
+     "min": "20",
+     "name": "Zapata Quiles, I.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "22",
+     "name": "Gutierrez Jerez, H.",
+     "kind": ""
+    },
+    {
+     "side": "v",
+     "min": "56",
+     "name": "Mérida Rodriguez, A.",
+     "kind": ""
+    },
+    {
+     "side": "v",
+     "min": "67",
+     "name": "Andreu Becerra, A.",
+     "kind": ""
+    },
+    {
+     "side": "v",
+     "min": "70",
+     "name": "Zapata Quiles, I.",
+     "kind": ""
+    },
+    {
+     "side": "l",
+     "min": "81",
+     "name": "Caceres Sosa, A.",
+     "kind": ""
+    },
+    {
+     "side": "v",
+     "min": "85",
+     "name": "Mérida Rodriguez, A.",
+     "kind": ""
+    }
+   ],
+   "cards": [
+    {
+     "team": "C.D. ATHLETIC PUERTA BLANCA A",
+     "min": "65",
+     "name": "Cano Manjón, R.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "CD UD DOS HERMANAS SAN ANDRES B",
+     "min": "36",
+     "name": "Rosa Bueno, J.",
+     "kind": "amarilla"
+    },
+    {
+     "team": "CD UD DOS HERMANAS SAN ANDRES B",
+     "min": "39",
+     "name": "Comas Mesa, M.",
+     "kind": "roja"
+    },
+    {
+     "team": "CD UD DOS HERMANAS SAN ANDRES B",
+     "min": "84",
+     "name": "Arinze Peter, Q.",
+     "kind": "amarilla"
+    }
+   ],
+   "lineups": {
+    "l": {
+     "tit": [
+      {
+       "id": "4865816",
+       "dorsal": "1",
+       "name": "Arroyo Delgado, R.",
+       "full": "Arroyo Delgado, Raul",
+       "noshow": false
+      },
+      {
+       "id": "92089",
+       "dorsal": "4",
+       "name": "Guerrero Conejo, A.",
+       "full": "Guerrero Conejo, Adrian",
+       "noshow": false
+      },
+      {
+       "id": "49040353",
+       "dorsal": "6",
+       "name": "Carrasco Carballo, R.",
+       "full": "Carrasco Carballo, Raul",
+       "noshow": false
+      },
+      {
+       "id": "11921715",
+       "dorsal": "7",
+       "name": "Corrales Ruiz, F.",
+       "full": "Corrales Ruiz, Francisco",
+       "noshow": false
+      },
+      {
+       "id": "11711249",
+       "dorsal": "8",
+       "name": "Gutierrez Jerez, H.",
+       "full": "Gutierrez Jerez, Hector",
+       "noshow": false
+      },
+      {
+       "id": "8756895",
+       "dorsal": "9",
+       "name": "Asencio Galvan, D.",
+       "full": "Asencio Galvan, David",
+       "noshow": false
+      },
+      {
+       "id": "3250432",
+       "dorsal": "11",
+       "name": "Pallin Martin, M.",
+       "full": "Pallin Martin, Mario",
+       "noshow": false
+      },
+      {
+       "id": "2204436",
+       "dorsal": "14",
+       "name": "Díaz Rosa, J.",
+       "full": "Díaz Rosa, José Francisco",
+       "noshow": false
+      },
+      {
+       "id": "15341363",
+       "dorsal": "15",
+       "name": "Osifo Osifo, M.",
+       "full": "Osifo Osifo, Michael Divinity",
+       "noshow": false
+      },
+      {
+       "id": "12647405",
+       "dorsal": "19",
+       "name": "Caceres Sosa, A.",
+       "full": "Caceres Sosa, Abdias Josue",
+       "noshow": false
+      },
+      {
+       "id": "49181370",
+       "dorsal": "22",
+       "name": "Gonzalez Faura, R.",
+       "full": "Gonzalez Faura, Ruben",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "8498395",
+       "dorsal": "13",
+       "name": "Moreno Caturla, M.",
+       "full": "Moreno Caturla, Miguel",
+       "noshow": false
+      },
+      {
+       "id": "53350",
+       "dorsal": "10",
+       "name": "Florido Bonilla, I.",
+       "full": "Florido Bonilla, Ivan",
+       "noshow": false
+      },
+      {
+       "id": "49040209",
+       "dorsal": "12",
+       "name": "Aragón Montero, A.",
+       "full": "Aragón Montero, Antonio",
+       "noshow": false
+      },
+      {
+       "id": "35898463",
+       "dorsal": "17",
+       "name": "Zhang, D.",
+       "full": "Zhang, Danni",
+       "noshow": false
+      },
+      {
+       "id": "16161122",
+       "dorsal": "18",
+       "name": "Cano Manjón, R.",
+       "full": "Cano Manjón, Raul",
+       "noshow": false
+      },
+      {
+       "id": "2282446",
+       "dorsal": "21",
+       "name": "Gonzalez Camero, L.",
+       "full": "Gonzalez Camero, Leo",
+       "noshow": false
+      }
+     ]
+    },
+    "v": {
+     "tit": [
+      {
+       "id": "44476872",
+       "dorsal": "13",
+       "name": "Vazquez Iglesias, E.",
+       "full": "Vazquez Iglesias, Enzo",
+       "noshow": false
+      },
+      {
+       "id": "724512",
+       "dorsal": "3",
+       "name": "Garcia Podadera, D.",
+       "full": "Garcia Podadera, David",
+       "noshow": false
+      },
+      {
+       "id": "11433685",
+       "dorsal": "5",
+       "name": "Luque Bautista, C.",
+       "full": "Luque Bautista, Carlos",
+       "noshow": false
+      },
+      {
+       "id": "11589601",
+       "dorsal": "11",
+       "name": "Zapata Quiles, I.",
+       "full": "Zapata Quiles, Izan",
+       "noshow": false
+      },
+      {
+       "id": "48413896",
+       "dorsal": "12",
+       "name": "Andreu Becerra, A.",
+       "full": "Andreu Becerra, Aitor",
+       "noshow": false
+      },
+      {
+       "id": "7929497",
+       "dorsal": "16",
+       "name": "Hernando Ortega, A.",
+       "full": "Hernando Ortega, Alvaro",
+       "noshow": false
+      },
+      {
+       "id": "4890477",
+       "dorsal": "18",
+       "name": "Hernandez Gonzalez, D.",
+       "full": "Hernandez Gonzalez, Daniel",
+       "noshow": false
+      },
+      {
+       "id": "27854023",
+       "dorsal": "20",
+       "name": "Sánchez Arjona, D.",
+       "full": "Sánchez Arjona, David",
+       "noshow": false
+      },
+      {
+       "id": "30932967",
+       "dorsal": "21",
+       "name": "Murillo Erazo, J.",
+       "full": "Murillo Erazo, Juan Jafet Felipe",
+       "noshow": false
+      },
+      {
+       "id": "4924351",
+       "dorsal": "24",
+       "name": "Mérida Rodriguez, A.",
+       "full": "Mérida Rodriguez, Antonio",
+       "noshow": false
+      },
+      {
+       "id": "48564934",
+       "dorsal": "31",
+       "name": "Bermudez Perez, A.",
+       "full": "Bermudez Perez, Aitor",
+       "noshow": false
+      }
+     ],
+     "sup": [
+      {
+       "id": "21079245",
+       "dorsal": "1",
+       "name": "Fofana Silva, I.",
+       "full": "Fofana Silva, Ibrahim",
+       "noshow": false
+      },
+      {
+       "id": "7392074",
+       "dorsal": "4",
+       "name": "Fuentes Wilt, N.",
+       "full": "Fuentes Wilt, Nicolas",
+       "noshow": false
+      },
+      {
+       "id": "47988072",
+       "dorsal": "6",
+       "name": "Gomez Garcia, A.",
+       "full": "Gomez Garcia, Angel",
+       "noshow": false
+      },
+      {
+       "id": "27677021",
+       "dorsal": "14",
+       "name": "Manzambi, I.",
+       "full": "Manzambi, Imran Ibn Bilal",
+       "noshow": false
+      },
+      {
+       "id": "8256438",
+       "dorsal": "17",
+       "name": "Arinze Peter, Q.",
+       "full": "Arinze Peter, Quincy",
+       "noshow": true
+      },
+      {
+       "id": "46288092",
+       "dorsal": "19",
+       "name": "Comas Mesa, M.",
+       "full": "Comas Mesa, Marco",
+       "noshow": false
+      },
+      {
+       "id": "45675066",
+       "dorsal": "69",
+       "name": "Ramos Sanz, H.",
+       "full": "Ramos Sanz, Hugo",
        "noshow": false
       }
      ]
