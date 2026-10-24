@@ -1,21 +1,8 @@
 {
- "actualizado": "20/10/2026, 20:01 CEST",
+ "actualizado": "24/10/2026, 11:12 CEST",
  "clasificacion": [
   {
    "pos": 1,
-   "equipo": "C.D. CHURRIANA",
-   "code": "802816",
-   "pts": "15",
-   "j": 5,
-   "g": 5,
-   "e": 0,
-   "p": 0,
-   "gf": "25",
-   "gc": "3",
-   "romeral": false
-  },
-  {
-   "pos": 2,
    "equipo": "C.D. CONEJITO DE MALAGA",
    "code": "28567623",
    "pts": "15",
@@ -28,7 +15,7 @@
    "romeral": false
   },
   {
-   "pos": 3,
+   "pos": 2,
    "equipo": "CD UD DOS HERMANAS SAN ANDRES \"B\"",
    "code": "828217",
    "pts": "10",
@@ -38,6 +25,19 @@
    "p": 1,
    "gf": "17",
    "gc": "8",
+   "romeral": false
+  },
+  {
+   "pos": 3,
+   "equipo": "C.D. CHURRIANA",
+   "code": "802816",
+   "pts": "9",
+   "j": 5,
+   "g": 4,
+   "e": 0,
+   "p": 1,
+   "gf": "23",
+   "gc": "5",
    "romeral": false
   },
   {
@@ -120,6 +120,19 @@
   },
   {
    "pos": 10,
+   "equipo": "LA CALA C.D. \"A\"",
+   "code": "808616",
+   "pts": "7",
+   "j": 5,
+   "g": 2,
+   "e": 1,
+   "p": 2,
+   "gf": "13",
+   "gc": "15",
+   "romeral": false
+  },
+  {
+   "pos": 11,
    "equipo": "C.D. ATHLETIC PUERTA BLANCA \"A\"",
    "code": "807215",
    "pts": "4",
@@ -129,19 +142,6 @@
    "p": 3,
    "gf": "8",
    "gc": "12",
-   "romeral": false
-  },
-  {
-   "pos": 11,
-   "equipo": "LA CALA C.D. \"A\"",
-   "code": "808616",
-   "pts": "4",
-   "j": 5,
-   "g": 1,
-   "e": 1,
-   "p": 3,
-   "gf": "11",
-   "gc": "17",
    "romeral": false
   },
   {
