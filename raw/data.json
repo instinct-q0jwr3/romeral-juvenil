@@ -1,5 +1,5 @@
 {
- "actualizado": "25/10/2026, 18:42 CET",
+ "actualizado": "03/11/2026, 20:01 CET",
  "clasificacion": [
   {
    "pos": 1,
@@ -905,8 +905,22 @@
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001139555_D47E978D_364D_4916_9EAE_AD4BD04B24AD.jpeg",
     "gl": "",
     "gv": "",
-    "fecha": "08-11-2026",
-    "hora": "",
+    "fecha": "06-11-2026",
+    "hora": "20:00",
+    "acta": "",
+    "romeral": false
+   },
+   {
+    "local": "A.D. MALAKA C.F. \"A\"",
+    "local_code": "814417",
+    "visitante": "PTO.MALAGUEÑO CDAD.JARDIN G.I. \"A\"",
+    "visitante_code": "800916",
+    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000123043_admalaka-escudo.jpg",
+    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000643486_ESCUDO_BUENO.jpg",
+    "gl": "",
+    "gv": "",
+    "fecha": "07-11-2026",
+    "hora": "18:00",
     "acta": "",
     "romeral": false
    },
@@ -919,8 +933,50 @@
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000455475_escudo_futbol18.jpg",
     "gl": "",
     "gv": "",
-    "fecha": "08-11-2026",
-    "hora": "",
+    "fecha": "07-11-2026",
+    "hora": "20:00",
+    "acta": "",
+    "romeral": false
+   },
+   {
+    "local": "LA CALA C.D. \"A\"",
+    "local_code": "808616",
+    "visitante": "ATLETICO JUVAL",
+    "visitante_code": "804216",
+    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001146686_escudo.jpg",
+    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0002202866_escudojpg.jpg",
+    "gl": "",
+    "gv": "",
+    "fecha": "07-11-2026",
+    "hora": "20:00",
+    "acta": "",
+    "romeral": false
+   },
+   {
+    "local": "EF DE VELEZ FRANCISCO CASTEJON",
+    "local_code": "849615",
+    "visitante": "C.D. ATHLETIC PUERTA BLANCA \"A\"",
+    "visitante_code": "807215",
+    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000483064_trescuartos.jpg",
+    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001548939_Escudo_Athletic_sin_fondo.jpg",
+    "gl": "",
+    "gv": "",
+    "fecha": "07-11-2026",
+    "hora": "20:00",
+    "acta": "",
+    "romeral": false
+   },
+   {
+    "local": "CD UD DOS HERMANAS SAN ANDRES \"B\"",
+    "local_code": "828217",
+    "visitante": "C.D. CONEJITO DE MALAGA",
+    "visitante_code": "28567623",
+    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001421_DGRPublicidad.Escudo_San_Andres.jpg",
+    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001589039_LOGO_CONEJITO_color.png",
+    "gl": "",
+    "gv": "",
+    "fecha": "07-11-2026",
+    "hora": "20:00",
     "acta": "",
     "romeral": false
    },
@@ -934,63 +990,7 @@
     "gl": "",
     "gv": "",
     "fecha": "08-11-2026",
-    "hora": "",
-    "acta": "",
-    "romeral": false
-   },
-   {
-    "local": "A.D. MALAKA C.F. \"A\"",
-    "local_code": "814417",
-    "visitante": "PTO.MALAGUEÑO CDAD.JARDIN G.I. \"A\"",
-    "visitante_code": "800916",
-    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000123043_admalaka-escudo.jpg",
-    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000643486_ESCUDO_BUENO.jpg",
-    "gl": "",
-    "gv": "",
-    "fecha": "08-11-2026",
-    "hora": "",
-    "acta": "",
-    "romeral": false
-   },
-   {
-    "local": "LA CALA C.D. \"A\"",
-    "local_code": "808616",
-    "visitante": "ATLETICO JUVAL",
-    "visitante_code": "804216",
-    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001146686_escudo.jpg",
-    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0002202866_escudojpg.jpg",
-    "gl": "",
-    "gv": "",
-    "fecha": "08-11-2026",
-    "hora": "",
-    "acta": "",
-    "romeral": false
-   },
-   {
-    "local": "EF DE VELEZ FRANCISCO CASTEJON",
-    "local_code": "849615",
-    "visitante": "C.D. ATHLETIC PUERTA BLANCA \"A\"",
-    "visitante_code": "807215",
-    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000483064_trescuartos.jpg",
-    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001548939_Escudo_Athletic_sin_fondo.jpg",
-    "gl": "",
-    "gv": "",
-    "fecha": "08-11-2026",
-    "hora": "",
-    "acta": "",
-    "romeral": false
-   },
-   {
-    "local": "CD UD DOS HERMANAS SAN ANDRES \"B\"",
-    "local_code": "828217",
-    "visitante": "C.D. CONEJITO DE MALAGA",
-    "visitante_code": "28567623",
-    "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001421_DGRPublicidad.Escudo_San_Andres.jpg",
-    "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001589039_LOGO_CONEJITO_color.png",
-    "gl": "",
-    "gv": "",
-    "fecha": "08-11-2026",
-    "hora": "",
+    "hora": "12:00",
     "acta": "",
     "romeral": false
    },
@@ -1004,7 +1004,7 @@
     "gl": "",
     "gv": "",
     "fecha": "08-11-2026",
-    "hora": "",
+    "hora": "17:30",
     "acta": "",
     "romeral": true
    }
@@ -3665,7 +3665,7 @@
   "30": "30-05-2027"
  },
  "ultima_jugada": 6,
- "jornada_actual": 6,
+ "jornada_actual": 7,
  "actas": {
   "2653727": {
    "goals": [
