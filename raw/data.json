@@ -1,5 +1,5 @@
 {
- "actualizado": "07/11/2026, 11:12 CET",
+ "actualizado": "07/11/2026, 18:42 CET",
  "clasificacion": [
   {
    "pos": 1,
@@ -94,6 +94,19 @@
   },
   {
    "pos": 8,
+   "equipo": "PTO.MALAGUEÑO CDAD.JARDIN G.I. \"A\"",
+   "code": "800916",
+   "pts": "10",
+   "j": 7,
+   "g": 3,
+   "e": 1,
+   "p": 3,
+   "gf": "10",
+   "gc": "12",
+   "romeral": false
+  },
+  {
+   "pos": 9,
    "equipo": "C.D. FUTBOL ROMERAL",
    "code": "2064582",
    "pts": "9",
@@ -106,7 +119,7 @@
    "romeral": true
   },
   {
-   "pos": 9,
+   "pos": 10,
    "equipo": "EF DE VELEZ FRANCISCO CASTEJON",
    "code": "849615",
    "pts": "9",
@@ -119,29 +132,16 @@
    "romeral": false
   },
   {
-   "pos": 10,
+   "pos": 11,
    "equipo": "A.D. MALAKA C.F. \"A\"",
    "code": "814417",
    "pts": "7",
-   "j": 6,
+   "j": 7,
    "g": 2,
    "e": 1,
-   "p": 3,
-   "gf": "18",
-   "gc": "21",
-   "romeral": false
-  },
-  {
-   "pos": 11,
-   "equipo": "PTO.MALAGUEÑO CDAD.JARDIN G.I. \"A\"",
-   "code": "800916",
-   "pts": "7",
-   "j": 6,
-   "g": 2,
-   "e": 1,
-   "p": 3,
-   "gf": "8",
-   "gc": "11",
+   "p": 4,
+   "gf": "19",
+   "gc": "23",
    "romeral": false
   },
   {
@@ -917,11 +917,11 @@
     "visitante_code": "800916",
     "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000123043_admalaka-escudo.jpg",
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000643486_ESCUDO_BUENO.jpg",
-    "gl": "",
-    "gv": "",
+    "gl": "1",
+    "gv": "2",
     "fecha": "07-11-2026",
     "hora": "16:15",
-    "acta": "",
+    "acta": "2653773",
     "romeral": false
    },
    {
