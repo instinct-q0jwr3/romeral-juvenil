@@ -1,5 +1,5 @@
 {
- "actualizado": "08/11/2026, 14:12 CET",
+ "actualizado": "08/11/2026, 19:42 CET",
  "clasificacion": [
   {
    "pos": 1,
@@ -107,6 +107,19 @@
   },
   {
    "pos": 9,
+   "equipo": "C.D. FUTBOL ROMERAL",
+   "code": "2064582",
+   "pts": "10",
+   "j": 7,
+   "g": 3,
+   "e": 1,
+   "p": 3,
+   "gf": "15",
+   "gc": "16",
+   "romeral": true
+  },
+  {
+   "pos": 10,
    "equipo": "PTO.MALAGUEÑO CDAD.JARDIN G.I. \"A\"",
    "code": "800916",
    "pts": "10",
@@ -117,19 +130,6 @@
    "gf": "10",
    "gc": "12",
    "romeral": false
-  },
-  {
-   "pos": 10,
-   "equipo": "C.D. FUTBOL ROMERAL",
-   "code": "2064582",
-   "pts": "9",
-   "j": 6,
-   "g": 3,
-   "e": 0,
-   "p": 3,
-   "gf": "14",
-   "gc": "15",
-   "romeral": true
   },
   {
    "pos": 11,
@@ -146,6 +146,32 @@
   },
   {
    "pos": 12,
+   "equipo": "C.D. 26 DE FEBRERO",
+   "code": "847616",
+   "pts": "7",
+   "j": 7,
+   "g": 2,
+   "e": 1,
+   "p": 4,
+   "gf": "17",
+   "gc": "31",
+   "romeral": false
+  },
+  {
+   "pos": 13,
+   "equipo": "U.D. LOS PRADOS \"A\"",
+   "code": "7523607",
+   "pts": "5",
+   "j": 7,
+   "g": 1,
+   "e": 2,
+   "p": 4,
+   "gf": "9",
+   "gc": "20",
+   "romeral": false
+  },
+  {
+   "pos": 14,
    "equipo": "C.D. ATHLETIC PUERTA BLANCA \"A\"",
    "code": "807215",
    "pts": "4",
@@ -158,42 +184,16 @@
    "romeral": false
   },
   {
-   "pos": 13,
-   "equipo": "U.D. LOS PRADOS \"A\"",
-   "code": "7523607",
-   "pts": "4",
-   "j": 6,
-   "g": 1,
-   "e": 1,
-   "p": 4,
-   "gf": "8",
-   "gc": "19",
-   "romeral": false
-  },
-  {
-   "pos": 14,
-   "equipo": "C.D. 26 DE FEBRERO",
-   "code": "847616",
-   "pts": "4",
-   "j": 6,
-   "g": 1,
-   "e": 1,
-   "p": 4,
-   "gf": "14",
-   "gc": "29",
-   "romeral": false
-  },
-  {
    "pos": 15,
    "equipo": "SECCIÓN DEPORTIVA FUNDACIÓN MCF",
    "code": "39920802",
    "pts": "3",
-   "j": 6,
+   "j": 7,
    "g": 1,
    "e": 0,
-   "p": 5,
-   "gf": "11",
-   "gc": "24",
+   "p": 6,
+   "gf": "13",
+   "gc": "27",
    "romeral": false
   },
   {
@@ -1001,8 +1001,8 @@
     "visitante_code": "2064582",
     "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000216879_ESCUDO_PRADOS.png",
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0002203762_IMG_2005.png",
-    "gl": "",
-    "gv": "",
+    "gl": "1",
+    "gv": "1",
     "fecha": "08-11-2026",
     "hora": "17:30",
     "acta": "",
