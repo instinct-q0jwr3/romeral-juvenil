@@ -9,7 +9,7 @@ def verify(data, pages):
         targets=[f'jornada-{j}.html']
         if int(j)==int(data['jornada_actual']): targets.append('jornadas.html')
         for target in targets:
-            cards=re.split(r'<div class="mwrap(?: rm)?">',pages[target])[1:]
+            cards=re.split(r'<(?:div|details) class="mwrap(?: rm)?"[^>]*>',pages[target])[1:]
             assert len(cards)==len(matches),f'{target}: incorrect match count'
             for match in matches:
                 selected=[c for c in cards if html.escape(match['local']) in c and html.escape(match['visitante']) in c]
