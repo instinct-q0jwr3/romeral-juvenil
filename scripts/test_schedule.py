@@ -9,8 +9,14 @@ class ScheduleTest(unittest.TestCase):
         self.assertGreater(verify(self.data,self.pages),240)
     def test_stale_views_rejected(self):
         j,m=next((j,m) for j,ms in sorted(self.data['jornadas'].items(),key=lambda x:int(x[0])) for m in ms if m['romeral'] and m['gl']=='')
-        for target in ['index.html',f'jornada-{j}.html','jornadas.html']:
+        current=str(self.data['jornada_actual'])
+        current_match=next(m for m in self.data['jornadas'][current] if m['gl']=='')
+        fixtures=[('index.html',m),(f'jornada-{j}.html',m),('jornadas.html',current_match)]
+        for target,match in fixtures:
             with self.subTest(target=target):
-                pages=dict(self.pages);pages[target]=pages[target].replace(m['fecha'].replace('-','/'),'01/01/1900')
+                pages=dict(self.pages)
+                date=match['fecha'].replace('-','/')
+                self.assertIn(date,pages[target],f'{target}: stale-date fixture must modify page')
+                pages[target]=pages[target].replace(date,'01/01/1900')
                 with self.assertRaises(AssertionError):verify(self.data,pages)
 if __name__=='__main__':unittest.main()
