@@ -1,34 +1,21 @@
 {
- "actualizado": "21/11/2026, 17:42 CET",
+ "actualizado": "21/11/2026, 19:12 CET",
  "clasificacion": [
   {
    "pos": 1,
    "equipo": "C.D. CONEJITO DE MALAGA",
    "code": "28567623",
-   "pts": "24",
+   "pts": "25",
    "j": 9,
    "g": 8,
-   "e": 0,
-   "p": 1,
-   "gf": "21",
-   "gc": "5",
+   "e": 1,
+   "p": 0,
+   "gf": "23",
+   "gc": "6",
    "romeral": false
   },
   {
    "pos": 2,
-   "equipo": "LA CALA C.D. \"A\"",
-   "code": "808616",
-   "pts": "19",
-   "j": 9,
-   "g": 6,
-   "e": 1,
-   "p": 2,
-   "gf": "21",
-   "gc": "17",
-   "romeral": false
-  },
-  {
-   "pos": 3,
    "equipo": "C.D. CHURRIANA",
    "code": "802816",
    "pts": "18",
@@ -38,6 +25,19 @@
    "p": 1,
    "gf": "38",
    "gc": "10",
+   "romeral": false
+  },
+  {
+   "pos": 3,
+   "equipo": "LA CALA C.D. \"A\"",
+   "code": "808616",
+   "pts": "17",
+   "j": 9,
+   "g": 5,
+   "e": 2,
+   "p": 2,
+   "gf": "22",
+   "gc": "19",
    "romeral": false
   },
   {
@@ -1145,11 +1145,11 @@
     "visitante_code": "28567623",
     "escudo_l": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001146686_escudo.jpg",
     "escudo_v": "https://rfaf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001589039_LOGO_CONEJITO_color.png",
-    "gl": "",
-    "gv": "",
+    "gl": "2",
+    "gv": "2",
     "fecha": "21-11-2026",
     "hora": "16:30",
-    "acta": "",
+    "acta": "2653791",
     "romeral": false
    },
    {
