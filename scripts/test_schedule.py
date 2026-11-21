@@ -10,8 +10,9 @@ class ScheduleTest(unittest.TestCase):
     def test_stale_views_rejected(self):
         j,m=next((j,m) for j,ms in sorted(self.data['jornadas'].items(),key=lambda x:int(x[0])) for m in ms if m['romeral'] and m['gl']=='')
         current=str(self.data['jornada_actual'])
-        current_match=next(m for m in self.data['jornadas'][current] if m['gl']=='')
-        fixtures=[('index.html',m),(f'jornada-{j}.html',m),('jornadas.html',current_match)]
+        current_match=next((m for m in self.data['jornadas'][current] if m['gl']==''),None)
+        fixtures=[('index.html',m),(f'jornada-{j}.html',m)]
+        if current_match: fixtures.append(('jornadas.html',current_match))
         for target,match in fixtures:
             with self.subTest(target=target):
                 pages=dict(self.pages)
@@ -19,4 +20,8 @@ class ScheduleTest(unittest.TestCase):
                 self.assertIn(date,pages[target],f'{target}: stale-date fixture must modify page')
                 pages[target]=pages[target].replace(date,'01/01/1900')
                 with self.assertRaises(AssertionError):verify(self.data,pages)
+    def test_current_round_cards_required(self):
+        pages=dict(self.pages)
+        pages['jornadas.html']=pages['jornadas.html'].replace('class="mwrap','class="missing-match')
+        with self.assertRaises(AssertionError):verify(self.data,pages)
 if __name__=='__main__':unittest.main()
