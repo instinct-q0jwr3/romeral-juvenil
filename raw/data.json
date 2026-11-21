@@ -1,5 +1,5 @@
 {
- "actualizado": "21/11/2026, 19:43 CET",
+ "actualizado": "21/11/2026, 21:12 CET",
  "clasificacion": [
   {
    "pos": 1,
@@ -18,10 +18,10 @@
    "pos": 2,
    "equipo": "C.D. CHURRIANA",
    "code": "802816",
-   "pts": "18",
-   "j": 8,
+   "pts": "19",
+   "j": 9,
    "g": 7,
-   "e": 0,
+   "e": 1,
    "p": 1,
    "gf": "38",
    "gc": "10",
@@ -68,6 +68,19 @@
   },
   {
    "pos": 6,
+   "equipo": "PTO.MALAGUEÑO CDAD.JARDIN G.I. \"A\"",
+   "code": "800916",
+   "pts": "14",
+   "j": 9,
+   "g": 4,
+   "e": 2,
+   "p": 3,
+   "gf": "13",
+   "gc": "14",
+   "romeral": false
+  },
+  {
+   "pos": 7,
    "equipo": "ATLETICO JUVAL",
    "code": "804216",
    "pts": "13",
@@ -77,19 +90,6 @@
    "p": 3,
    "gf": "17",
    "gc": "7",
-   "romeral": false
-  },
-  {
-   "pos": 7,
-   "equipo": "PTO.MALAGUEÑO CDAD.JARDIN G.I. \"A\"",
-   "code": "800916",
-   "pts": "13",
-   "j": 8,
-   "g": 4,
-   "e": 1,
-   "p": 3,
-   "gf": "13",
-   "gc": "14",
    "romeral": false
   },
   {
