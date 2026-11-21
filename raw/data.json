@@ -1,21 +1,34 @@
 {
- "actualizado": "21/11/2026, 11:12 CET",
+ "actualizado": "21/11/2026, 17:42 CET",
  "clasificacion": [
   {
    "pos": 1,
    "equipo": "C.D. CONEJITO DE MALAGA",
    "code": "28567623",
    "pts": "24",
-   "j": 8,
+   "j": 9,
    "g": 8,
    "e": 0,
-   "p": 0,
+   "p": 1,
    "gf": "21",
-   "gc": "4",
+   "gc": "5",
    "romeral": false
   },
   {
    "pos": 2,
+   "equipo": "LA CALA C.D. \"A\"",
+   "code": "808616",
+   "pts": "19",
+   "j": 9,
+   "g": 6,
+   "e": 1,
+   "p": 2,
+   "gf": "21",
+   "gc": "17",
+   "romeral": false
+  },
+  {
+   "pos": 3,
    "equipo": "C.D. CHURRIANA",
    "code": "802816",
    "pts": "18",
@@ -28,7 +41,7 @@
    "romeral": false
   },
   {
-   "pos": 3,
+   "pos": 4,
    "equipo": "CD UD DOS HERMANAS SAN ANDRES \"B\"",
    "code": "828217",
    "pts": "16",
@@ -38,19 +51,6 @@
    "p": 2,
    "gf": "27",
    "gc": "14",
-   "romeral": false
-  },
-  {
-   "pos": 4,
-   "equipo": "LA CALA C.D. \"A\"",
-   "code": "808616",
-   "pts": "16",
-   "j": 8,
-   "g": 5,
-   "e": 1,
-   "p": 2,
-   "gf": "20",
-   "gc": "17",
    "romeral": false
   },
   {
