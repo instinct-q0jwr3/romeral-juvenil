@@ -1,5 +1,5 @@
 {
- "actualizado": "21/11/2026, 22:43 CET",
+ "actualizado": "22/11/2026, 15:13 CET",
  "clasificacion": [
   {
    "pos": 1,
@@ -68,6 +68,19 @@
   },
   {
    "pos": 6,
+   "equipo": "ATLETICO JUVAL",
+   "code": "804216",
+   "pts": "16",
+   "j": 9,
+   "g": 5,
+   "e": 1,
+   "p": 3,
+   "gf": "19",
+   "gc": "8",
+   "romeral": false
+  },
+  {
+   "pos": 7,
    "equipo": "EF DE VELEZ FRANCISCO CASTEJON",
    "code": "849615",
    "pts": "15",
@@ -80,7 +93,7 @@
    "romeral": false
   },
   {
-   "pos": 7,
+   "pos": 8,
    "equipo": "C.D. CORTIJILLO BAZAN",
    "code": "20065106",
    "pts": "15",
@@ -90,19 +103,6 @@
    "p": 4,
    "gf": "31",
    "gc": "29",
-   "romeral": false
-  },
-  {
-   "pos": 8,
-   "equipo": "ATLETICO JUVAL",
-   "code": "804216",
-   "pts": "13",
-   "j": 8,
-   "g": 4,
-   "e": 1,
-   "p": 3,
-   "gf": "17",
-   "gc": "7",
    "romeral": false
   },
   {
@@ -149,12 +149,12 @@
    "equipo": "C.D. 26 DE FEBRERO",
    "code": "847616",
    "pts": "7",
-   "j": 8,
+   "j": 9,
    "g": 2,
    "e": 1,
-   "p": 5,
-   "gf": "19",
-   "gc": "34",
+   "p": 6,
+   "gf": "20",
+   "gc": "36",
    "romeral": false
   },
   {
